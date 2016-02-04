@@ -2,6 +2,12 @@ package student;
 
 import game.EscapeState;
 import game.ExplorationState;
+import game.Node;
+import game.NodeStatus;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 public class Explorer {
 
@@ -37,6 +43,44 @@ public class Explorer {
      */
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
+        System.out.println("Current location: "+ state.getCurrentLocation());
+        System.out.println("Distance to target: " + state.getDistanceToTarget());
+        state.moveTo(state.getCurrentLocation()+1);
+        System.out.println("Current location: "+ state.getCurrentLocation());
+//        do {
+//
+//        }
+
+//        boolean playing = true;
+//        final List<NodeStatus> neighbours = new ArrayList<>();
+
+//        while (playing) {
+//            for (int i = 0; i< neighbours)
+//
+//            state.getNeighbours().stream().forEach(nodeStatus -> neighbours.add(nodeStatus));
+//            if (neighbours.size() > 1) {
+//
+//                for (NodeStatus n : neighbours) {
+//                    if (n.getDistanceToTarget() < state.getDistanceToTarget()) {
+//                        state.moveTo(n.getId());
+//                    }
+//                }
+//            } else {
+//                state.moveTo(neighbours.remove(0).getId());
+//            }
+//            //playing = false;
+//        }
+
+    }
+    /**
+     * A method to sort the Collection<NodeStatus> which is returned by getNeighbours
+     * by distance from the goal
+     * @Param neighbours
+     */
+    private List<NodeStatus> sortNeighbours(Collection<NodeStatus> neighbours) {
+        List<NodeStatus> output = new ArrayList<>();
+        neighbours.stream().forEach(nodeStatus -> output.add(nodeStatus));
+
     }
 
     /**
@@ -65,4 +109,5 @@ public class Explorer {
     public void escape(EscapeState state) {
         //TODO: Escape from the cavern before time runs out
     }
+
 }
