@@ -5,9 +5,7 @@ import game.ExplorationState;
 import game.Node;
 import game.NodeStatus;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 public class Explorer {
 
@@ -47,41 +45,52 @@ public class Explorer {
         System.out.println("Distance to target: " + state.getDistanceToTarget());
         state.moveTo(state.getCurrentLocation()+1);
         System.out.println("Current location: "+ state.getCurrentLocation());
-//        do {
-//
-//        }
+        boolean playing = true;
+        Set<Long> visited = new HashSet<>();
+        PriorityQueue<NodeStatus> neighbours;
+        while (playing) {
+            if (state.getDistanceToTarget() == 0) {
+                playing = false;
+                break;
+            }
+            visited.add(state.getCurrentLocation());
+            neighbours = sortNeighbours(state.getNeighbours());
+            System.out.println("Number of Neighbours: " + neighbours.size());
+            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
+                    + neighbours.poll().getDistanceToTarget());
+            System.out.println("Next Neighbour : " + neighbours.peek().getId() + " Distance: "
+                    + neighbours.poll().getDistanceToTarget());
 
-//        boolean playing = true;
-//        final List<NodeStatus> neighbours = new ArrayList<>();
+            neighbours = sortNeighbours(state.getNeighbours());
 
-//        while (playing) {
-//            for (int i = 0; i< neighbours)
-//
-//            state.getNeighbours().stream().forEach(nodeStatus -> neighbours.add(nodeStatus));
-//            if (neighbours.size() > 1) {
-//
-//                for (NodeStatus n : neighbours) {
-//                    if (n.getDistanceToTarget() < state.getDistanceToTarget()) {
-//                        state.moveTo(n.getId());
-//                    }
-//                }
-//            } else {
-//                state.moveTo(neighbours.remove(0).getId());
-//            }
-//            //playing = false;
-//        }
+            if (!visited.contains(neighbours.peek().getId())) {
+                state.moveTo(neighbours.peek().getId());
+
+            } else {
+                neighbours.poll();
+                System.out.println("else");
+                state.moveTo(neighbours.peek().getId());
+            }
+        }
+
+
 
     }
     /**
      * A method to sort the Collection<NodeStatus> which is returned by getNeighbours
      * by distance from the goal
      * @Param neighbours
+     * @return a priority queue using the 'distanceToTarget' element as the priority
      */
-    private List<NodeStatus> sortNeighbours(Collection<NodeStatus> neighbours) {
-        List<NodeStatus> output = new ArrayList<>();
-        neighbours.stream().forEach(nodeStatus -> output.add(nodeStatus));
+    private PriorityQueue<NodeStatus> sortNeighbours(Collection<NodeStatus> neighbours) {
+        PriorityQueue<NodeStatus> output = new PriorityQueueImpl<>();
+        for (NodeStatus n: neighbours) {
+            output.add(n, n.getDistanceToTarget());
+        }
+        return output;
 
     }
+
 
     /**
      * Escape from the cavern before the ceiling collapses, trying to collect as much
