@@ -41,41 +41,52 @@ public class Explorer {
      */
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
-        System.out.println("Current location: "+ state.getCurrentLocation());
-        System.out.println("Distance to target: " + state.getDistanceToTarget());
-        state.moveTo(state.getCurrentLocation()+1);
-        System.out.println("Current location: "+ state.getCurrentLocation());
-        boolean playing = true;
-        Set<Long> visited = new HashSet<>();
-        PriorityQueue<NodeStatus> neighbours;
-        while (playing) {
-            if (state.getDistanceToTarget() == 0) {
-                playing = false;
-                break;
-            }
-            visited.add(state.getCurrentLocation());
-            neighbours = sortNeighbours(state.getNeighbours());
-            System.out.println("Number of Neighbours: " + neighbours.size());
-            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
-                    + neighbours.poll().getDistanceToTarget());
-            System.out.println("Next Neighbour : " + neighbours.peek().getId() + " Distance: "
-                    + neighbours.poll().getDistanceToTarget());
-
-            neighbours = sortNeighbours(state.getNeighbours());
-
-            if (!visited.contains(neighbours.peek().getId())) {
-                state.moveTo(neighbours.peek().getId());
-
-            } else {
-                neighbours.poll();
-                System.out.println("else");
-                state.moveTo(neighbours.peek().getId());
-            }
-        }
-
-
+        depthFirst(state);
 
     }
+    private void depthFirst(ExplorationState state) {
+
+        Stack<Long> parentNode = new Stack<>();
+        parentNode.push(state.getCurrentLocation());
+        state.moveTo(state.getCurrentLocation() + 1);
+
+        if (state.getDistanceToTarget() == 0) {
+
+        } else {
+            int left = visitLeft(state, parentNode);
+            //visitMiddle(state);
+            //visitRight(state);
+        }
+
+    }
+
+    /**
+     * Recursive method to go down left subtree of ternary tree
+     * @param state the current state before moving
+     * @param parentNode the stack of parent nodes, push current state before moving.
+     * @return 1 if current state is the target, 0 if the node is a dead end.
+     */
+    private int visitLeft(ExplorationState state, Stack<Long> parentNode) {
+        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours());
+
+        if (state.getDistanceToTarget() == 0) {
+            return 1;
+        }
+
+        if (neighbours.size() == 1) {
+            state.moveTo(parentNode.pop());
+            return 0;
+        } else {
+            if (neighbours.peek().getId() == parentNode.peek()) {
+                neighbours.poll();
+            }
+            parentNode.push(state.getCurrentLocation());
+            state.moveTo(neighbours.peek().getId());
+            return visitLeft(state, parentNode);
+        }
+    }
+
+
     /**
      * A method to sort the Collection<NodeStatus> which is returned by getNeighbours
      * by distance from the goal
@@ -91,6 +102,31 @@ public class Explorer {
 
     }
 
+    /**
+     * A debugging method to print current state's neighbours
+     * @param state the current state
+     */
+    private void printState(ExplorationState state) {
+        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours());
+        if (neighbours.size() == 1) {
+            System.out.println("Dead End");
+        } else if (neighbours.size() == 2) {
+            System.out.println("Number of Neighbours: " + neighbours.size());
+            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
+                    + neighbours.poll().getDistanceToTarget());
+            System.out.println("Next Neighbour : " + neighbours.peek().getId() + " Distance: "
+                    + neighbours.poll().getDistanceToTarget());
+        } else if (neighbours.size() == 3) {
+            System.out.println("Number of Neighbours: " + neighbours.size());
+            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
+                    + neighbours.poll().getDistanceToTarget());
+            System.out.println("Next Neighbour: " + neighbours.peek().getId() + " Distance: "
+                    + neighbours.poll().getDistanceToTarget());
+            System.out.println("Last Neighbour: " + neighbours.peek().getId() + " Distance: "
+                    + neighbours.poll().getDistanceToTarget());
+        }
+
+    }
 
     /**
      * Escape from the cavern before the ceiling collapses, trying to collect as much
