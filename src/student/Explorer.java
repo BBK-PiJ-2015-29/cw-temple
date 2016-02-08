@@ -41,10 +41,54 @@ public class Explorer {
      */
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
+        //recursiveTraversal1(state);
         depthFirst(state);
 
     }
+
+    /**
+     * An implementation of the Depth First graph traversal algorithm
+     * @param state the current state of the game, i.e. where the explorer is at the start
+     */
     private void depthFirst(ExplorationState state) {
+        Stack<Long> stack = new Stack<>();
+        List<Long> visited = new ArrayList<>();
+        stack.push(state.getCurrentLocation());
+        visited.add(state.getCurrentLocation());
+        NodeStatus next;
+        while (!stack.isEmpty()) {
+            if (state.getDistanceToTarget() == 0) {
+                break;
+            }
+            Collection<NodeStatus> neighbours = state.getNeighbours();
+            next = null;
+
+            //Filter for unvisited child nodes, and sort by distance to target
+            if (neighbours.stream().filter(nodeStatus1 -> !visited.contains(nodeStatus1.getId())).count() != 0) {
+                next = neighbours.stream().filter(nodeStatus -> !visited.contains(nodeStatus.getId())).sorted((a,b) -> {
+                    int compare = Long.compare(a.getDistanceToTarget(), b.getDistanceToTarget());
+                    if (compare == 0) {
+                        double random = Math.random();
+                        return (random >= 0.5) ? 1 : -1;
+                    } else {
+                        return compare;
+                    }
+                }).findFirst().get();
+            }
+
+            if (next != null) {
+                state.moveTo(next.getId());
+                visited.add(state.getCurrentLocation());
+                System.out.println("Current: " + state.getCurrentLocation());
+                stack.push(state.getCurrentLocation());
+            } else {
+                stack.pop();
+                state.moveTo(stack.peek());
+            }
+
+        }
+    }
+    private void recursiveTraversal1(ExplorationState state) {
 
         //Stack to keep track of the parent node when visiting a child
         //backtracking will involve popping from this stack
@@ -62,9 +106,7 @@ public class Explorer {
         if (state.getDistanceToTarget() == 0) {
 
         } else {
-            int left = visitNearest(state, parentNode, visited);
-            //visitMiddle(state);
-            //visitRight(state);
+            visitNearest(state, parentNode, visited);
         }
 
     }
@@ -84,7 +126,7 @@ public class Explorer {
             return 1;
         }
 
-        if (neighbours.size() == 1) {
+        if (neighbours.size() == 1 ) {
             state.moveTo(parentNode.pop());
             visited.add(state.getCurrentLocation());
             return visitNearest(state, parentNode, visited);
@@ -98,21 +140,9 @@ public class Explorer {
 
     }
 
-    /*private long chooseNode(NodeStatus first, NodeStatus second, List<Long> visited) {
-        long firstCount = visited.stream().filter(id -> id.equals(first.getId())).count();
-        long secondCount = visited.stream().filter(id -> id.equals(second.getId())).count();
-        if (firstCount <= secondCount) {
-            System.out.println("2");
-            return first.getId();
-        } else {
-            System.out.println("3");
-            return second.getId();
-        }
-    }*/
-
     /**
      * A method to sort the Collection<NodeStatus> which is returned by getNeighbours
-     * by distance from the goal
+     * by distance from the goal and also by times visited.
      * @Param neighbours
      * @return a priority queue using the 'distanceToTarget' and the number of times that neighbour has already been
      * visited,
@@ -121,7 +151,9 @@ public class Explorer {
         PriorityQueue<NodeStatus> output = new PriorityQueueImpl<>();
         for (NodeStatus n: neighbours) {
             long timesVisited = visited.stream().filter(aLong -> aLong == n.getId()).count();
-            output.add(n, (n.getDistanceToTarget() * (timesVisited + 1)));
+            // the priority is the distance to the target multiplied by times visited (+1 in case visited is zero -
+            // making the priority of nearest and never visited 1)
+            output.add(n, (n.getDistanceToTarget() * timesVisited) + 1);
         }
         return output;
 
@@ -178,6 +210,10 @@ public class Explorer {
      */
     public void escape(EscapeState state) {
         //TODO: Escape from the cavern before time runs out
+
+
     }
+
+
 
 }

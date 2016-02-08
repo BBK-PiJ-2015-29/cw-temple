@@ -68,7 +68,8 @@ public class Node {
 
     /**
      * Returns the Edge of this Node that connects to q.
-     * .     * Throw an IllegalArgumentException if there is no such edge.
+     *
+     * * Throw an IllegalArgumentException if there is no such edge.
      */
     public Edge getEdge(Node q) {
         for (Edge e : edges) {
