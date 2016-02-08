@@ -1,6 +1,6 @@
 Problem seeds
 
-2492234908831718282 - box
-6895244351442593014 - box
+2492234908831718282 - box - solved - recursion with sorted queue by distance and times visited
+6895244351442593014 - box - solved - recursion with sorted queue by distance and times visited
 
--2598394936880791920 - jonnys problem
+-2598394936880791920 - jonnys problem - solved - recursion with sorted queue by distance and times visited

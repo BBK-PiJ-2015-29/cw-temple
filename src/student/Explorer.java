@@ -46,14 +46,23 @@ public class Explorer {
     }
     private void depthFirst(ExplorationState state) {
 
+        //Stack to keep track of the parent node when visiting a child
+        //backtracking will involve popping from this stack
         Stack<Long> parentNode = new Stack<>();
         parentNode.push(state.getCurrentLocation());
+
+        //List to keep track of visited states to avoid loops
+        List<Long> visited = new ArrayList<>();
+        visited.add(state.getCurrentLocation());
+
+        //move to first square which is always startId + 1
         state.moveTo(state.getCurrentLocation() + 1);
+        visited.add(state.getCurrentLocation());
 
         if (state.getDistanceToTarget() == 0) {
 
         } else {
-            int left = visitLeft(state, parentNode);
+            int left = visitNearest(state, parentNode, visited);
             //visitMiddle(state);
             //visitRight(state);
         }
@@ -64,10 +73,12 @@ public class Explorer {
      * Recursive method to go down left subtree of ternary tree
      * @param state the current state before moving
      * @param parentNode the stack of parent nodes, push current state before moving.
+     * @param visited a List of visited node ids
      * @return 1 if current state is the target, 0 if the node is a dead end.
      */
-    private int visitLeft(ExplorationState state, Stack<Long> parentNode) {
-        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours());
+    private int visitNearest(ExplorationState state, Stack<Long> parentNode, List<Long> visited) {
+        //get the neighbours of this current state, prioritised by distance and times visited
+        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours(), visited);
 
         if (state.getDistanceToTarget() == 0) {
             return 1;
@@ -75,58 +86,72 @@ public class Explorer {
 
         if (neighbours.size() == 1) {
             state.moveTo(parentNode.pop());
-            return 0;
+            visited.add(state.getCurrentLocation());
+            return visitNearest(state, parentNode, visited);
         } else {
-            if (neighbours.peek().getId() == parentNode.peek()) {
-                neighbours.poll();
-            }
             parentNode.push(state.getCurrentLocation());
             state.moveTo(neighbours.peek().getId());
-            return visitLeft(state, parentNode);
+            visited.add(state.getCurrentLocation());
+
+            return visitNearest(state,parentNode,visited);
         }
+
     }
 
+    /*private long chooseNode(NodeStatus first, NodeStatus second, List<Long> visited) {
+        long firstCount = visited.stream().filter(id -> id.equals(first.getId())).count();
+        long secondCount = visited.stream().filter(id -> id.equals(second.getId())).count();
+        if (firstCount <= secondCount) {
+            System.out.println("2");
+            return first.getId();
+        } else {
+            System.out.println("3");
+            return second.getId();
+        }
+    }*/
 
     /**
      * A method to sort the Collection<NodeStatus> which is returned by getNeighbours
      * by distance from the goal
      * @Param neighbours
-     * @return a priority queue using the 'distanceToTarget' element as the priority
+     * @return a priority queue using the 'distanceToTarget' and the number of times that neighbour has already been
+     * visited,
      */
-    private PriorityQueue<NodeStatus> sortNeighbours(Collection<NodeStatus> neighbours) {
+    private PriorityQueue<NodeStatus> sortNeighbours(Collection<NodeStatus> neighbours, List<Long> visited) {
         PriorityQueue<NodeStatus> output = new PriorityQueueImpl<>();
         for (NodeStatus n: neighbours) {
-            output.add(n, n.getDistanceToTarget());
+            long timesVisited = visited.stream().filter(aLong -> aLong == n.getId()).count();
+            output.add(n, (n.getDistanceToTarget() * (timesVisited + 1)));
         }
         return output;
 
     }
 
-    /**
-     * A debugging method to print current state's neighbours
-     * @param state the current state
-     */
-    private void printState(ExplorationState state) {
-        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours());
-        if (neighbours.size() == 1) {
-            System.out.println("Dead End");
-        } else if (neighbours.size() == 2) {
-            System.out.println("Number of Neighbours: " + neighbours.size());
-            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
-                    + neighbours.poll().getDistanceToTarget());
-            System.out.println("Next Neighbour : " + neighbours.peek().getId() + " Distance: "
-                    + neighbours.poll().getDistanceToTarget());
-        } else if (neighbours.size() == 3) {
-            System.out.println("Number of Neighbours: " + neighbours.size());
-            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
-                    + neighbours.poll().getDistanceToTarget());
-            System.out.println("Next Neighbour: " + neighbours.peek().getId() + " Distance: "
-                    + neighbours.poll().getDistanceToTarget());
-            System.out.println("Last Neighbour: " + neighbours.peek().getId() + " Distance: "
-                    + neighbours.poll().getDistanceToTarget());
-        }
-
-    }
+//    /**
+//     * A debugging method to print current state's neighbours
+//     * @param state the current state
+//     */
+//    private void printState(ExplorationState state) {
+//        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours());
+//        if (neighbours.size() == 1) {
+//            System.out.println("Dead End");
+//        } else if (neighbours.size() == 2) {
+//            System.out.println("Number of Neighbours: " + neighbours.size());
+//            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
+//                    + neighbours.poll().getDistanceToTarget());
+//            System.out.println("Next Neighbour : " + neighbours.peek().getId() + " Distance: "
+//                    + neighbours.poll().getDistanceToTarget());
+//        } else if (neighbours.size() == 3) {
+//            System.out.println("Number of Neighbours: " + neighbours.size());
+//            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
+//                    + neighbours.poll().getDistanceToTarget());
+//            System.out.println("Next Neighbour: " + neighbours.peek().getId() + " Distance: "
+//                    + neighbours.poll().getDistanceToTarget());
+//            System.out.println("Last Neighbour: " + neighbours.peek().getId() + " Distance: "
+//                    + neighbours.poll().getDistanceToTarget());
+//        }
+//
+//    }
 
     /**
      * Escape from the cavern before the ceiling collapses, trying to collect as much
