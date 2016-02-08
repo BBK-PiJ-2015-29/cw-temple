@@ -63,7 +63,8 @@ public class Explorer {
             Collection<NodeStatus> neighbours = state.getNeighbours();
             next = null;
 
-            //Filter for unvisited child nodes, and sort by distance to target
+            //Filter for unvisited child nodes, and sort by distance to target, randomising the order if they are the
+            //same distance
             if (neighbours.stream().filter(nodeStatus1 -> !visited.contains(nodeStatus1.getId())).count() != 0) {
                 next = neighbours.stream().filter(nodeStatus -> !visited.contains(nodeStatus.getId())).sorted((a,b) -> {
                     int compare = Long.compare(a.getDistanceToTarget(), b.getDistanceToTarget());
@@ -211,6 +212,10 @@ public class Explorer {
     public void escape(EscapeState state) {
         //TODO: Escape from the cavern before time runs out
 
+        shortestPath(state);
+    }
+
+    private void shortestPath(EscapeState state) {
 
     }
 
