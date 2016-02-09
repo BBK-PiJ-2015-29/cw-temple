@@ -9,7 +9,12 @@ import java.util.*;
 import java.util.stream.Stream;
 
 public class Explorer {
+    private ExplorationState state = null;
+    private long nodeWithClosestNeighbour;
+    private int closestNeighbourDistance;
 
+    private Stack<Long> stack = new Stack<>();
+    private List<Long> visited = new ArrayList<>();
     /**
      * Explore the cavern, trying to find the orb in as few steps as possible.
      * Once you find the orb, you must return from the function in order to pick
@@ -42,60 +47,69 @@ public class Explorer {
      */
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
-        //recursiveTraversal1(state);
-        depthFirst(state);
+        //recursiveTraversal1();
+        this.state = state;
+        depthFirst();
 
     }
 
     /**
      * An implementation of the Depth First graph traversal algorithm
-     * @param state the current state of the game, i.e. where the explorer is at the start
+     *
      */
-    private void depthFirst(ExplorationState state) {
-        Stack<Long> stack = new Stack<>();
-        List<Long> visited = new ArrayList<>();
+    private void depthFirst() {
         stack.push(state.getCurrentLocation());
         visited.add(state.getCurrentLocation());
         NodeStatus next;
 
-        while (!stack.isEmpty()) {
+        while (true) {
             //escape condition when exit is reached
             if (state.getDistanceToTarget() == 0) {
                 break;
             }
 
-            Collection<NodeStatus> neighbours = state.getNeighbours();
-            next = null;
-
-            //Filter for unvisited child nodes, and sort by distance to target, randomising the order if they are the
-            //same distance
-            if (neighbours.stream().filter(nodeStatus1 -> !visited.contains(nodeStatus1.getId())).count() != 0) {
-
-                next = neighbours.stream().filter(nodeStatus ->
-                        !visited.contains(nodeStatus.getId())).sorted((a,b) -> {
-                    int compare = Long.compare(a.getDistanceToTarget(), b.getDistanceToTarget());
-                    if (compare == 0) {
-                        double random = Math.random();
-                        return (random >= 0.5) ? 1 : -1;
-                    } else {
-                        return compare;
-                    }
-                }).findFirst().get();
-
-            }
+            next = findNextUnvisited(visited);
 
             if (next != null) {
                 state.moveTo(next.getId());
                 visited.add(state.getCurrentLocation());
                 stack.push(state.getCurrentLocation());
             } else {
-                stack.pop();
-                state.moveTo(stack.peek());
+                backtrack();
             }
-
         }
     }
-    private void recursiveTraversal1(ExplorationState state) {
+
+    private void backtrack() {
+        while (state.getCurrentLocation() != nodeWithClosestNeighbour) {
+            stack.pop();
+            state.moveTo(stack.peek());
+        }
+    }
+
+    private NodeStatus findNextUnvisited() {
+        Collection<NodeStatus> neighbours = state.getNeighbours();
+        NodeStatus next = null;
+        //Filter for unvisited child nodes, and sort by distance to target, randomising the order if they are the
+        //same distance
+        if (neighbours.stream().filter(nodeStatus1 -> !visited.contains(nodeStatus1.getId())).count() != 0) {
+
+            next = neighbours.stream().filter(nodeStatus ->
+                    !visited.contains(nodeStatus.getId())).sorted((a,b) -> {
+                int compare = Long.compare(a.getDistanceToTarget(), b.getDistanceToTarget());
+                if (compare == 0) {
+                    double random = Math.random();
+                    return (random >= 0.5) ? 1 : -1;
+                } else {
+                    return compare;
+                }
+            }).findFirst().get();
+
+        }
+        return next;
+    }
+
+    private void recursiveTraversal1() {
 
         //Stack to keep track of the parent node when visiting a child
         //backtracking will involve popping from this stack
@@ -125,7 +139,7 @@ public class Explorer {
      * @param visited a List of visited node ids
      * @return 1 if current state is the target, 0 if the node is a dead end.
      */
-    private int visitNearest(ExplorationState state, Stack<Long> parentNode, List<Long> visited) {
+    private int visitNearest(Stack<Long> parentNode, List<Long> visited) {
         //get the neighbours of this current state, prioritised by distance and times visited
         PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours(), visited);
 
@@ -218,13 +232,6 @@ public class Explorer {
     public void escape(EscapeState state) {
         //TODO: Escape from the cavern before time runs out
 
-        shortestPath(state);
     }
-
-    private void shortestPath(EscapeState state) {
-
-    }
-
-
 
 }
