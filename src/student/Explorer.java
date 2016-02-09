@@ -80,7 +80,7 @@ public class Explorer {
             if (next != null) {
                 state.moveTo(next.getId());
                 visited.add(state.getCurrentLocation());
-                System.out.println("Current: " + state.getCurrentLocation());
+                //System.out.println("Current: " + state.getCurrentLocation());
                 stack.push(state.getCurrentLocation());
             } else {
                 stack.pop();
@@ -154,7 +154,7 @@ public class Explorer {
             long timesVisited = visited.stream().filter(aLong -> aLong == n.getId()).count();
             // the priority is the distance to the target multiplied by times visited (+1 in case visited is zero -
             // making the priority of nearest and never visited 1)
-            output.add(n, (n.getDistanceToTarget() * timesVisited) + 1);
+            output.add(n, n.getDistanceToTarget() * timesVisited);
         }
         return output;
 

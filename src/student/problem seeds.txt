@@ -4,3 +4,8 @@ Problem seeds
 6895244351442593014 - box - solved - recursion with sorted queue by distance and times visited
 
 -2598394936880791920 - jonnys problem - solved - recursion with sorted queue by distance and times visited
+
+Bonus multiplier 1
+
+6664988353553628017
+-8101548178380384282
