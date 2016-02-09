@@ -68,7 +68,7 @@ public class Explorer {
                 break;
             }
 
-            next = findNextUnvisited(visited);
+            next = findNextUnvisited();
 
             if (next != null) {
                 state.moveTo(next.getId());
@@ -127,14 +127,13 @@ public class Explorer {
         if (state.getDistanceToTarget() == 0) {
 
         } else {
-            visitNearest(state, parentNode, visited);
+            visitNearest(parentNode, visited);
         }
 
     }
 
     /**
      * Recursive method to go down left subtree of ternary tree
-     * @param state the current state before moving
      * @param parentNode the stack of parent nodes, push current state before moving.
      * @param visited a List of visited node ids
      * @return 1 if current state is the target, 0 if the node is a dead end.
@@ -150,13 +149,13 @@ public class Explorer {
         if (neighbours.size() == 1 ) {
             state.moveTo(parentNode.pop());
             visited.add(state.getCurrentLocation());
-            return visitNearest(state, parentNode, visited);
+            return visitNearest( parentNode, visited);
         } else {
             parentNode.push(state.getCurrentLocation());
             state.moveTo(neighbours.peek().getId());
             visited.add(state.getCurrentLocation());
 
-            return visitNearest(state,parentNode,visited);
+            return visitNearest(parentNode,visited);
         }
 
     }
