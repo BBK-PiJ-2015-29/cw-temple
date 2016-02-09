@@ -6,6 +6,7 @@ import game.Node;
 import game.NodeStatus;
 
 import java.util.*;
+import java.util.stream.Stream;
 
 public class Explorer {
 
@@ -56,17 +57,22 @@ public class Explorer {
         stack.push(state.getCurrentLocation());
         visited.add(state.getCurrentLocation());
         NodeStatus next;
+
         while (!stack.isEmpty()) {
+            //escape condition when exit is reached
             if (state.getDistanceToTarget() == 0) {
                 break;
             }
+
             Collection<NodeStatus> neighbours = state.getNeighbours();
             next = null;
 
             //Filter for unvisited child nodes, and sort by distance to target, randomising the order if they are the
             //same distance
             if (neighbours.stream().filter(nodeStatus1 -> !visited.contains(nodeStatus1.getId())).count() != 0) {
-                next = neighbours.stream().filter(nodeStatus -> !visited.contains(nodeStatus.getId())).sorted((a,b) -> {
+
+                next = neighbours.stream().filter(nodeStatus ->
+                        !visited.contains(nodeStatus.getId())).sorted((a,b) -> {
                     int compare = Long.compare(a.getDistanceToTarget(), b.getDistanceToTarget());
                     if (compare == 0) {
                         double random = Math.random();
@@ -75,12 +81,12 @@ public class Explorer {
                         return compare;
                     }
                 }).findFirst().get();
+
             }
 
             if (next != null) {
                 state.moveTo(next.getId());
                 visited.add(state.getCurrentLocation());
-                //System.out.println("Current: " + state.getCurrentLocation());
                 stack.push(state.getCurrentLocation());
             } else {
                 stack.pop();

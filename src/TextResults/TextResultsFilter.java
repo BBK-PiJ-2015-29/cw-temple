@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class TextResultsFilter {
 
-    //Update these two fileNames with your source and destination files
+    //Update these two fileNames with source and destination files
 
     final static String FILE_NAME = "";
     final static String OUTPUT_FILE_NAME = "";
@@ -48,9 +48,7 @@ public class TextResultsFilter {
                             countOnes++;
                         }
                     }
-
                 }
-
             }
         } catch(IOException ex) {
             ex.printStackTrace();
