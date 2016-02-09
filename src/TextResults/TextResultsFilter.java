@@ -8,23 +8,28 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
 /**
  * Created by Oliver Coulson on 09/02/2016.
  */
-public class TextResultsReader {
+public class TextResultsFilter {
+
+    //Update these two fileNames with your source and destination files
+
+    final static String FILE_NAME = "";
+    final static String OUTPUT_FILE_NAME = "";
+    final static Charset ENCODING = StandardCharsets.UTF_8;
 
     public static void main(String[] args) {
-        TextResultsReader textResultsReader = new TextResultsReader();
+        TextResultsFilter textResultsFilter = new TextResultsFilter();
 
         int countOnes = 0;
         Deque<String> output = new ArrayDeque<>();
         List<String> input;
         try {
-            input = textResultsReader.readSmallTextFile(FILE_NAME);
+            input = textResultsFilter.readTextFile(FILE_NAME);
             String seed = "";
             String bonus = "";
             for (String s : input) {
@@ -60,7 +65,7 @@ public class TextResultsReader {
 
 
         try{
-            textResultsReader.writeSmallTextFile(output, OUTPUT_FILE_NAME);
+            textResultsFilter.writeTextFile(output, OUTPUT_FILE_NAME);
         } catch(IOException ex) {
             ex.printStackTrace();
             System.out.println("Output file issue");
@@ -70,17 +75,14 @@ public class TextResultsReader {
 
     }
 
-    final static String FILE_NAME = "/Users/olliecoulson/Documents/IntelliJProjects/MSc/cw-temple/src/TextResults/DepthFirstMark2TextResults";
-    final static String OUTPUT_FILE_NAME = "/Users/olliecoulson/Documents/IntelliJProjects/MSc/cw-temple/src/TextResults/FilteredDepthFirstMark2TextResults.txt";
-    final static Charset ENCODING = StandardCharsets.UTF_8;
 
 
-    List<String> readSmallTextFile(String aFileName) throws IOException {
+    List<String> readTextFile(String aFileName) throws IOException {
         Path path = Paths.get(aFileName);
         return Files.readAllLines(path, ENCODING);
     }
 
-    void writeSmallTextFile(Deque<String> aLines, String aFileName) throws IOException {
+    void writeTextFile(Deque<String> aLines, String aFileName) throws IOException {
         Path path = Paths.get(aFileName);
         Files.write(path, aLines, ENCODING);
     }
