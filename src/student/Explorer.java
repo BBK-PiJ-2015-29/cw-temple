@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.stream.Stream;
 
 public class Explorer {
-    private ExplorationState state = null;
+
 
     /**
      * Explore the cavern, trying to find the orb in as few steps as possible.
@@ -44,71 +44,12 @@ public class Explorer {
      */
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
-        //recursiveTraversal1(state);
-        this.state = state;
-        //depthFirst();
 
         RoutePlanner planner = new RoutePlanner(state);
         planner.findOrb();
 
-    }
+        //recursiveTraversal1(state);
 
-    /**
-     * An implementation of the Depth First graph traversal algorithm with optimised choice of routes,
-     * and randomised choice if distance is the same.
-     *
-     */
-    private void depthFirst() {
-        Stack<Long> stack = new Stack<>();
-        List<Long> visited = new ArrayList<>();
-
-        stack.push(state.getCurrentLocation());
-        visited.add(state.getCurrentLocation());
-
-        NodeStatus next;
-        while (true) {
-            //escape condition when exit is reached
-            if (state.getDistanceToTarget() == 0) {
-                break;
-            }
-
-            next = findNextUnvisited(visited);
-
-            if (next != null) {
-                state.moveTo(next.getId());
-                visited.add(state.getCurrentLocation());
-                stack.push(state.getCurrentLocation());
-            } else {
-                backtrack(stack);
-            }
-        }
-    }
-
-    private void backtrack(Stack<Long> stack) {
-            stack.pop();
-            state.moveTo(stack.peek());
-    }
-
-    private NodeStatus findNextUnvisited(List<Long> visited) {
-        Collection<NodeStatus> neighbours = state.getNeighbours();
-        NodeStatus next = null;
-        //Filter for unvisited child nodes, and sort by distance to target, randomising the order if they are the
-        //same distance
-        if (neighbours.stream().filter(nodeStatus1 -> !visited.contains(nodeStatus1.getId())).count() != 0) {
-
-            next = neighbours.stream().filter(nodeStatus ->
-                    !visited.contains(nodeStatus.getId())).sorted((a,b) -> {
-                int compare = Long.compare(a.getDistanceToTarget(), b.getDistanceToTarget());
-                if (compare == 0) {
-                    double random = Math.random();
-                    return (random >= 0.5) ? 1 : -1;
-                } else {
-                    return compare;
-                }
-            }).findFirst().get();
-
-        }
-        return next;
     }
 
     private void recursiveTraversal1(ExplorationState state) {
