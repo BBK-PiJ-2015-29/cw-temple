@@ -1,5 +1,6 @@
 package student;
 
+import MapExplorer.RoutePlanner;
 import game.EscapeState;
 import game.ExplorationState;
 import game.Node;
@@ -10,11 +11,7 @@ import java.util.stream.Stream;
 
 public class Explorer {
     private ExplorationState state = null;
-    private long nodeWithClosestNeighbour;
-    private int closestNeighbourDistance;
 
-    private Stack<Long> stack = new Stack<>();
-    private List<Long> visited = new ArrayList<>();
     /**
      * Explore the cavern, trying to find the orb in as few steps as possible.
      * Once you find the orb, you must return from the function in order to pick
@@ -47,47 +44,52 @@ public class Explorer {
      */
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
-        //recursiveTraversal1();
+        //recursiveTraversal1(state);
         this.state = state;
         depthFirst();
+
+//        RoutePlanner planner = new RoutePlanner(state);
+//        planner.findOrb();
 
     }
 
     /**
-     * An implementation of the Depth First graph traversal algorithm
+     * An implementation of the Depth First graph traversal algorithm with optimised choice of routes,
+     * and randomised choice if distance is the same.
      *
      */
     private void depthFirst() {
+        Stack<Long> stack = new Stack<>();
+        List<Long> visited = new ArrayList<>();
+
         stack.push(state.getCurrentLocation());
         visited.add(state.getCurrentLocation());
-        NodeStatus next;
 
+        NodeStatus next;
         while (true) {
             //escape condition when exit is reached
             if (state.getDistanceToTarget() == 0) {
                 break;
             }
 
-            next = findNextUnvisited();
+            next = findNextUnvisited(visited);
 
             if (next != null) {
                 state.moveTo(next.getId());
                 visited.add(state.getCurrentLocation());
                 stack.push(state.getCurrentLocation());
             } else {
-                backtrack();
+                backtrack(stack);
             }
         }
     }
 
-    private void backtrack() {
-        while (state.getCurrentLocation() != nodeWithClosestNeighbour) {
+    private void backtrack(Stack<Long> stack) {
             stack.pop();
             state.moveTo(stack.peek());
-        }
     }
 
-    private NodeStatus findNextUnvisited() {
+    private NodeStatus findNextUnvisited(List<Long> visited) {
         Collection<NodeStatus> neighbours = state.getNeighbours();
         NodeStatus next = null;
         //Filter for unvisited child nodes, and sort by distance to target, randomising the order if they are the
@@ -109,7 +111,7 @@ public class Explorer {
         return next;
     }
 
-    private void recursiveTraversal1() {
+    private void recursiveTraversal1(ExplorationState state) {
 
         //Stack to keep track of the parent node when visiting a child
         //backtracking will involve popping from this stack
@@ -127,7 +129,7 @@ public class Explorer {
         if (state.getDistanceToTarget() == 0) {
 
         } else {
-            visitNearest(parentNode, visited);
+            visitNearest(state, parentNode, visited);
         }
 
     }
@@ -138,7 +140,7 @@ public class Explorer {
      * @param visited a List of visited node ids
      * @return 1 if current state is the target, 0 if the node is a dead end.
      */
-    private int visitNearest(Stack<Long> parentNode, List<Long> visited) {
+    private int visitNearest(ExplorationState state, Stack<Long> parentNode, List<Long> visited) {
         //get the neighbours of this current state, prioritised by distance and times visited
         PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours(), visited);
 
@@ -149,13 +151,13 @@ public class Explorer {
         if (neighbours.size() == 1 ) {
             state.moveTo(parentNode.pop());
             visited.add(state.getCurrentLocation());
-            return visitNearest( parentNode, visited);
+            return visitNearest(state, parentNode, visited);
         } else {
             parentNode.push(state.getCurrentLocation());
             state.moveTo(neighbours.peek().getId());
             visited.add(state.getCurrentLocation());
 
-            return visitNearest(parentNode,visited);
+            return visitNearest(state, parentNode,visited);
         }
 
     }
@@ -173,37 +175,12 @@ public class Explorer {
             long timesVisited = visited.stream().filter(aLong -> aLong == n.getId()).count();
             // the priority is the distance to the target multiplied by times visited (+1 in case visited is zero -
             // making the priority of nearest and never visited 1)
-            output.add(n, n.getDistanceToTarget() * timesVisited);
+            output.add(n, (n.getDistanceToTarget() * timesVisited) + 1);
         }
         return output;
 
     }
 
-//    /**
-//     * A debugging method to print current state's neighbours
-//     * @param state the current state
-//     */
-//    private void printState(ExplorationState state) {
-//        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours());
-//        if (neighbours.size() == 1) {
-//            System.out.println("Dead End");
-//        } else if (neighbours.size() == 2) {
-//            System.out.println("Number of Neighbours: " + neighbours.size());
-//            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
-//                    + neighbours.poll().getDistanceToTarget());
-//            System.out.println("Next Neighbour : " + neighbours.peek().getId() + " Distance: "
-//                    + neighbours.poll().getDistanceToTarget());
-//        } else if (neighbours.size() == 3) {
-//            System.out.println("Number of Neighbours: " + neighbours.size());
-//            System.out.println("Nearest Neighbour: : " + neighbours.peek().getId() + " Distance: "
-//                    + neighbours.poll().getDistanceToTarget());
-//            System.out.println("Next Neighbour: " + neighbours.peek().getId() + " Distance: "
-//                    + neighbours.poll().getDistanceToTarget());
-//            System.out.println("Last Neighbour: " + neighbours.peek().getId() + " Distance: "
-//                    + neighbours.poll().getDistanceToTarget());
-//        }
-//
-//    }
 
     /**
      * Escape from the cavern before the ceiling collapses, trying to collect as much
