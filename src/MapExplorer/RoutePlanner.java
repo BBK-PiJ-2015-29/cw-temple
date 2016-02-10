@@ -36,7 +36,7 @@ public class RoutePlanner {
             nextNode = findNextUnvisited();
 
 
-            if (nextNode != null) {
+            if (currentNode.getNeighbours().contains(nextNode)) {
                 state.moveTo(nextNode.getId());
                 setCurrentNode();
                 route.push(currentNode);
@@ -50,10 +50,15 @@ public class RoutePlanner {
     private MapNode findNextUnvisited() {
         Set<MapNode> neighbours = currentNode.getNeighbours();
         if (neighbours.stream().anyMatch(mapNode -> !mapNode.isVisited())) {
-            return neighbours.stream().filter(mapNode -> !mapNode.isVisited()).sorted(MapNode::compareTo).findFirst().get();
+
+            MapNode nearestNeighbour = neighbours.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
+            MapNode nearestSeen = seen.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
+
+            int nearest = nearestNeighbour.compareTo(nearestSeen);
+            return (nearest > 0) ? nearestNeighbour : nearestSeen;
 
         } else {
-            return null;
+            return seen.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
         }
 
     }
