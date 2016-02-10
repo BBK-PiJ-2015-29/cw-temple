@@ -16,22 +16,10 @@ public class MapNode implements Comparable<MapNode> {
 
     private Set<MapNode> neighbours;
 
-    private boolean neighboursKnown = false;
-
     public MapNode(long id, int distance) {
         this.id = id;
         this.distance = distance;
         neighbours = new HashSet<>();
-    }
-
-    public boolean addToList(List<MapNode> seen) {
-        if(seen.stream().noneMatch(mapNode -> this.equals(mapNode))) {
-            seen.add(this);
-            return true;
-        } else {
-            return false;
-        }
-
     }
 
     public void setVisited() {
@@ -41,10 +29,10 @@ public class MapNode implements Comparable<MapNode> {
     public void addNeighbour(MapNode neighbour) {
         neighbours.add(neighbour);
     }
-    public void setNeighbours(Collection<NodeStatus> neighbourStatuses, List<MapNode> seen) {
+    public void setNeighbours(Collection<NodeStatus> neighbourStatuses, Set<MapNode> seen) {
         for (NodeStatus n : neighbourStatuses) {
             if (seen.stream().anyMatch(mapNode -> mapNode.getId() == n.getId())) {
-                neighbours.add(seen.stream().filter(mapNode -> mapNode.getId() == n.getId()).findAny().get());
+                neighbours.add(seen.stream().filter(mapNode -> mapNode.getId() == n.getId()).findFirst().get());
             } else {
                 MapNode newNode = new MapNode(n.getId(), n.getDistanceToTarget());
                 newNode.addNeighbour(this);
@@ -52,7 +40,6 @@ public class MapNode implements Comparable<MapNode> {
                 seen.add(newNode);
             }
         }
-        neighboursKnown = true;
     }
 
     public Set<MapNode> getNeighbours() {

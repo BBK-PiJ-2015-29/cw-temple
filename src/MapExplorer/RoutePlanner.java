@@ -9,67 +9,62 @@ import java.util.*;
  */
 public class RoutePlanner {
     private ExplorationState state;
-    private List<MapNode> seen;
+    private Set<MapNode> seen;
+    private Stack<MapNode> route;
 
     private MapNode currentNode;
-    private MapNode nearestUnvisited;
+    private MapNode nextNode = null;
 
-    private Stack<MapNode> route;
+
 
 
     public RoutePlanner(ExplorationState state) {
         this.state = state;
-        seen = new ArrayList<>();
+        seen = new HashSet<>();
         route = new Stack<>();
     }
 
     public void findOrb() {
-        while (state.getDistanceToTarget() != 0) {
-            setCurrentNode();
+        setCurrentNode();
+        route.push(currentNode);
 
-            MapNode next = null;
-            if(nearestUnvisited != null) {
-                next = nearestUnvisited;
-            } else {
-                next = chooseNext();
+        while (true) {
+            if (state.getDistanceToTarget() == 0) {
+                break;
             }
 
-            System.out.println(next.getId());
-            System.out.println(currentNode.getId());
+            nextNode = findNextUnvisited();
 
-            if (currentNode.getNeighbours().contains(next)) {
+
+            if (nextNode != null) {
+                state.moveTo(nextNode.getId());
+                setCurrentNode();
                 route.push(currentNode);
-                state.moveTo(next.getId());
             } else {
                 backtrack();
             }
+        }
+    }
 
+
+    private MapNode findNextUnvisited() {
+        Set<MapNode> neighbours = currentNode.getNeighbours();
+        if (neighbours.stream().anyMatch(mapNode -> !mapNode.isVisited())) {
+            return neighbours.stream().filter(mapNode -> !mapNode.isVisited()).sorted(MapNode::compareTo).findFirst().get();
+
+        } else {
+            return null;
         }
 
     }
 
     private void backtrack() {
-            route.pop();
-            state.moveTo(route.peek().getId());
+        route.pop();
+        state.moveTo(route.peek().getId());
+        setCurrentNode();
     }
 
-    private MapNode chooseNext() {
-        Set<MapNode> neighbours = currentNode.getNeighbours();
-        //If any neighbours are unvisited - choose the one closest to the exit
-        if(neighbours.stream().anyMatch(mapNode -> !mapNode.isVisited())) {
-            return currentNode.getNeighbours().stream().filter(mapNode ->
-                    !mapNode.isVisited()).sorted(MapNode::compareTo).findFirst().get();
-        } else {
-            return findNearestUnvisited();
-        }
-    }
 
-    private MapNode findNearestUnvisited() {
-        MapNode next = seen.stream().filter(mapNode ->
-                !mapNode.isVisited()).sorted(MapNode::compareTo).findFirst().get();
-        nearestUnvisited = next;
-        return next;
-    }
 
     private void setCurrentNode() {
         if(!seen.isEmpty()) {

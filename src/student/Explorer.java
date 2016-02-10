@@ -46,10 +46,10 @@ public class Explorer {
         //TODO : Explore the cavern and find the orb
         //recursiveTraversal1(state);
         this.state = state;
-        depthFirst();
+        //depthFirst();
 
-//        RoutePlanner planner = new RoutePlanner(state);
-//        planner.findOrb();
+        RoutePlanner planner = new RoutePlanner(state);
+        planner.findOrb();
 
     }
 
