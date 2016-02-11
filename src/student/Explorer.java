@@ -1,6 +1,7 @@
 package student;
 
 import MapExplorer.RoutePlanner;
+import RecursiveExplorer.RecursiveExplorer;
 import game.EscapeState;
 import game.ExplorationState;
 import game.Node;
@@ -45,80 +46,11 @@ public class Explorer {
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
 
-        RoutePlanner planner = new RoutePlanner(state);
-        planner.findOrb();
+//        RoutePlanner planner = new RoutePlanner(state);
+//        planner.findOrb();
 
-        //recursiveTraversal1(state);
-
-    }
-
-    private void recursiveTraversal1(ExplorationState state) {
-
-        //Stack to keep track of the parent node when visiting a child
-        //backtracking will involve popping from this stack
-        Stack<Long> parentNode = new Stack<>();
-        parentNode.push(state.getCurrentLocation());
-
-        //List to keep track of visited states to avoid loops
-        List<Long> visited = new ArrayList<>();
-        visited.add(state.getCurrentLocation());
-
-        //move to first square which is always startId + 1
-        state.moveTo(state.getCurrentLocation() + 1);
-        visited.add(state.getCurrentLocation());
-
-        if (state.getDistanceToTarget() == 0) {
-
-        } else {
-            visitNearest(state, parentNode, visited);
-        }
-
-    }
-
-    /**
-     * Recursive method to go down left subtree of ternary tree
-     * @param parentNode the stack of parent nodes, push current state before moving.
-     * @param visited a List of visited node ids
-     * @return 1 if current state is the target, 0 if the node is a dead end.
-     */
-    private int visitNearest(ExplorationState state, Stack<Long> parentNode, List<Long> visited) {
-        //get the neighbours of this current state, prioritised by distance and times visited
-        PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours(), visited);
-
-        if (state.getDistanceToTarget() == 0) {
-            return 1;
-        }
-
-        if (neighbours.size() == 1 ) {
-            state.moveTo(parentNode.pop());
-            visited.add(state.getCurrentLocation());
-            return visitNearest(state, parentNode, visited);
-        } else {
-            parentNode.push(state.getCurrentLocation());
-            state.moveTo(neighbours.peek().getId());
-            visited.add(state.getCurrentLocation());
-
-            return visitNearest(state, parentNode,visited);
-        }
-
-    }
-
-    /**
-     * A method to sort the Collection<NodeStatus> which is returned by getNeighbours
-     * by distance from the goal and also by times visited.
-     * @Param neighbours
-     * @return a priority queue using the 'distanceToTarget' and the number of times that neighbour has already been
-     * visited,
-     */
-    private PriorityQueue<NodeStatus> sortNeighbours(Collection<NodeStatus> neighbours, List<Long> visited) {
-        PriorityQueue<NodeStatus> output = new PriorityQueueImpl<>();
-        for (NodeStatus n: neighbours) {
-            long timesVisited = visited.stream().filter(aLong -> aLong == n.getId()).count();
-            // the priority is the distance to the target multiplied by times visited (+1 in case visited is zero -
-            // making the priority of nearest and never visited 1)
-            output.add(n, (n.getDistanceToTarget() * timesVisited) + 1);
-        }
-        return output;
+        RecursiveExplorer explorer = new RecursiveExplorer(state);
+        explorer.findOrb();
 
     }
 
