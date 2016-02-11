@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Stack;
-import java.util.regex.Matcher;
 
 /**
  * Created by Oliver Coulson on 11/02/2016.
@@ -41,8 +40,6 @@ public class RecursiveExplorer {
     }
     /**
      * Recursive method to go down left subtree of ternary tree
-     * @param parentNode the stack of parent nodes, push current state before moving.
-     * @param visited a List of visited node ids
      * @return 1 if current state is the target, 0 if the node is a dead end.
      */
     private int visitNearest() {
