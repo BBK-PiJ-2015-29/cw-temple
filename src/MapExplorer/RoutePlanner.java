@@ -3,6 +3,7 @@ package MapExplorer;
 import game.ExplorationState;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by Oliver Coulson on 10/02/2016.
@@ -14,6 +15,9 @@ public class RoutePlanner {
 
     private MapNode currentNode;
     private MapNode nextNode = null;
+
+    //private Set<MapNode> nearest = null;
+
 
 
 
@@ -33,10 +37,17 @@ public class RoutePlanner {
                 break;
             }
 
+
+//            nearest = seen.stream().filter(mapNode -> !mapNode.isVisited()).sorted(MapNode::compareTo).collect(Collectors.toSet());
+
+
             nextNode = findNextUnvisited();
 
+//            if (nearest.stream().findAny().get().getDistance() - nextNode.getDistance() >= 5) {
+//                backtrackToNearest();
+//            }
 
-            if (currentNode.getNeighbours().contains(nextNode)) {
+            if (nextNode != null) {
                 state.moveTo(nextNode.getId());
                 setCurrentNode();
                 route.push(currentNode);
@@ -46,19 +57,29 @@ public class RoutePlanner {
         }
     }
 
+//    private void backtrackToNearest() {
+//        while(currentNode.getNeighbours().stream().noneMatch(
+//                mapNode -> mapNode.getDistance() == nearest.stream().findAny().get().getDistance())
+//                ) {
+//            route.pop();
+//            state.moveTo(route.peek().getId());
+//        }
+//        state.moveTo(currentNode.getNeighbours().stream().filter(
+//                mapNode -> (!mapNode.isVisited())
+//                        && mapNode.getDistance() == nearest.stream().findAny().get().getDistance()).findFirst().get().getId());
+//        setCurrentNode();
+//        route.push(currentNode);
+//    }
+
 
     private MapNode findNextUnvisited() {
         Set<MapNode> neighbours = currentNode.getNeighbours();
         if (neighbours.stream().anyMatch(mapNode -> !mapNode.isVisited())) {
 
-            MapNode nearestNeighbour = neighbours.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
-            MapNode nearestSeen = seen.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
-
-            int nearest = nearestNeighbour.compareTo(nearestSeen);
-            return (nearest > 0) ? nearestNeighbour : nearestSeen;
+            return neighbours.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
 
         } else {
-            return seen.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
+            return null;
         }
 
     }
