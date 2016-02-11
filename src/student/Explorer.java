@@ -1,5 +1,6 @@
 package student;
 
+import Escape.EscapeArtist;
 import MapExplorer.RoutePlanner;
 import RecursiveExplorer.RecursiveExplorer;
 import game.EscapeState;
@@ -80,7 +81,8 @@ public class Explorer {
      */
     public void escape(EscapeState state) {
         //TODO: Escape from the cavern before time runs out
-
+        EscapeArtist escape = new EscapeArtist(state);
+        escape.cheeseIt();
     }
 
 }
