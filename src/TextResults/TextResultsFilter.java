@@ -1,6 +1,7 @@
 package TextResults;
 
 
+import javax.swing.*;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -18,11 +19,16 @@ public class TextResultsFilter {
 
     //Update these two fileNames with source and destination files
 
-    final static String FILE_NAME = "";
-    final static String OUTPUT_FILE_NAME = "";
+
     final static Charset ENCODING = StandardCharsets.UTF_8;
 
     public static void main(String[] args) {
+        String FILE_NAME;
+        String OUTPUT_FILE_NAME;
+
+        FILE_NAME = JOptionPane.showInputDialog("Insert Input File Path");
+        int startOfName = FILE_NAME.lastIndexOf('.');
+        OUTPUT_FILE_NAME = FILE_NAME.substring(0, startOfName) + "Output.txt";
         TextResultsFilter textResultsFilter = new TextResultsFilter();
 
         int countOnes = 0;

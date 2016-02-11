@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Stack;
+import java.util.regex.Matcher;
 
 /**
  * Created by Oliver Coulson on 11/02/2016.
@@ -35,7 +36,7 @@ public class RecursiveExplorer {
         visited.add(state.getCurrentLocation());
 
         if (state.getDistanceToTarget() != 0) {
-            visitNearest(state, parentNode, visited);
+            visitNearest();
         }
     }
     /**
@@ -44,7 +45,7 @@ public class RecursiveExplorer {
      * @param visited a List of visited node ids
      * @return 1 if current state is the target, 0 if the node is a dead end.
      */
-    private int visitNearest(ExplorationState state, Stack<Long> parentNode, List<Long> visited) {
+    private int visitNearest() {
         //get the neighbours of this current state, prioritised by distance and times visited
         PriorityQueue<NodeStatus> neighbours = sortNeighbours(state.getNeighbours(), visited);
 
@@ -55,13 +56,25 @@ public class RecursiveExplorer {
         if (neighbours.size() == 0) {
             state.moveTo(parentNode.pop());
             visited.add(state.getCurrentLocation());
-            return visitNearest(state, parentNode, visited);
+            return visitNearest();
         } else {
+            NodeStatus first = neighbours.poll();
+            NodeStatus second = null;
+            long next = first.getId();
+            if (neighbours.size() > 1) {
+                second = neighbours.poll();
+            }
+            if (second != null && first.compareTo(second) == 0) {
+                double random = Math.random();
+                if(random >= 0.5) {
+                    next = second.getId();
+                }
+            }
             parentNode.push(state.getCurrentLocation());
-            state.moveTo(neighbours.peek().getId());
+            state.moveTo(next);
             visited.add(state.getCurrentLocation());
 
-            return visitNearest(state, parentNode,visited);
+            return visitNearest();
         }
 
     }
