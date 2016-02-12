@@ -4,26 +4,20 @@ import game.Edge;
 import game.Node;
 import game.Tile;
 
+
+import java.util.HashSet;
 import java.util.Set;
 
 /**
  * A wrapper class for nodes, holding distance and visited boolean flag used for Dijkstra's algorithm
  * Created by Oliver Coulson on 11/02/2016.
  */
-public class EscapeNode {
+public class EscapeNode implements Comparable<EscapeNode>{
 
     private final Node node;
     private double distance;
     private boolean visited;
     private EscapeNode previous;
-
-    public EscapeNode getPrevious() {
-        return previous;
-    }
-
-    public void setPrevious(EscapeNode previous) {
-        this.previous = previous;
-    }
 
     public EscapeNode(Node node) {
         this.node = node;
@@ -33,20 +27,48 @@ public class EscapeNode {
         return node.getId();
     }
 
-    public Edge getEdge(Node q) {
-        return node.getEdge(q);
+    public Edge getEdge(EscapeNode q) {
+
+        return node.getEdge(q.getNode());
     }
 
     public Set<Edge> getExits() {
         return node.getExits();
     }
 
-    public Set<Node> getNeighbours() {
-        return node.getNeighbours();
+    public Set<EscapeNode> getNeighbours(Set<EscapeNode> all) {
+        Set<EscapeNode> output = new HashSet<>();
+        for (Node n: node.getNeighbours()) {
+            output.add(all.stream().filter(escapeNode -> escapeNode.getNode().equals(n)).findFirst().get());
+        }
+        return output;
     }
 
     public Tile getTile() {
         return node.getTile();
+    }
+
+    public Node getNode() {
+        return node;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+    public void setDistance(double distance) {
+        this.distance = distance;
+    }
+
+    public boolean isVisited() {
+        return visited;
+    }
+    public void setVisited(boolean visited) {
+        this.visited = visited;
+    }
+
+    public EscapeNode getPrevious() {return previous;}
+    public void setPrevious(EscapeNode previous) {
+        this.previous = previous;
     }
 
     @Override
@@ -59,21 +81,10 @@ public class EscapeNode {
         return node.hashCode();
     }
 
-    public double getDistance() {
-        return distance;
+    @Override
+    public int compareTo(EscapeNode o) {
+        if(this.getDistance() == o.getDistance()) {
+            return 0;
+        } else return (this.getDistance() > o.getDistance()) ? 1 : -1;
     }
-
-    public void setDistance(double distance) {
-        this.distance = distance;
-    }
-
-    public boolean isVisited() {
-        return visited;
-    }
-
-    public void setVisited(boolean visited) {
-        this.visited = visited;
-    }
-
-
 }
