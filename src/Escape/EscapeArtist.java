@@ -7,6 +7,7 @@ import game.Tile;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
+import java.util.stream.Collectors;
 
 
 /**
@@ -17,7 +18,7 @@ public class EscapeArtist {
     private Set<EscapeNode> allNodes;
     private EscapeNode current;
     private EscapeNode start;
-    private EscapeNode exit;
+    private EscapeNode destination;
 
     private Stack<Node> route;
 
@@ -33,7 +34,7 @@ public class EscapeArtist {
         //Input check message
         System.out.println("Cheesing it...");
 
-        findShortestPath();
+        findShortestPath(state.getExit());
         System.out.println(route.size());
 
         while(!route.isEmpty()) {
@@ -44,11 +45,10 @@ public class EscapeArtist {
             }
         }
     }
-    private void findShortestPath() {
+    private void findShortestPath(Node destinationNode) {
         //Create a set of all nodes using wrapper class;
         //Set the distance from start to max, or 0 if current
         //Set visited to false, or true if current
-        System.out.println(1);
         for (Node n : state.getVertices()) {
             EscapeNode escapeNode = new EscapeNode(n);
             if(n.equals(state.getCurrentNode())) {
@@ -57,22 +57,23 @@ public class EscapeArtist {
                 start = escapeNode;
 
             } else {
+                if (n.equals(destinationNode)) {
+                    destination = escapeNode;
+                }
                 escapeNode.setDistance(Double.MAX_VALUE);
                 escapeNode.setVisited(false);
-                if (n.equals(state.getExit())) {
-                    exit = escapeNode;
-                }
+
             }
             allNodes.add(escapeNode);
         }
-        System.out.println(2);
-        current = start;
-        EscapeNode closest = null;
 
-        while (!exit.isVisited()) {
+        current = start;
+
+
+        while (!destination.isVisited()) {
             //check distances to each neighbour and if bigger than current node distance plus distance to neighbour,
             //set neighbour distance to that.
-            System.out.println("a");
+
             Set<EscapeNode> neighbours = current.getNeighbours(allNodes);
 
             if(neighbours != null) {
@@ -80,7 +81,7 @@ public class EscapeArtist {
                     if (e.isVisited()) {
                         continue;
                     }
-                    System.out.println("b");
+
                     double routeDistanceToEscapeNode = current.getDistance() + current.getEdge(e).length;
                     if (e.getDistance() > routeDistanceToEscapeNode) {
                         e.setDistance(routeDistanceToEscapeNode);
@@ -89,19 +90,33 @@ public class EscapeArtist {
                 }
 
             }
-            System.out.println("c");
+
             current.setVisited(true);
 
-            current = allNodes.stream().filter(escapeNode -> !escapeNode.isVisited()).min(EscapeNode::compareTo).get();
+            EscapeNode shortestUnvisited = null;
+            double distance = Double.MAX_VALUE;
+            for(EscapeNode e : allNodes.stream().filter(escapeNode -> !escapeNode.isVisited()).collect(Collectors.toSet())) {
+                if (e.getDistance() < distance) {
+                    shortestUnvisited = e;
+                    distance = e.getDistance();
+                }
+            }
+
+            if (distance == Double.MAX_VALUE) {
+                break;
+            } else {
+                current = shortestUnvisited;
+            }
+
         }
-        System.out.println(3);
-        EscapeNode routeNode = exit;
+
+        EscapeNode routeNode = destination;
         route.push(routeNode.getNode());
         while(routeNode.getPrevious() != start) {
             route.push(routeNode.getPrevious().getNode());
             routeNode = routeNode.getPrevious();
         }
-        System.out.println(4);
+
     }
 }
 
