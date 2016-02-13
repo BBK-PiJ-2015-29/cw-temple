@@ -19,8 +19,22 @@ public class EscapeNode implements Comparable<EscapeNode>{
     private boolean visited;
     private EscapeNode previous;
 
+    public double getGoldRank() {
+        return goldRank;
+    }
+
+    public void setGoldRank(double goldRank) {
+        this.goldRank = goldRank;
+    }
+
+    private double goldRank;
+
     public EscapeNode(Node node) {
         this.node = node;
+        goldRank = getTile().getOriginalGold();
+        for(Node n : node.getNeighbours()) {
+            goldRank += n.getTile().getOriginalGold();
+        }
     }
 
     public long getId() {
