@@ -23,19 +23,19 @@ public class TextResults {
 
     public static void main(String[] args) {
         String FILE_NAME;
-        String OUTPUT_FILE_NAME;
 
         FILE_NAME = JOptionPane.showInputDialog("Insert Input File Path");
-//        int startOfName = FILE_NAME.lastIndexOf('.');
-//        OUTPUT_FILE_NAME = FILE_NAME.substring(0, startOfName) + "Output.txt";
+
         TextResults textResults = new TextResults();
 
-        int countOnes = 0;
-        Deque<String> output = new ArrayDeque<>();
         List<String> input;
-        double total = 0;
+        double totalBonus = 0;
+        double totalScore = 0;
+
         double count = 0;
-        double highest = 0;
+        double highestBonus = 0;
+        double highestScore = 0;
+
         try {
             input = textResults.readTextFile(FILE_NAME);
 
@@ -44,31 +44,27 @@ public class TextResults {
                     continue;
                 } else if (s.contains("Bonus")) {
                     double value = Double.parseDouble(s.substring(19));
-                    if (value > highest) {
-                        highest = value;
+                    if (value > highestBonus) {
+                        highestBonus = value;
                     }
-                    total += value;
+                    totalBonus += value;
                     count ++;
+                } else if (s.contains("Score")) {
+                    double value = Double.parseDouble(s.substring(19));
+                    if (value > highestScore) {
+                        highestScore = value;
+                    }
+                    totalScore += value;
                 }
             }
         } catch(IOException ex) {
             ex.printStackTrace();
         }
-        //int numberOfProblems = output.size() / 3;
-        String info = "Average Bonus: " + (total/count) + "\nHighest Bonus: " + highest +
-                "\nNumber Of Tests: " + count;
+
+        String info = "Average Bonus: " + (totalBonus/count) + "\nHighest Bonus: " + highestBonus +
+                "\nAverage Score: " + (totalScore/count) + "\nHighestScore: " + (highestScore);
 
         JOptionPane.showMessageDialog(null, info);
-        /*output.addFirst(averageBonus);
-
-        try{
-            textResults.writeTextFile(output, OUTPUT_FILE_NAME);
-        } catch(IOException ex) {
-            ex.printStackTrace();
-            System.out.println("Output file issue");
-        }*/
-
-
 
     }
 
@@ -79,8 +75,4 @@ public class TextResults {
         return Files.readAllLines(path, ENCODING);
     }
 
-    void writeTextFile(Deque<String> aLines, String aFileName) throws IOException {
-        Path path = Paths.get(aFileName);
-        Files.write(path, aLines, ENCODING);
-    }
 }

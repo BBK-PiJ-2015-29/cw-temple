@@ -1,0 +1,6004 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/java -Didea.launcher.port=7544 "-Didea.launcher.bin.path=/Applications/IntelliJ IDEA 15.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/lib/tools.jar:/Users/olliecoulson/Documents/IntelliJProjects/MSc/cw-temple/out/production/cw-temple:/Applications/IntelliJ IDEA 15.app/Contents/lib/idea_rt.jar" com.intellij.rt.execution.application.AppMain main.TXTmain -n 1000
+Seed : -3528784614970942523
+Cheesing it...
+Gold collected   : 4122
+Bonus multiplier : 1.08
+Score            : 4437
+
+Seed : -7047939582522656450
+Cheesing it...
+Gold collected   : 2552
+Bonus multiplier : 1.28
+Score            : 3266
+
+Seed : 792177684573332843
+Cheesing it...
+Gold collected   : 3916
+Bonus multiplier : 1.23
+Score            : 4822
+
+Seed : 3536950952256876486
+Cheesing it...
+Gold collected   : 2270
+Bonus multiplier : 1.29
+Score            : 2924
+
+Seed : -6889921579570961365
+Cheesing it...
+Gold collected   : 8326
+Bonus multiplier : 1.11
+Score            : 9218
+
+Seed : -2996243460819169404
+Cheesing it...
+Gold collected   : 1931
+Bonus multiplier : 1.25
+Score            : 2404
+
+Seed : -9059756125722230994
+Cheesing it...
+Gold collected   : 3618
+Bonus multiplier : 1.27
+Score            : 4578
+
+Seed : -1229954807592443066
+Cheesing it...
+Gold collected   : 6861
+Bonus multiplier : 1.28
+Score            : 8760
+
+Seed : 1212256733848147798
+Cheesing it...
+Gold collected   : 5788
+Bonus multiplier : 1.23
+Score            : 7090
+
+Seed : -5575782801437854452
+Cheesing it...
+Gold collected   : 4320
+Bonus multiplier : 1.24
+Score            : 5336
+
+Seed : -521016170862532835
+Cheesing it...
+Gold collected   : 9298
+Bonus multiplier : 1
+Score            : 9298
+
+Seed : 2591080331784245418
+Cheesing it...
+Gold collected   : 5580
+Bonus multiplier : 1.26
+Score            : 7044
+
+Seed : 1544017420734022283
+Cheesing it...
+Gold collected   : 406
+Bonus multiplier : 1.24
+Score            : 505
+
+Seed : -1074894463247847588
+Cheesing it...
+Gold collected   : 6799
+Bonus multiplier : 1.16
+Score            : 7872
+
+Seed : 1226262160201458655
+Cheesing it...
+Gold collected   : 11094
+Bonus multiplier : 1.3
+Score            : 14422
+
+Seed : -4284293128591544292
+Cheesing it...
+Gold collected   : 2620
+Bonus multiplier : 1.2
+Score            : 3144
+
+Seed : 2402781200748109312
+Cheesing it...
+Gold collected   : 2922
+Bonus multiplier : 1.3
+Score            : 3798
+
+Seed : 8831136290144656431
+Cheesing it...
+Gold collected   : 2143
+Bonus multiplier : 1.27
+Score            : 2714
+
+Seed : -8798636094550388914
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.16
+Score            : 0
+
+Seed : -1133896222488399352
+Cheesing it...
+Gold collected   : 3666
+Bonus multiplier : 1.14
+Score            : 4165
+
+Seed : -2905456845510518992
+Cheesing it...
+Gold collected   : 3635
+Bonus multiplier : 1.29
+Score            : 4702
+
+Seed : -6115302019719960310
+Cheesing it...
+Gold collected   : 8222
+Bonus multiplier : 1
+Score            : 8222
+
+Seed : 6939103142483939690
+Cheesing it...
+Gold collected   : 959
+Bonus multiplier : 1.24
+Score            : 1191
+
+Seed : 4863734843035525411
+Cheesing it...
+Gold collected   : 5373
+Bonus multiplier : 1.24
+Score            : 6671
+
+Seed : -2050198661555568039
+Cheesing it...
+Gold collected   : 7043
+Bonus multiplier : 1.16
+Score            : 8166
+
+Seed : -7518448789134499509
+Cheesing it...
+Gold collected   : 3635
+Bonus multiplier : 1.3
+Score            : 4725
+
+Seed : 7271697528970744831
+Cheesing it...
+Gold collected   : 803
+Bonus multiplier : 1.3
+Score            : 1043
+
+Seed : 4281447409602702243
+Cheesing it...
+Gold collected   : 5660
+Bonus multiplier : 1.22
+Score            : 6925
+
+Seed : 2203859942176574898
+Cheesing it...
+Gold collected   : 8332
+Bonus multiplier : 1.29
+Score            : 10759
+
+Seed : 9176849907265180669
+Cheesing it...
+Gold collected   : 9512
+Bonus multiplier : 1.28
+Score            : 12148
+
+Seed : 1350885040310183783
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.3
+Score            : 0
+
+Seed : -8780056722871971891
+Cheesing it...
+Gold collected   : 4289
+Bonus multiplier : 1.29
+Score            : 5520
+
+Seed : 3255740972306547611
+Cheesing it...
+Gold collected   : 1913
+Bonus multiplier : 1.18
+Score            : 2262
+
+Seed : -9148126190999506760
+Cheesing it...
+Gold collected   : 3495
+Bonus multiplier : 1.26
+Score            : 4416
+
+Seed : -1285584019712904895
+Cheesing it...
+Gold collected   : 2525
+Bonus multiplier : 1.3
+Score            : 3282
+
+Seed : -1159002578081299637
+Cheesing it...
+Gold collected   : 5448
+Bonus multiplier : 1.3
+Score            : 7082
+
+Seed : 3228581000222600212
+Cheesing it...
+Gold collected   : 2902
+Bonus multiplier : 1.29
+Score            : 3751
+
+Seed : 908923651562223727
+Cheesing it...
+Gold collected   : 3614
+Bonus multiplier : 1
+Score            : 3614
+
+Seed : 2909343170025574838
+Cheesing it...
+Gold collected   : 1977
+Bonus multiplier : 1.29
+Score            : 2557
+
+Seed : -6064019180853773938
+Cheesing it...
+Gold collected   : 278
+Bonus multiplier : 1
+Score            : 278
+
+Seed : -3868430273772630194
+Cheesing it...
+Gold collected   : 962
+Bonus multiplier : 1.25
+Score            : 1199
+
+Seed : 7208007433210516735
+Cheesing it...
+Gold collected   : 5456
+Bonus multiplier : 1
+Score            : 5456
+
+Seed : -6648137885312477222
+Cheesing it...
+Gold collected   : 1897
+Bonus multiplier : 1.11
+Score            : 2112
+
+Seed : 9159270884947811500
+Cheesing it...
+Gold collected   : 3072
+Bonus multiplier : 1.28
+Score            : 3930
+
+Seed : 3741458630658317840
+Cheesing it...
+Gold collected   : 4913
+Bonus multiplier : 1
+Score            : 4913
+
+Seed : -2960372074050268323
+Cheesing it...
+Gold collected   : 6008
+Bonus multiplier : 1.29
+Score            : 7732
+
+Seed : 1038740490411344240
+Cheesing it...
+Gold collected   : 4086
+Bonus multiplier : 1.3
+Score            : 5311
+
+Seed : -2933693454906355428
+Cheesing it...
+Gold collected   : 3384
+Bonus multiplier : 1.28
+Score            : 4334
+
+Seed : -630481563900157340
+Cheesing it...
+Gold collected   : 1684
+Bonus multiplier : 1.17
+Score            : 1964
+
+Seed : -4844022544781902279
+Cheesing it...
+Gold collected   : 3929
+Bonus multiplier : 1.23
+Score            : 4819
+
+Seed : -8567880561401085379
+Cheesing it...
+Gold collected   : 6450
+Bonus multiplier : 1.21
+Score            : 7785
+
+Seed : 1426826724907640240
+Cheesing it...
+Gold collected   : 2628
+Bonus multiplier : 1.23
+Score            : 3230
+
+Seed : 2323449392075669756
+Cheesing it...
+Gold collected   : 6723
+Bonus multiplier : 1.24
+Score            : 8364
+
+Seed : 4158954262409298835
+Cheesing it...
+Gold collected   : 722
+Bonus multiplier : 1.19
+Score            : 858
+
+Seed : 475709532662018707
+Cheesing it...
+Gold collected   : 2834
+Bonus multiplier : 1.16
+Score            : 3285
+
+Seed : -7392398970506307535
+Cheesing it...
+Gold collected   : 935
+Bonus multiplier : 1.3
+Score            : 1215
+
+Seed : 8264476719837553223
+Cheesing it...
+Gold collected   : 1934
+Bonus multiplier : 1.3
+Score            : 2514
+
+Seed : 1687173836011677695
+Cheesing it...
+Gold collected   : 4737
+Bonus multiplier : 1
+Score            : 4737
+
+Seed : 6890279412026638888
+Cheesing it...
+Gold collected   : 2657
+Bonus multiplier : 1.09
+Score            : 2908
+
+Seed : -4572408746350483727
+Cheesing it...
+Gold collected   : 4973
+Bonus multiplier : 1.29
+Score            : 6400
+
+Seed : -1832769403036343520
+Cheesing it...
+Gold collected   : 714
+Bonus multiplier : 1.3
+Score            : 928
+
+Seed : -1239559558986016280
+Cheesing it...
+Gold collected   : 8806
+Bonus multiplier : 1.2
+Score            : 10593
+
+Seed : 8682009991289523690
+Cheesing it...
+Gold collected   : 3920
+Bonus multiplier : 1.27
+Score            : 4993
+
+Seed : -7084686357825790403
+Cheesing it...
+Gold collected   : 3890
+Bonus multiplier : 1.29
+Score            : 5029
+
+Seed : -2624025688529426271
+Cheesing it...
+Gold collected   : 7431
+Bonus multiplier : 1.24
+Score            : 9179
+
+Seed : -1041031477005817824
+Cheesing it...
+Gold collected   : 2182
+Bonus multiplier : 1.08
+Score            : 2366
+
+Seed : -1102934539073557121
+Cheesing it...
+Gold collected   : 4246
+Bonus multiplier : 1.26
+Score            : 5331
+
+Seed : -802590178671236261
+Cheesing it...
+Gold collected   : 2081
+Bonus multiplier : 1.3
+Score            : 2705
+
+Seed : -7196776788202144455
+Cheesing it...
+Gold collected   : 2569
+Bonus multiplier : 1.28
+Score            : 3282
+
+Seed : -7844715329152307673
+Cheesing it...
+Gold collected   : 2988
+Bonus multiplier : 1.29
+Score            : 3862
+
+Seed : -1793088254684457626
+Cheesing it...
+Gold collected   : 5312
+Bonus multiplier : 1.28
+Score            : 6801
+
+Seed : -7920711251499858769
+Cheesing it...
+Gold collected   : 7584
+Bonus multiplier : 1.11
+Score            : 8401
+
+Seed : 4948542844315146890
+Cheesing it...
+Gold collected   : 537
+Bonus multiplier : 1.25
+Score            : 668
+
+Seed : 7134175104978458447
+Cheesing it...
+Gold collected   : 3346
+Bonus multiplier : 1
+Score            : 3346
+
+Seed : -767946914020347787
+Cheesing it...
+Gold collected   : 652
+Bonus multiplier : 1.29
+Score            : 840
+
+Seed : -5389863302246382018
+Cheesing it...
+Gold collected   : 5537
+Bonus multiplier : 1.13
+Score            : 6252
+
+Seed : 1065299192905447698
+Cheesing it...
+Gold collected   : 3212
+Bonus multiplier : 1.29
+Score            : 4147
+
+Seed : 8105466478036877219
+Cheesing it...
+Gold collected   : 3635
+Bonus multiplier : 1.3
+Score            : 4725
+
+Seed : -7108644295608056020
+Cheesing it...
+Gold collected   : 2195
+Bonus multiplier : 1.28
+Score            : 2807
+
+Seed : -3029481298197270719
+Cheesing it...
+Gold collected   : 2359
+Bonus multiplier : 1.28
+Score            : 3027
+
+Seed : -5751809026869571533
+Cheesing it...
+Gold collected   : 871
+Bonus multiplier : 1.12
+Score            : 978
+
+Seed : 2313835561266420846
+Cheesing it...
+Gold collected   : 5216
+Bonus multiplier : 1
+Score            : 5216
+
+Seed : -5896462890148983501
+Cheesing it...
+Gold collected   : 1047
+Bonus multiplier : 1.03
+Score            : 1081
+
+Seed : 6201786458132551036
+Cheesing it...
+Gold collected   : 2238
+Bonus multiplier : 1.25
+Score            : 2790
+
+Seed : 1996879838979758421
+Cheesing it...
+Gold collected   : 3435
+Bonus multiplier : 1.26
+Score            : 4342
+
+Seed : -7165472509219031799
+Cheesing it...
+Gold collected   : 237
+Bonus multiplier : 1.28
+Score            : 303
+
+Seed : 4414282834402199106
+Cheesing it...
+Gold collected   : 1519
+Bonus multiplier : 1.14
+Score            : 1734
+
+Seed : 7323181698074724026
+Cheesing it...
+Gold collected   : 981
+Bonus multiplier : 1.28
+Score            : 1260
+
+Seed : 2263053768101684250
+Cheesing it...
+Gold collected   : 3070
+Bonus multiplier : 1
+Score            : 3070
+
+Seed : -5727970850069268505
+Cheesing it...
+Gold collected   : 2681
+Bonus multiplier : 1.3
+Score            : 3485
+
+Seed : 283960162376537269
+Cheesing it...
+Gold collected   : 4896
+Bonus multiplier : 1.3
+Score            : 6364
+
+Seed : 834685477885634250
+Cheesing it...
+Gold collected   : 7072
+Bonus multiplier : 1.28
+Score            : 9042
+
+Seed : -7880022386241953719
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.2
+Score            : 0
+
+Seed : 406801532671681300
+Cheesing it...
+Gold collected   : 104
+Bonus multiplier : 1.22
+Score            : 126
+
+Seed : 4164347741952733948
+Cheesing it...
+Gold collected   : 9846
+Bonus multiplier : 1.28
+Score            : 12626
+
+Seed : 5978524601177348667
+Cheesing it...
+Gold collected   : 2107
+Bonus multiplier : 1.19
+Score            : 2502
+
+Seed : -6765941631455280853
+Cheesing it...
+Gold collected   : 496
+Bonus multiplier : 1
+Score            : 496
+
+Seed : 2647872484551659470
+Cheesing it...
+Gold collected   : 788
+Bonus multiplier : 1.29
+Score            : 1018
+
+Seed : 2175777733207565421
+Cheesing it...
+Gold collected   : 3521
+Bonus multiplier : 1.28
+Score            : 4489
+
+Seed : 3922578452613947100
+Cheesing it...
+Gold collected   : 7167
+Bonus multiplier : 1
+Score            : 7167
+
+Seed : -3404467504246033369
+Cheesing it...
+Gold collected   : 4019
+Bonus multiplier : 1.15
+Score            : 4607
+
+Seed : 6037229329555083657
+Cheesing it...
+Gold collected   : 1506
+Bonus multiplier : 1.18
+Score            : 1772
+
+Seed : 4272614560145607253
+Cheesing it...
+Gold collected   : 2131
+Bonus multiplier : 1.3
+Score            : 2770
+
+Seed : 7135161788372771750
+Cheesing it...
+Gold collected   : 623
+Bonus multiplier : 1.24
+Score            : 773
+
+Seed : 6832231505037203644
+Cheesing it...
+Gold collected   : 1445
+Bonus multiplier : 1.29
+Score            : 1862
+
+Seed : 1504418378603174469
+Cheesing it...
+Gold collected   : 6249
+Bonus multiplier : 1.21
+Score            : 7546
+
+Seed : 6838881082445490569
+Cheesing it...
+Gold collected   : 2356
+Bonus multiplier : 1.16
+Score            : 2732
+
+Seed : -7777595969098900770
+Cheesing it...
+Gold collected   : 5504
+Bonus multiplier : 1.17
+Score            : 6432
+
+Seed : -3867527770577050998
+Cheesing it...
+Gold collected   : 2009
+Bonus multiplier : 1.29
+Score            : 2595
+
+Seed : -3107991188769594646
+Cheesing it...
+Gold collected   : 3259
+Bonus multiplier : 1.3
+Score            : 4236
+
+Seed : 2736252433245474855
+Cheesing it...
+Gold collected   : 3311
+Bonus multiplier : 1.11
+Score            : 3675
+
+Seed : 6070845270670647961
+Cheesing it...
+Gold collected   : 5967
+Bonus multiplier : 1.16
+Score            : 6940
+
+Seed : 6781034357778029408
+Cheesing it...
+Gold collected   : 5141
+Bonus multiplier : 1.28
+Score            : 6595
+
+Seed : -8253311126379746547
+Cheesing it...
+Gold collected   : 1139
+Bonus multiplier : 1.3
+Score            : 1480
+
+Seed : 2033313076603867071
+Cheesing it...
+Gold collected   : 7500
+Bonus multiplier : 1.29
+Score            : 9708
+
+Seed : 9130303509348093394
+Cheesing it...
+Gold collected   : 1291
+Bonus multiplier : 1.21
+Score            : 1566
+
+Seed : -6116002781632921896
+Cheesing it...
+Gold collected   : 31
+Bonus multiplier : 1.23
+Score            : 38
+
+Seed : -771507865569231779
+Cheesing it...
+Gold collected   : 4663
+Bonus multiplier : 1.25
+Score            : 5851
+
+Seed : 5404022310166898573
+Cheesing it...
+Gold collected   : 1293
+Bonus multiplier : 1.29
+Score            : 1673
+
+Seed : -6302982763834154437
+Cheesing it...
+Gold collected   : 8583
+Bonus multiplier : 1.18
+Score            : 10127
+
+Seed : 2902181329173575719
+Cheesing it...
+Gold collected   : 1868
+Bonus multiplier : 1.3
+Score            : 2428
+
+Seed : 7203994943666844432
+Cheesing it...
+Gold collected   : 654
+Bonus multiplier : 1.3
+Score            : 850
+
+Seed : 2040928057903933785
+Cheesing it...
+Gold collected   : 4634
+Bonus multiplier : 1.25
+Score            : 5771
+
+Seed : -1934745812281788174
+Cheesing it...
+Gold collected   : 1629
+Bonus multiplier : 1.23
+Score            : 2006
+
+Seed : 8012129871569357906
+Cheesing it...
+Gold collected   : 6193
+Bonus multiplier : 1.28
+Score            : 7907
+
+Seed : -472454673450646411
+Cheesing it...
+Gold collected   : 1113
+Bonus multiplier : 1.3
+Score            : 1446
+
+Seed : -6835112419701019648
+Cheesing it...
+Gold collected   : 1772
+Bonus multiplier : 1.04
+Score            : 1835
+
+Seed : -4241225240935002626
+Cheesing it...
+Gold collected   : 1478
+Bonus multiplier : 1
+Score            : 1478
+
+Seed : -1751221962090121802
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.3
+Score            : 0
+
+Seed : -560096623355682618
+Cheesing it...
+Gold collected   : 4284
+Bonus multiplier : 1.16
+Score            : 4966
+
+Seed : 2477045317978159770
+Cheesing it...
+Gold collected   : 2158
+Bonus multiplier : 1.16
+Score            : 2494
+
+Seed : 7595543258429896900
+Cheesing it...
+Gold collected   : 3883
+Bonus multiplier : 1.23
+Score            : 4784
+
+Seed : -1656738202602015324
+Cheesing it...
+Gold collected   : 6697
+Bonus multiplier : 1.19
+Score            : 8001
+
+Seed : 8364988441140104161
+Cheesing it...
+Gold collected   : 753
+Bonus multiplier : 1.3
+Score            : 978
+
+Seed : 6245285438735365991
+Cheesing it...
+Gold collected   : 2419
+Bonus multiplier : 1
+Score            : 2419
+
+Seed : -2152399095276093494
+Cheesing it...
+Gold collected   : 1001
+Bonus multiplier : 1.26
+Score            : 1258
+
+Seed : -7442504644923833263
+Cheesing it...
+Gold collected   : 4690
+Bonus multiplier : 1.11
+Score            : 5189
+
+Seed : 2303308019312653850
+Cheesing it...
+Gold collected   : 5358
+Bonus multiplier : 1.2
+Score            : 6448
+
+Seed : 6988320805517358316
+Cheesing it...
+Gold collected   : 6217
+Bonus multiplier : 1.26
+Score            : 7817
+
+Seed : -9064763651347341816
+Cheesing it...
+Gold collected   : 1321
+Bonus multiplier : 1
+Score            : 1321
+
+Seed : -4824487115951937691
+Cheesing it...
+Gold collected   : 4827
+Bonus multiplier : 1.3
+Score            : 6275
+
+Seed : -4420023140693830515
+Cheesing it...
+Gold collected   : 1053
+Bonus multiplier : 1.28
+Score            : 1343
+
+Seed : 4913006319635684210
+Cheesing it...
+Gold collected   : 6105
+Bonus multiplier : 1.3
+Score            : 7936
+
+Seed : 2961484348437770841
+Cheesing it...
+Gold collected   : 3009
+Bonus multiplier : 1
+Score            : 3009
+
+Seed : -2114631399567464901
+Cheesing it...
+Gold collected   : 1845
+Bonus multiplier : 1.3
+Score            : 2398
+
+Seed : -7170647314832915756
+Cheesing it...
+Gold collected   : 7998
+Bonus multiplier : 1.3
+Score            : 10367
+
+Seed : -7293767380717437296
+Cheesing it...
+Gold collected   : 5541
+Bonus multiplier : 1.13
+Score            : 6246
+
+Seed : -8828327852412204709
+Cheesing it...
+Gold collected   : 1885
+Bonus multiplier : 1.24
+Score            : 2342
+
+Seed : 2731032717620178884
+Cheesing it...
+Gold collected   : 3265
+Bonus multiplier : 1.3
+Score            : 4244
+
+Seed : -9006450829019837287
+Cheesing it...
+Gold collected   : 3321
+Bonus multiplier : 1
+Score            : 3321
+
+Seed : 3106922131136585397
+Cheesing it...
+Gold collected   : 1297
+Bonus multiplier : 1.28
+Score            : 1658
+
+Seed : 6238698868159903280
+Cheesing it...
+Gold collected   : 1573
+Bonus multiplier : 1.27
+Score            : 1995
+
+Seed : 5412299765561917700
+Cheesing it...
+Gold collected   : 1734
+Bonus multiplier : 1.21
+Score            : 2100
+
+Seed : 6627501571564231987
+Cheesing it...
+Gold collected   : 7126
+Bonus multiplier : 1.14
+Score            : 8155
+
+Seed : 5132903443858018436
+Cheesing it...
+Gold collected   : 1597
+Bonus multiplier : 1
+Score            : 1597
+
+Seed : -7091183595038561073
+Cheesing it...
+Gold collected   : 5382
+Bonus multiplier : 1.24
+Score            : 6680
+
+Seed : -8169675908139562933
+Cheesing it...
+Gold collected   : 4259
+Bonus multiplier : 1.28
+Score            : 5451
+
+Seed : 5787291216706223599
+Cheesing it...
+Gold collected   : 2425
+Bonus multiplier : 1.26
+Score            : 3065
+
+Seed : 6201575667771956980
+Cheesing it...
+Gold collected   : 4499
+Bonus multiplier : 1.28
+Score            : 5741
+
+Seed : 4155933707177396171
+Cheesing it...
+Gold collected   : 912
+Bonus multiplier : 1.28
+Score            : 1163
+
+Seed : 1290677061767917741
+Cheesing it...
+Gold collected   : 2102
+Bonus multiplier : 1.3
+Score            : 2732
+
+Seed : 9167488891378398712
+Cheesing it...
+Gold collected   : 5118
+Bonus multiplier : 1
+Score            : 5118
+
+Seed : 3657605151864940219
+Cheesing it...
+Gold collected   : 2722
+Bonus multiplier : 1.25
+Score            : 3410
+
+Seed : -6903728251957797437
+Cheesing it...
+Gold collected   : 9179
+Bonus multiplier : 1
+Score            : 9179
+
+Seed : 3487596609160792618
+Cheesing it...
+Gold collected   : 8179
+Bonus multiplier : 1.16
+Score            : 9480
+
+Seed : -1737801423525777411
+Cheesing it...
+Gold collected   : 6048
+Bonus multiplier : 1.19
+Score            : 7197
+
+Seed : -4502171896681795379
+Cheesing it...
+Gold collected   : 6441
+Bonus multiplier : 1.15
+Score            : 7391
+
+Seed : 6465056061793965697
+Cheesing it...
+Gold collected   : 1680
+Bonus multiplier : 1.3
+Score            : 2184
+
+Seed : 3427024853808243469
+Cheesing it...
+Gold collected   : 2431
+Bonus multiplier : 1.3
+Score            : 3160
+
+Seed : 1047122898390629845
+Cheesing it...
+Gold collected   : 2547
+Bonus multiplier : 1.26
+Score            : 3209
+
+Seed : -2452457978819465215
+Cheesing it...
+Gold collected   : 2796
+Bonus multiplier : 1.19
+Score            : 3322
+
+Seed : -5827343495343341813
+Cheesing it...
+Gold collected   : 1730
+Bonus multiplier : 1.22
+Score            : 2103
+
+Seed : -5599446799605410926
+Cheesing it...
+Gold collected   : 426
+Bonus multiplier : 1.3
+Score            : 553
+
+Seed : -4187403326757760419
+Cheesing it...
+Gold collected   : 2270
+Bonus multiplier : 1.23
+Score            : 2799
+
+Seed : -1064669421969469936
+Cheesing it...
+Gold collected   : 1479
+Bonus multiplier : 1.18
+Score            : 1750
+
+Seed : -6320780502407227929
+Cheesing it...
+Gold collected   : 5559
+Bonus multiplier : 1.28
+Score            : 7130
+
+Seed : -6637575847707325319
+Cheesing it...
+Gold collected   : 2154
+Bonus multiplier : 1.3
+Score            : 2800
+
+Seed : -8285991260072930052
+Cheesing it...
+Gold collected   : 6252
+Bonus multiplier : 1.27
+Score            : 7935
+
+Seed : -3953788920904357144
+Cheesing it...
+Gold collected   : 9919
+Bonus multiplier : 1
+Score            : 9919
+
+Seed : -6121394477851159579
+Cheesing it...
+Gold collected   : 963
+Bonus multiplier : 1
+Score            : 963
+
+Seed : 1329399384774015149
+Cheesing it...
+Gold collected   : 2854
+Bonus multiplier : 1.13
+Score            : 3238
+
+Seed : -2678065642195055258
+Cheesing it...
+Gold collected   : 5932
+Bonus multiplier : 1
+Score            : 5932
+
+Seed : 4782326779955607183
+Cheesing it...
+Gold collected   : 7335
+Bonus multiplier : 1.15
+Score            : 8451
+
+Seed : -6276073819538523748
+Cheesing it...
+Gold collected   : 4552
+Bonus multiplier : 1
+Score            : 4552
+
+Seed : -4239235251910182846
+Cheesing it...
+Gold collected   : 2493
+Bonus multiplier : 1.28
+Score            : 3199
+
+Seed : -1964303547882754854
+Cheesing it...
+Gold collected   : 981
+Bonus multiplier : 1.28
+Score            : 1252
+
+Seed : -8368851813315438509
+Cheesing it...
+Gold collected   : 5161
+Bonus multiplier : 1
+Score            : 5161
+
+Seed : -978843154278909367
+Cheesing it...
+Gold collected   : 634
+Bonus multiplier : 1.26
+Score            : 797
+
+Seed : -6549889791522032043
+Cheesing it...
+Gold collected   : 6727
+Bonus multiplier : 1.15
+Score            : 7703
+
+Seed : 2705014607057876842
+Cheesing it...
+Gold collected   : 1470
+Bonus multiplier : 1.29
+Score            : 1898
+
+Seed : -9129426926234812933
+Cheesing it...
+Gold collected   : 4537
+Bonus multiplier : 1
+Score            : 4537
+
+Seed : 3761016065518282308
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.19
+Score            : 0
+
+Seed : 2539042904719127290
+Cheesing it...
+Gold collected   : 3309
+Bonus multiplier : 1.28
+Score            : 4241
+
+Seed : -8015345779868579251
+Cheesing it...
+Gold collected   : 127
+Bonus multiplier : 1.29
+Score            : 163
+
+Seed : -8136354059062166360
+Cheesing it...
+Gold collected   : 2549
+Bonus multiplier : 1.29
+Score            : 3289
+
+Seed : -669835531444472392
+Cheesing it...
+Gold collected   : 4862
+Bonus multiplier : 1.3
+Score            : 6320
+
+Seed : 7032488368915020919
+Cheesing it...
+Gold collected   : 953
+Bonus multiplier : 1.13
+Score            : 1072
+
+Seed : -6240322041533197832
+Cheesing it...
+Gold collected   : 9144
+Bonus multiplier : 1.24
+Score            : 11321
+
+Seed : -8858530123147596534
+Cheesing it...
+Gold collected   : 7582
+Bonus multiplier : 1
+Score            : 7582
+
+Seed : 3270022966291911236
+Cheesing it...
+Gold collected   : 6668
+Bonus multiplier : 1.28
+Score            : 8513
+
+Seed : 3472644533788844138
+Cheesing it...
+Gold collected   : 7366
+Bonus multiplier : 1.29
+Score            : 9485
+
+Seed : -1480555947235955188
+Cheesing it...
+Gold collected   : 3095
+Bonus multiplier : 1.27
+Score            : 3939
+
+Seed : -7115280430426111250
+Cheesing it...
+Gold collected   : 4143
+Bonus multiplier : 1.12
+Score            : 4636
+
+Seed : 5077192611642142347
+Cheesing it...
+Gold collected   : 2274
+Bonus multiplier : 1.28
+Score            : 2918
+
+Seed : 2030150161864334506
+Cheesing it...
+Gold collected   : 5236
+Bonus multiplier : 1.26
+Score            : 6579
+
+Seed : -1119336219151970010
+Cheesing it...
+Gold collected   : 2263
+Bonus multiplier : 1.28
+Score            : 2899
+
+Seed : 5413032313143305923
+Cheesing it...
+Gold collected   : 3975
+Bonus multiplier : 1.27
+Score            : 5042
+
+Seed : 7947492261531180293
+Cheesing it...
+Gold collected   : 2129
+Bonus multiplier : 1.28
+Score            : 2723
+
+Seed : -4635175669457065597
+Cheesing it...
+Gold collected   : 1662
+Bonus multiplier : 1.26
+Score            : 2090
+
+Seed : 6980431194015833151
+Cheesing it...
+Gold collected   : 104
+Bonus multiplier : 1.3
+Score            : 135
+
+Seed : -882233615853054081
+Cheesing it...
+Gold collected   : 1139
+Bonus multiplier : 1
+Score            : 1139
+
+Seed : -7901455030486124621
+Cheesing it...
+Gold collected   : 4726
+Bonus multiplier : 1
+Score            : 4726
+
+Seed : 7779833071278059366
+Cheesing it...
+Gold collected   : 788
+Bonus multiplier : 1.12
+Score            : 881
+
+Seed : -2213627212303993427
+Cheesing it...
+Gold collected   : 4088
+Bonus multiplier : 1.11
+Score            : 4518
+
+Seed : -84278187408177588
+Cheesing it...
+Gold collected   : 8121
+Bonus multiplier : 1.14
+Score            : 9294
+
+Seed : -5343953639673409996
+Cheesing it...
+Gold collected   : 4520
+Bonus multiplier : 1.3
+Score            : 5876
+
+Seed : -5127160218150765675
+Cheesing it...
+Gold collected   : 5682
+Bonus multiplier : 1.28
+Score            : 7287
+
+Seed : 7751328884904359971
+Cheesing it...
+Gold collected   : 1499
+Bonus multiplier : 1.28
+Score            : 1918
+
+Seed : 8723315933790897259
+Cheesing it...
+Gold collected   : 2289
+Bonus multiplier : 1
+Score            : 2289
+
+Seed : -2616665714706773625
+Cheesing it...
+Gold collected   : 2042
+Bonus multiplier : 1.27
+Score            : 2584
+
+Seed : -5572064336377778966
+Cheesing it...
+Gold collected   : 4767
+Bonus multiplier : 1.14
+Score            : 5430
+
+Seed : -3453212167518267127
+Cheesing it...
+Gold collected   : 6814
+Bonus multiplier : 1.3
+Score            : 8858
+
+Seed : 7455049029949416185
+Cheesing it...
+Gold collected   : 3479
+Bonus multiplier : 1.29
+Score            : 4491
+
+Seed : 3433052427805632580
+Cheesing it...
+Gold collected   : 7701
+Bonus multiplier : 1.3
+Score            : 10011
+
+Seed : -3078416022141785837
+Cheesing it...
+Gold collected   : 3372
+Bonus multiplier : 1.17
+Score            : 3942
+
+Seed : 4121829763448240679
+Cheesing it...
+Gold collected   : 2059
+Bonus multiplier : 1.3
+Score            : 2676
+
+Seed : 1891143927848094667
+Cheesing it...
+Gold collected   : 5398
+Bonus multiplier : 1
+Score            : 5398
+
+Seed : -8017119692272927643
+Cheesing it...
+Gold collected   : 5895
+Bonus multiplier : 1
+Score            : 5895
+
+Seed : -6667061428367934075
+Cheesing it...
+Gold collected   : 3700
+Bonus multiplier : 1.3
+Score            : 4810
+
+Seed : 6142528606994835224
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.28
+Score            : 0
+
+Seed : 2999218876634296818
+Cheesing it...
+Gold collected   : 1504
+Bonus multiplier : 1.29
+Score            : 1938
+
+Seed : 3092476628217960406
+Cheesing it...
+Gold collected   : 3178
+Bonus multiplier : 1.14
+Score            : 3637
+
+Seed : 863717557529023488
+Cheesing it...
+Gold collected   : 2445
+Bonus multiplier : 1
+Score            : 2445
+
+Seed : 1762597312200543323
+Cheesing it...
+Gold collected   : 2853
+Bonus multiplier : 1.01
+Score            : 2891
+
+Seed : 304592150336726461
+Cheesing it...
+Gold collected   : 2893
+Bonus multiplier : 1.28
+Score            : 3703
+
+Seed : 5259717971169935624
+Cheesing it...
+Gold collected   : 693
+Bonus multiplier : 1.26
+Score            : 876
+
+Seed : -8761308751137655603
+Cheesing it...
+Gold collected   : 5508
+Bonus multiplier : 1.27
+Score            : 7016
+
+Seed : 6776297045875304050
+Cheesing it...
+Gold collected   : 1875
+Bonus multiplier : 1.08
+Score            : 2028
+
+Seed : 7485224592427521860
+Cheesing it...
+Gold collected   : 1840
+Bonus multiplier : 1.24
+Score            : 2275
+
+Seed : 375087780845157133
+Cheesing it...
+Gold collected   : 3937
+Bonus multiplier : 1.3
+Score            : 5118
+
+Seed : 4545089263273307465
+Cheesing it...
+Gold collected   : 3590
+Bonus multiplier : 1
+Score            : 3590
+
+Seed : 3028518063191899609
+Cheesing it...
+Gold collected   : 2266
+Bonus multiplier : 1.05
+Score            : 2388
+
+Seed : -3550493621441039914
+Cheesing it...
+Gold collected   : 795
+Bonus multiplier : 1
+Score            : 795
+
+Seed : 2121587848665003625
+Cheesing it...
+Gold collected   : 1860
+Bonus multiplier : 1.19
+Score            : 2212
+
+Seed : -1900741287413482646
+Cheesing it...
+Gold collected   : 1892
+Bonus multiplier : 1
+Score            : 1899
+
+Seed : 9164565327799891459
+Cheesing it...
+Gold collected   : 2981
+Bonus multiplier : 1.28
+Score            : 3815
+
+Seed : -5308667667613628296
+Cheesing it...
+Gold collected   : 427
+Bonus multiplier : 1.29
+Score            : 551
+
+Seed : 8584539092783525137
+Cheesing it...
+Gold collected   : 381
+Bonus multiplier : 1.29
+Score            : 491
+
+Seed : 509802478475767259
+Cheesing it...
+Gold collected   : 2694
+Bonus multiplier : 1.26
+Score            : 3385
+
+Seed : -1752179123544966670
+Cheesing it...
+Gold collected   : 6946
+Bonus multiplier : 1.29
+Score            : 8940
+
+Seed : 5553639133114628561
+Cheesing it...
+Gold collected   : 4405
+Bonus multiplier : 1.26
+Score            : 5537
+
+Seed : -1444562815150971043
+Cheesing it...
+Gold collected   : 3920
+Bonus multiplier : 1.28
+Score            : 5035
+
+Seed : 169148183375759903
+Cheesing it...
+Gold collected   : 2501
+Bonus multiplier : 1.21
+Score            : 3028
+
+Seed : -637360597794960958
+Cheesing it...
+Gold collected   : 1245
+Bonus multiplier : 1.29
+Score            : 1606
+
+Seed : -1033706006672285254
+Cheesing it...
+Gold collected   : 897
+Bonus multiplier : 1.12
+Score            : 1006
+
+Seed : 6410417678438483083
+Cheesing it...
+Gold collected   : 2686
+Bonus multiplier : 1.29
+Score            : 3464
+
+Seed : 782969198169768187
+Cheesing it...
+Gold collected   : 2404
+Bonus multiplier : 1
+Score            : 2404
+
+Seed : -2522708700660721823
+Cheesing it...
+Gold collected   : 3198
+Bonus multiplier : 1.29
+Score            : 4132
+
+Seed : -1574727441347060955
+Cheesing it...
+Gold collected   : 3372
+Bonus multiplier : 1.12
+Score            : 3790
+
+Seed : -4351363543183287785
+Cheesing it...
+Gold collected   : 3916
+Bonus multiplier : 1.29
+Score            : 5062
+
+Seed : -8864784872910861492
+Cheesing it...
+Gold collected   : 2447
+Bonus multiplier : 1
+Score            : 2447
+
+Seed : -7342454487948199997
+Cheesing it...
+Gold collected   : 1820
+Bonus multiplier : 1.17
+Score            : 2136
+
+Seed : -1604716144095098443
+Cheesing it...
+Gold collected   : 6590
+Bonus multiplier : 1.29
+Score            : 8499
+
+Seed : 7244263437318253841
+Cheesing it...
+Gold collected   : 2756
+Bonus multiplier : 1.3
+Score            : 3582
+
+Seed : -4893166632663369221
+Cheesing it...
+Gold collected   : 750
+Bonus multiplier : 1.13
+Score            : 848
+
+Seed : 8482000684420119580
+Cheesing it...
+Gold collected   : 5077
+Bonus multiplier : 1.23
+Score            : 6252
+
+Seed : 7247335581836060959
+Cheesing it...
+Gold collected   : 4164
+Bonus multiplier : 1.23
+Score            : 5122
+
+Seed : -1183454774739900790
+Cheesing it...
+Gold collected   : 2728
+Bonus multiplier : 1.24
+Score            : 3375
+
+Seed : -8849590335710961801
+Cheesing it...
+Gold collected   : 3263
+Bonus multiplier : 1.22
+Score            : 3993
+
+Seed : 6115379151627688738
+Cheesing it...
+Gold collected   : 9232
+Bonus multiplier : 1.19
+Score            : 10971
+
+Seed : 5534495882785213727
+Cheesing it...
+Gold collected   : 2433
+Bonus multiplier : 1.28
+Score            : 3102
+
+Seed : -6309637856866806601
+Cheesing it...
+Gold collected   : 1536
+Bonus multiplier : 1.06
+Score            : 1621
+
+Seed : -1653744558411260477
+Cheesing it...
+Gold collected   : 594
+Bonus multiplier : 1.3
+Score            : 772
+
+Seed : -1885919480288001228
+Cheesing it...
+Gold collected   : 7278
+Bonus multiplier : 1.29
+Score            : 9380
+
+Seed : -5474470488157226247
+Cheesing it...
+Gold collected   : 10526
+Bonus multiplier : 1
+Score            : 10526
+
+Seed : 1718462179473691122
+Cheesing it...
+Gold collected   : 3545
+Bonus multiplier : 1.18
+Score            : 4175
+
+Seed : 3458343052426906092
+Cheesing it...
+Gold collected   : 3005
+Bonus multiplier : 1.13
+Score            : 3387
+
+Seed : 9127070400944873467
+Cheesing it...
+Gold collected   : 5236
+Bonus multiplier : 1.13
+Score            : 5939
+
+Seed : 7029200412576283856
+Cheesing it...
+Gold collected   : 5137
+Bonus multiplier : 1.26
+Score            : 6446
+
+Seed : -4419483909637104562
+Cheesing it...
+Gold collected   : 3727
+Bonus multiplier : 1.3
+Score            : 4845
+
+Seed : 5513294923574167589
+Cheesing it...
+Gold collected   : 3397
+Bonus multiplier : 1.29
+Score            : 4388
+
+Seed : 2750302007661268274
+Cheesing it...
+Gold collected   : 2212
+Bonus multiplier : 1.19
+Score            : 2632
+
+Seed : 8849435761769524727
+Cheesing it...
+Gold collected   : 4177
+Bonus multiplier : 1.22
+Score            : 5114
+
+Seed : 5464993522797866544
+Cheesing it...
+Gold collected   : 4239
+Bonus multiplier : 1
+Score            : 4239
+
+Seed : 3866077539233900410
+Cheesing it...
+Gold collected   : 7738
+Bonus multiplier : 1.08
+Score            : 8339
+
+Seed : 2137325251002198554
+Cheesing it...
+Gold collected   : 5922
+Bonus multiplier : 1
+Score            : 5922
+
+Seed : 4623689959011593373
+Cheesing it...
+Gold collected   : 2528
+Bonus multiplier : 1.28
+Score            : 3242
+
+Seed : -42441882743990781
+Cheesing it...
+Gold collected   : 7929
+Bonus multiplier : 1.27
+Score            : 10072
+
+Seed : -6424872819530201612
+Cheesing it...
+Gold collected   : 5516
+Bonus multiplier : 1.3
+Score            : 7170
+
+Seed : 4156231132086907946
+Cheesing it...
+Gold collected   : 2423
+Bonus multiplier : 1.29
+Score            : 3115
+
+Seed : -3263907413952872767
+Cheesing it...
+Gold collected   : 1772
+Bonus multiplier : 1.21
+Score            : 2146
+
+Seed : 4766302918650286424
+Cheesing it...
+Gold collected   : 3462
+Bonus multiplier : 1
+Score            : 3462
+
+Seed : -1758878148986588234
+Cheesing it...
+Gold collected   : 4127
+Bonus multiplier : 1.28
+Score            : 5290
+
+Seed : 3208322218951274771
+Cheesing it...
+Gold collected   : 6571
+Bonus multiplier : 1.29
+Score            : 8485
+
+Seed : 1597078510935529891
+Cheesing it...
+Gold collected   : 3902
+Bonus multiplier : 1.28
+Score            : 4975
+
+Seed : -4886967032129121971
+Cheesing it...
+Gold collected   : 3399
+Bonus multiplier : 1.28
+Score            : 4343
+
+Seed : 4720477362162555827
+Cheesing it...
+Gold collected   : 2747
+Bonus multiplier : 1.3
+Score            : 3571
+
+Seed : -1391595545114268570
+Cheesing it...
+Gold collected   : 4834
+Bonus multiplier : 1.3
+Score            : 6284
+
+Seed : -6324317154134611352
+Cheesing it...
+Gold collected   : 376
+Bonus multiplier : 1.22
+Score            : 457
+
+Seed : 3360121918303270964
+Cheesing it...
+Gold collected   : 5577
+Bonus multiplier : 1.3
+Score            : 7250
+
+Seed : -561433074140873402
+Cheesing it...
+Gold collected   : 6004
+Bonus multiplier : 1.28
+Score            : 7659
+
+Seed : 259764743895135049
+Cheesing it...
+Gold collected   : 9843
+Bonus multiplier : 1.25
+Score            : 12341
+
+Seed : 5972168055106511977
+Cheesing it...
+Gold collected   : 2164
+Bonus multiplier : 1.25
+Score            : 2700
+
+Seed : -5239541514108910701
+Cheesing it...
+Gold collected   : 7644
+Bonus multiplier : 1.25
+Score            : 9544
+
+Seed : 3645448801533076853
+Cheesing it...
+Gold collected   : 1711
+Bonus multiplier : 1.27
+Score            : 2173
+
+Seed : -538879351344047719
+Cheesing it...
+Gold collected   : 6964
+Bonus multiplier : 1
+Score            : 6964
+
+Seed : 1549417345824501345
+Cheesing it...
+Gold collected   : 1075
+Bonus multiplier : 1.22
+Score            : 1314
+
+Seed : 403142709443165063
+Cheesing it...
+Gold collected   : 10306
+Bonus multiplier : 1.17
+Score            : 12098
+
+Seed : 2042424884368866157
+Cheesing it...
+Gold collected   : 8105
+Bonus multiplier : 1.23
+Score            : 9928
+
+Seed : -6623327266862644041
+Cheesing it...
+Gold collected   : 2002
+Bonus multiplier : 1.29
+Score            : 2586
+
+Seed : 5399261335253352254
+Cheesing it...
+Gold collected   : 3377
+Bonus multiplier : 1.18
+Score            : 3984
+
+Seed : -6692637305611140791
+Cheesing it...
+Gold collected   : 7116
+Bonus multiplier : 1.09
+Score            : 7765
+
+Seed : -3035376087232900758
+Cheesing it...
+Gold collected   : 3783
+Bonus multiplier : 1.17
+Score            : 4436
+
+Seed : 6708384364909012495
+Cheesing it...
+Gold collected   : 914
+Bonus multiplier : 1.29
+Score            : 1174
+
+Seed : 8768092748177533249
+Cheesing it...
+Gold collected   : 1910
+Bonus multiplier : 1.23
+Score            : 2355
+
+Seed : 874334240921882088
+Cheesing it...
+Gold collected   : 1935
+Bonus multiplier : 1.29
+Score            : 2487
+
+Seed : -591577669523397852
+Cheesing it...
+Gold collected   : 4873
+Bonus multiplier : 1.23
+Score            : 6010
+
+Seed : -1731241020399366103
+Cheesing it...
+Gold collected   : 7706
+Bonus multiplier : 1.09
+Score            : 8419
+
+Seed : 6343626998483210824
+Cheesing it...
+Gold collected   : 8584
+Bonus multiplier : 1.16
+Score            : 9927
+
+Seed : -6546907699914868074
+Cheesing it...
+Gold collected   : 3608
+Bonus multiplier : 1.29
+Score            : 4660
+
+Seed : 2789265393132482852
+Cheesing it...
+Gold collected   : 2902
+Bonus multiplier : 1.3
+Score            : 3772
+
+Seed : 7970970226192431405
+Cheesing it...
+Gold collected   : 7247
+Bonus multiplier : 1.29
+Score            : 9313
+
+Seed : 5014447891095221384
+Cheesing it...
+Gold collected   : 10194
+Bonus multiplier : 1
+Score            : 10194
+
+Seed : 921469119403737680
+Cheesing it...
+Gold collected   : 2388
+Bonus multiplier : 1
+Score            : 2388
+
+Seed : -8868464917536958851
+Cheesing it...
+Gold collected   : 2288
+Bonus multiplier : 1.23
+Score            : 2812
+
+Seed : 4270482610995473699
+Cheesing it...
+Gold collected   : 1865
+Bonus multiplier : 1.28
+Score            : 2387
+
+Seed : 7008848076899966679
+Cheesing it...
+Gold collected   : 3943
+Bonus multiplier : 1.18
+Score            : 4641
+
+Seed : 2918344374896393595
+Cheesing it...
+Gold collected   : 3202
+Bonus multiplier : 1.3
+Score            : 4162
+
+Seed : 450250370710510020
+Cheesing it...
+Gold collected   : 5046
+Bonus multiplier : 1.14
+Score            : 5764
+
+Seed : 5739247739052309840
+Cheesing it...
+Gold collected   : 2842
+Bonus multiplier : 1.26
+Score            : 3586
+
+Seed : 357485306625395436
+Cheesing it...
+Gold collected   : 3739
+Bonus multiplier : 1.28
+Score            : 4795
+
+Seed : 3882684251069620790
+Cheesing it...
+Gold collected   : 322
+Bonus multiplier : 1
+Score            : 322
+
+Seed : -2143528217798071547
+Cheesing it...
+Gold collected   : 3948
+Bonus multiplier : 1.26
+Score            : 4991
+
+Seed : -4867282150782984011
+Cheesing it...
+Gold collected   : 5892
+Bonus multiplier : 1
+Score            : 5906
+
+Seed : -6479991320284577059
+Cheesing it...
+Gold collected   : 5179
+Bonus multiplier : 1.22
+Score            : 6327
+
+Seed : 5071354025457928405
+Cheesing it...
+Gold collected   : 886
+Bonus multiplier : 1.24
+Score            : 1099
+
+Seed : -7576801963578996555
+Cheesing it...
+Gold collected   : 4755
+Bonus multiplier : 1.23
+Score            : 5841
+
+Seed : 4494515501620537728
+Cheesing it...
+Gold collected   : 4114
+Bonus multiplier : 1.3
+Score            : 5348
+
+Seed : -6033630277161533315
+Cheesing it...
+Gold collected   : 6300
+Bonus multiplier : 1
+Score            : 6300
+
+Seed : 8951585956435033955
+Cheesing it...
+Gold collected   : 6490
+Bonus multiplier : 1.26
+Score            : 8161
+
+Seed : -1571892494038777439
+Cheesing it...
+Gold collected   : 2730
+Bonus multiplier : 1.24
+Score            : 3389
+
+Seed : -7222045805874228994
+Cheesing it...
+Gold collected   : 1960
+Bonus multiplier : 1
+Score            : 1960
+
+Seed : 4914882871941472509
+Cheesing it...
+Gold collected   : 1164
+Bonus multiplier : 1.27
+Score            : 1474
+
+Seed : 5727606592893622894
+Cheesing it...
+Gold collected   : 956
+Bonus multiplier : 1.24
+Score            : 1181
+
+Seed : -8161987924365994697
+Cheesing it...
+Gold collected   : 5793
+Bonus multiplier : 1.29
+Score            : 7460
+
+Seed : -6967199921584467258
+Cheesing it...
+Gold collected   : 1609
+Bonus multiplier : 1.25
+Score            : 2015
+
+Seed : 9159202744926054968
+Cheesing it...
+Gold collected   : 10813
+Bonus multiplier : 1.24
+Score            : 13417
+
+Seed : -5452823523742469782
+Cheesing it...
+Gold collected   : 5781
+Bonus multiplier : 1.24
+Score            : 7150
+
+Seed : -5265591956597781000
+Cheesing it...
+Gold collected   : 2433
+Bonus multiplier : 1.26
+Score            : 3058
+
+Seed : 6066264329826359766
+Cheesing it...
+Gold collected   : 334
+Bonus multiplier : 1.27
+Score            : 425
+
+Seed : 3687959052625567667
+Cheesing it...
+Gold collected   : 6118
+Bonus multiplier : 1.25
+Score            : 7663
+
+Seed : 846020875834146256
+Cheesing it...
+Gold collected   : 3084
+Bonus multiplier : 1.3
+Score            : 4009
+
+Seed : 4867696553457604702
+Cheesing it...
+Gold collected   : 4533
+Bonus multiplier : 1.3
+Score            : 5892
+
+Seed : 3364264239385124061
+Cheesing it...
+Gold collected   : 2945
+Bonus multiplier : 1.24
+Score            : 3640
+
+Seed : -1053072616438041545
+Cheesing it...
+Gold collected   : 2579
+Bonus multiplier : 1.23
+Score            : 3180
+
+Seed : -4803169989218936953
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.23
+Score            : 0
+
+Seed : 3805213901977646668
+Cheesing it...
+Gold collected   : 381
+Bonus multiplier : 1.15
+Score            : 439
+
+Seed : -8224444631531661573
+Cheesing it...
+Gold collected   : 3229
+Bonus multiplier : 1
+Score            : 3229
+
+Seed : 9120239889276384760
+Cheesing it...
+Gold collected   : 2292
+Bonus multiplier : 1.3
+Score            : 2979
+
+Seed : 9076292374756418208
+Cheesing it...
+Gold collected   : 540
+Bonus multiplier : 1.3
+Score            : 702
+
+Seed : 1850255519295127619
+Cheesing it...
+Gold collected   : 3854
+Bonus multiplier : 1.28
+Score            : 4922
+
+Seed : -3193095884975523533
+Cheesing it...
+Gold collected   : 3044
+Bonus multiplier : 1.25
+Score            : 3805
+
+Seed : 2436335326056616661
+Cheesing it...
+Gold collected   : 2342
+Bonus multiplier : 1
+Score            : 2342
+
+Seed : -6879908173348227945
+Cheesing it...
+Gold collected   : 13371
+Bonus multiplier : 1.02
+Score            : 13674
+
+Seed : 9058722832619181504
+Cheesing it...
+Gold collected   : 4509
+Bonus multiplier : 1
+Score            : 4509
+
+Seed : 2090853099618018499
+Cheesing it...
+Gold collected   : 1119
+Bonus multiplier : 1
+Score            : 1119
+
+Seed : 3220511452644583169
+Cheesing it...
+Gold collected   : 3281
+Bonus multiplier : 1
+Score            : 3281
+
+Seed : -7924798029184341884
+Cheesing it...
+Gold collected   : 632
+Bonus multiplier : 1.21
+Score            : 766
+
+Seed : 113918909906922303
+Cheesing it...
+Gold collected   : 2271
+Bonus multiplier : 1.19
+Score            : 2696
+
+Seed : 766799613590196458
+Cheesing it...
+Gold collected   : 541
+Bonus multiplier : 1.29
+Score            : 697
+
+Seed : -1827270242504001004
+Cheesing it...
+Gold collected   : 3904
+Bonus multiplier : 1.27
+Score            : 4969
+
+Seed : 4884891402816179264
+Cheesing it...
+Gold collected   : 942
+Bonus multiplier : 1
+Score            : 942
+
+Seed : 3112721629259029899
+Cheesing it...
+Gold collected   : 6386
+Bonus multiplier : 1.27
+Score            : 8124
+
+Seed : 4721134622342340952
+Cheesing it...
+Gold collected   : 10133
+Bonus multiplier : 1
+Score            : 10133
+
+Seed : 672743399886317315
+Cheesing it...
+Gold collected   : 20
+Bonus multiplier : 1.23
+Score            : 24
+
+Seed : -588635067711319119
+Cheesing it...
+Gold collected   : 4854
+Bonus multiplier : 1.27
+Score            : 6182
+
+Seed : 311815987673433132
+Cheesing it...
+Gold collected   : 7197
+Bonus multiplier : 1
+Score            : 7197
+
+Seed : 3282599359051429263
+Cheesing it...
+Gold collected   : 8818
+Bonus multiplier : 1.23
+Score            : 10875
+
+Seed : -2911225202780072220
+Cheesing it...
+Gold collected   : 2655
+Bonus multiplier : 1.14
+Score            : 3020
+
+Seed : 6333322316371825359
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1
+Score            : 0
+
+Seed : -371459316023780973
+Cheesing it...
+Gold collected   : 5056
+Bonus multiplier : 1.28
+Score            : 6480
+
+Seed : 1880114280820729000
+Cheesing it...
+Gold collected   : 9982
+Bonus multiplier : 1.27
+Score            : 12631
+
+Seed : -4353626979741329687
+Cheesing it...
+Gold collected   : 1473
+Bonus multiplier : 1
+Score            : 1473
+
+Seed : 5314120795930432522
+Cheesing it...
+Gold collected   : 891
+Bonus multiplier : 1.3
+Score            : 1158
+
+Seed : 4576607692329628032
+Cheesing it...
+Gold collected   : 396
+Bonus multiplier : 1
+Score            : 396
+
+Seed : 1577985680524523656
+Cheesing it...
+Gold collected   : 3432
+Bonus multiplier : 1.28
+Score            : 4378
+
+Seed : 5971397020245452398
+Cheesing it...
+Gold collected   : 4558
+Bonus multiplier : 1.24
+Score            : 5664
+
+Seed : 8363646814597621618
+Cheesing it...
+Gold collected   : 903
+Bonus multiplier : 1.27
+Score            : 1143
+
+Seed : 803797317094265249
+Cheesing it...
+Gold collected   : 2918
+Bonus multiplier : 1
+Score            : 2918
+
+Seed : 5563009149738930934
+Cheesing it...
+Gold collected   : 3923
+Bonus multiplier : 1.17
+Score            : 4576
+
+Seed : -6921261410733019643
+Cheesing it...
+Gold collected   : 3622
+Bonus multiplier : 1
+Score            : 3622
+
+Seed : 5501253457159573062
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.18
+Score            : 0
+
+Seed : 8495237982986522691
+Cheesing it...
+Gold collected   : 6309
+Bonus multiplier : 1.29
+Score            : 8158
+
+Seed : -5661952172600036721
+Cheesing it...
+Gold collected   : 4806
+Bonus multiplier : 1.06
+Score            : 5099
+
+Seed : 3927868399471139141
+Cheesing it...
+Gold collected   : 4983
+Bonus multiplier : 1.26
+Score            : 6278
+
+Seed : 544369286652259114
+Cheesing it...
+Gold collected   : 3005
+Bonus multiplier : 1.08
+Score            : 3240
+
+Seed : 8659273265064146126
+Cheesing it...
+Gold collected   : 2640
+Bonus multiplier : 1.3
+Score            : 3432
+
+Seed : -6658425681446696533
+Cheesing it...
+Gold collected   : 10146
+Bonus multiplier : 1.27
+Score            : 12845
+
+Seed : 1847838325105184842
+Cheesing it...
+Gold collected   : 4087
+Bonus multiplier : 1.26
+Score            : 5149
+
+Seed : 4079479729168503471
+Cheesing it...
+Gold collected   : 3662
+Bonus multiplier : 1.16
+Score            : 4258
+
+Seed : -9184049731293356629
+Cheesing it...
+Gold collected   : 5931
+Bonus multiplier : 1.14
+Score            : 6739
+
+Seed : -690035583952944111
+Cheesing it...
+Gold collected   : 5135
+Bonus multiplier : 1.23
+Score            : 6316
+
+Seed : 1871592108934100803
+Cheesing it...
+Gold collected   : 3404
+Bonus multiplier : 1.27
+Score            : 4330
+
+Seed : 1970902732773268240
+Cheesing it...
+Gold collected   : 3811
+Bonus multiplier : 1.08
+Score            : 4107
+
+Seed : 3014969202903884590
+Cheesing it...
+Gold collected   : 3268
+Bonus multiplier : 1.24
+Score            : 4066
+
+Seed : 2728296983734870427
+Cheesing it...
+Gold collected   : 825
+Bonus multiplier : 1.15
+Score            : 950
+
+Seed : 8724356805646289889
+Cheesing it...
+Gold collected   : 4511
+Bonus multiplier : 1.16
+Score            : 5227
+
+Seed : 1662332419634087599
+Cheesing it...
+Gold collected   : 4287
+Bonus multiplier : 1.3
+Score            : 5573
+
+Seed : 7572076453418974334
+Cheesing it...
+Gold collected   : 7169
+Bonus multiplier : 1.25
+Score            : 8946
+
+Seed : -7530220268557144213
+Cheesing it...
+Gold collected   : 5607
+Bonus multiplier : 1.19
+Score            : 6666
+
+Seed : -8413272668044819784
+Cheesing it...
+Gold collected   : 784
+Bonus multiplier : 1.29
+Score            : 1008
+
+Seed : 4696810142684853672
+Cheesing it...
+Gold collected   : 3872
+Bonus multiplier : 1.29
+Score            : 5005
+
+Seed : -1073031698275888208
+Cheesing it...
+Gold collected   : 5999
+Bonus multiplier : 1.24
+Score            : 7435
+
+Seed : -8258449193551846850
+Cheesing it...
+Gold collected   : 3074
+Bonus multiplier : 1
+Score            : 3074
+
+Seed : -8777509026811287564
+Cheesing it...
+Gold collected   : 3567
+Bonus multiplier : 1.14
+Score            : 4057
+
+Seed : -7573873127781347171
+Cheesing it...
+Gold collected   : 2154
+Bonus multiplier : 1
+Score            : 2154
+
+Seed : 796513090973982715
+Cheesing it...
+Gold collected   : 931
+Bonus multiplier : 1.3
+Score            : 1210
+
+Seed : -1189484153056297384
+Cheesing it...
+Gold collected   : 3625
+Bonus multiplier : 1.2
+Score            : 4358
+
+Seed : -8039618217155467953
+Cheesing it...
+Gold collected   : 4526
+Bonus multiplier : 1
+Score            : 4526
+
+Seed : 2251311687556839898
+Cheesing it...
+Gold collected   : 693
+Bonus multiplier : 1.28
+Score            : 888
+
+Seed : -562904567993414129
+Cheesing it...
+Gold collected   : 359
+Bonus multiplier : 1.24
+Score            : 443
+
+Seed : -7869516340840580746
+Cheesing it...
+Gold collected   : 4712
+Bonus multiplier : 1.25
+Score            : 5890
+
+Seed : -2207747840245632033
+Cheesing it...
+Gold collected   : 1121
+Bonus multiplier : 1.28
+Score            : 1434
+
+Seed : 2754791472939702674
+Cheesing it...
+Gold collected   : 4479
+Bonus multiplier : 1.26
+Score            : 5649
+
+Seed : -4557172139819094326
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.26
+Score            : 0
+
+Seed : 9073514992531604974
+Cheesing it...
+Gold collected   : 6567
+Bonus multiplier : 1.29
+Score            : 8499
+
+Seed : 3650138572873802317
+Cheesing it...
+Gold collected   : 6488
+Bonus multiplier : 1.3
+Score            : 8434
+
+Seed : 2477958458552728288
+Cheesing it...
+Gold collected   : 2009
+Bonus multiplier : 1.29
+Score            : 2599
+
+Seed : 1206076318751427038
+Cheesing it...
+Gold collected   : 1882
+Bonus multiplier : 1.29
+Score            : 2424
+
+Seed : -7504777435371458161
+Cheesing it...
+Gold collected   : 4249
+Bonus multiplier : 1
+Score            : 4249
+
+Seed : 2681579302951864304
+Cheesing it...
+Gold collected   : 4170
+Bonus multiplier : 1.3
+Score            : 5421
+
+Seed : -8861860149770030860
+Cheesing it...
+Gold collected   : 5252
+Bonus multiplier : 1.23
+Score            : 6438
+
+Seed : -4746115701982709062
+Cheesing it...
+Gold collected   : 4734
+Bonus multiplier : 1.28
+Score            : 6064
+
+Seed : 7278550361068944762
+Cheesing it...
+Gold collected   : 7855
+Bonus multiplier : 1.2
+Score            : 9398
+
+Seed : 6696401835599416828
+Cheesing it...
+Gold collected   : 3434
+Bonus multiplier : 1.11
+Score            : 3798
+
+Seed : -3616083941384139837
+Cheesing it...
+Gold collected   : 7120
+Bonus multiplier : 1.28
+Score            : 9126
+
+Seed : -1256740412373514381
+Cheesing it...
+Gold collected   : 2556
+Bonus multiplier : 1.29
+Score            : 3293
+
+Seed : 7093311975326717118
+Cheesing it...
+Gold collected   : 4812
+Bonus multiplier : 1.29
+Score            : 6218
+
+Seed : -4860803226681314169
+Cheesing it...
+Gold collected   : 3580
+Bonus multiplier : 1.28
+Score            : 4586
+
+Seed : 814230607101250433
+Cheesing it...
+Gold collected   : 3203
+Bonus multiplier : 1.28
+Score            : 4095
+
+Seed : -7036935250459018874
+Cheesing it...
+Gold collected   : 3098
+Bonus multiplier : 1.25
+Score            : 3863
+
+Seed : 7885854081061367595
+Cheesing it...
+Gold collected   : 2948
+Bonus multiplier : 1.29
+Score            : 3801
+
+Seed : -6142161032847025228
+Cheesing it...
+Gold collected   : 3645
+Bonus multiplier : 1.27
+Score            : 4643
+
+Seed : 5471230541376799062
+Cheesing it...
+Gold collected   : 382
+Bonus multiplier : 1.26
+Score            : 480
+
+Seed : -2268393596845920872
+Cheesing it...
+Gold collected   : 2889
+Bonus multiplier : 1.11
+Score            : 3204
+
+Seed : 1549654652746629083
+Cheesing it...
+Gold collected   : 3979
+Bonus multiplier : 1.11
+Score            : 4404
+
+Seed : 3183754137916289881
+Cheesing it...
+Gold collected   : 3598
+Bonus multiplier : 1.17
+Score            : 4210
+
+Seed : -5415736021521525643
+Cheesing it...
+Gold collected   : 29
+Bonus multiplier : 1
+Score            : 29
+
+Seed : 5200854656057899842
+Cheesing it...
+Gold collected   : 4393
+Bonus multiplier : 1.29
+Score            : 5664
+
+Seed : 8839577470711622514
+Cheesing it...
+Gold collected   : 3055
+Bonus multiplier : 1.28
+Score            : 3911
+
+Seed : 8707858526910611234
+Cheesing it...
+Gold collected   : 7527
+Bonus multiplier : 1
+Score            : 7527
+
+Seed : -3000046138501725486
+Cheesing it...
+Gold collected   : 3685
+Bonus multiplier : 1.28
+Score            : 4700
+
+Seed : -6034045470803878804
+Cheesing it...
+Gold collected   : 3001
+Bonus multiplier : 1.24
+Score            : 3726
+
+Seed : 9045883985868960862
+Cheesing it...
+Gold collected   : 2780
+Bonus multiplier : 1.3
+Score            : 3614
+
+Seed : 6810485893048751898
+Cheesing it...
+Gold collected   : 3095
+Bonus multiplier : 1.12
+Score            : 3462
+
+Seed : 5939942305195366198
+Cheesing it...
+Gold collected   : 4175
+Bonus multiplier : 1.3
+Score            : 5427
+
+Seed : 5131693918940912618
+Cheesing it...
+Gold collected   : 3128
+Bonus multiplier : 1.19
+Score            : 3716
+
+Seed : -8090801735419571659
+Cheesing it...
+Gold collected   : 4858
+Bonus multiplier : 1.24
+Score            : 6043
+
+Seed : 4508830019846205432
+Cheesing it...
+Gold collected   : 7148
+Bonus multiplier : 1
+Score            : 7148
+
+Seed : 4938370011979367917
+Cheesing it...
+Gold collected   : 887
+Bonus multiplier : 1
+Score            : 887
+
+Seed : 5209046636488316613
+Cheesing it...
+Gold collected   : 3742
+Bonus multiplier : 1.23
+Score            : 4592
+
+Seed : -7550967614714037293
+Cheesing it...
+Gold collected   : 4386
+Bonus multiplier : 1
+Score            : 4386
+
+Seed : -4205889845356303663
+Cheesing it...
+Gold collected   : 3456
+Bonus multiplier : 1.27
+Score            : 4386
+
+Seed : 4829338559332749053
+Cheesing it...
+Gold collected   : 4789
+Bonus multiplier : 1.2
+Score            : 5765
+
+Seed : 5856134921018139431
+Cheesing it...
+Gold collected   : 3595
+Bonus multiplier : 1
+Score            : 3595
+
+Seed : -8352613633756858550
+Cheesing it...
+Gold collected   : 1984
+Bonus multiplier : 1.12
+Score            : 2213
+
+Seed : -2339890309005265366
+Cheesing it...
+Gold collected   : 2938
+Bonus multiplier : 1.22
+Score            : 3591
+
+Seed : -2822698647690940823
+Cheesing it...
+Gold collected   : 8608
+Bonus multiplier : 1.3
+Score            : 11190
+
+Seed : -5445169102298889200
+Cheesing it...
+Gold collected   : 4074
+Bonus multiplier : 1.28
+Score            : 5219
+
+Seed : 3191671316368210093
+Cheesing it...
+Gold collected   : 6302
+Bonus multiplier : 1.3
+Score            : 8192
+
+Seed : -6403186354662875031
+Cheesing it...
+Gold collected   : 4585
+Bonus multiplier : 1.16
+Score            : 5323
+
+Seed : 6373756046391648643
+Cheesing it...
+Gold collected   : 1448
+Bonus multiplier : 1.3
+Score            : 1882
+
+Seed : -3304254483541578616
+Cheesing it...
+Gold collected   : 8865
+Bonus multiplier : 1.01
+Score            : 8991
+
+Seed : 8428424568385659960
+Cheesing it...
+Gold collected   : 2917
+Bonus multiplier : 1.19
+Score            : 3470
+
+Seed : 8545799689795923762
+Cheesing it...
+Gold collected   : 2661
+Bonus multiplier : 1.29
+Score            : 3439
+
+Seed : 7873519466015687664
+Cheesing it...
+Gold collected   : 6554
+Bonus multiplier : 1.19
+Score            : 7817
+
+Seed : -2650751728789033796
+Cheesing it...
+Gold collected   : 6418
+Bonus multiplier : 1.29
+Score            : 8282
+
+Seed : -7652139053012336047
+Cheesing it...
+Gold collected   : 2487
+Bonus multiplier : 1.29
+Score            : 3203
+
+Seed : 4916149885664680495
+Cheesing it...
+Gold collected   : 10181
+Bonus multiplier : 1.02
+Score            : 10341
+
+Seed : -8768580663238534921
+Cheesing it...
+Gold collected   : 4984
+Bonus multiplier : 1.28
+Score            : 6385
+
+Seed : 2138725594303983748
+Cheesing it...
+Gold collected   : 1466
+Bonus multiplier : 1
+Score            : 1466
+
+Seed : 4755094960516970621
+Cheesing it...
+Gold collected   : 10133
+Bonus multiplier : 1
+Score            : 10133
+
+Seed : 4641661476182147760
+Cheesing it...
+Gold collected   : 2824
+Bonus multiplier : 1.06
+Score            : 3005
+
+Seed : -2428756721655535454
+Cheesing it...
+Gold collected   : 2650
+Bonus multiplier : 1.14
+Score            : 3009
+
+Seed : -8126972362101407657
+Cheesing it...
+Gold collected   : 1244
+Bonus multiplier : 1
+Score            : 1244
+
+Seed : -1211599620456233912
+Cheesing it...
+Gold collected   : 4917
+Bonus multiplier : 1.29
+Score            : 6323
+
+Seed : -7614627211178978385
+Cheesing it...
+Gold collected   : 1428
+Bonus multiplier : 1.02
+Score            : 1461
+
+Seed : 7070886527241921465
+Cheesing it...
+Gold collected   : 5053
+Bonus multiplier : 1.22
+Score            : 6177
+
+Seed : -8261498582614410247
+Cheesing it...
+Gold collected   : 1871
+Bonus multiplier : 1.29
+Score            : 2409
+
+Seed : -7883310631638005115
+Cheesing it...
+Gold collected   : 2397
+Bonus multiplier : 1.17
+Score            : 2812
+
+Seed : -8433364941186556443
+Cheesing it...
+Gold collected   : 6219
+Bonus multiplier : 1.3
+Score            : 8084
+
+Seed : 8541143617685134694
+Cheesing it...
+Gold collected   : 6654
+Bonus multiplier : 1.2
+Score            : 7960
+
+Seed : 7590591264707566486
+Cheesing it...
+Gold collected   : 399
+Bonus multiplier : 1.28
+Score            : 511
+
+Seed : 565171450518363372
+Cheesing it...
+Gold collected   : 4054
+Bonus multiplier : 1.28
+Score            : 5189
+
+Seed : -2932356819205089513
+Cheesing it...
+Gold collected   : 1951
+Bonus multiplier : 1.25
+Score            : 2429
+
+Seed : -5857249039933527761
+Cheesing it...
+Gold collected   : 5464
+Bonus multiplier : 1
+Score            : 5464
+
+Seed : -6358482704464886732
+Cheesing it...
+Gold collected   : 8190
+Bonus multiplier : 1.3
+Score            : 10647
+
+Seed : -7824180931280842899
+Cheesing it...
+Gold collected   : 3251
+Bonus multiplier : 1.3
+Score            : 4226
+
+Seed : 1926489477972641003
+Cheesing it...
+Gold collected   : 6815
+Bonus multiplier : 1.3
+Score            : 8859
+
+Seed : -8889142568336586111
+Cheesing it...
+Gold collected   : 3138
+Bonus multiplier : 1.23
+Score            : 3870
+
+Seed : 3586437994660019612
+Cheesing it...
+Gold collected   : 4326
+Bonus multiplier : 1
+Score            : 4326
+
+Seed : -6191551556127554889
+Cheesing it...
+Gold collected   : 6380
+Bonus multiplier : 1.3
+Score            : 8294
+
+Seed : 2487348714902802646
+Cheesing it...
+Gold collected   : 7203
+Bonus multiplier : 1
+Score            : 7203
+
+Seed : 8155609617208454095
+Cheesing it...
+Gold collected   : 3459
+Bonus multiplier : 1.28
+Score            : 4412
+
+Seed : -6931864841350084161
+Cheesing it...
+Gold collected   : 2473
+Bonus multiplier : 1.25
+Score            : 3091
+
+Seed : 4518968347712445866
+Cheesing it...
+Gold collected   : 5190
+Bonus multiplier : 1.26
+Score            : 6548
+
+Seed : -3477347083446959099
+Cheesing it...
+Gold collected   : 2411
+Bonus multiplier : 1.2
+Score            : 2882
+
+Seed : 3215163081770297913
+Cheesing it...
+Gold collected   : 3826
+Bonus multiplier : 1.08
+Score            : 4118
+
+Seed : 8213576694872578503
+Cheesing it...
+Gold collected   : 10358
+Bonus multiplier : 1.2
+Score            : 12401
+
+Seed : -5354063822066653319
+Cheesing it...
+Gold collected   : 9142
+Bonus multiplier : 1.26
+Score            : 11544
+
+Seed : 8956123259242681979
+Cheesing it...
+Gold collected   : 2307
+Bonus multiplier : 1
+Score            : 2307
+
+Seed : -1156030745641465494
+Cheesing it...
+Gold collected   : 5173
+Bonus multiplier : 1.25
+Score            : 6452
+
+Seed : -1060697266007910316
+Cheesing it...
+Gold collected   : 4021
+Bonus multiplier : 1.18
+Score            : 4744
+
+Seed : -8458951243854908122
+Cheesing it...
+Gold collected   : 5037
+Bonus multiplier : 1.14
+Score            : 5718
+
+Seed : 1617455572132936222
+Cheesing it...
+Gold collected   : 4489
+Bonus multiplier : 1.16
+Score            : 5214
+
+Seed : 7776757556827582365
+Cheesing it...
+Gold collected   : 2252
+Bonus multiplier : 1.28
+Score            : 2871
+
+Seed : -7313247451788896973
+Cheesing it...
+Gold collected   : 1706
+Bonus multiplier : 1
+Score            : 1706
+
+Seed : 4126089219633782508
+Cheesing it...
+Gold collected   : 3863
+Bonus multiplier : 1.27
+Score            : 4923
+
+Seed : 4411983602730243576
+Cheesing it...
+Gold collected   : 4778
+Bonus multiplier : 1.29
+Score            : 6163
+
+Seed : -448301890999231123
+Cheesing it...
+Gold collected   : 2895
+Bonus multiplier : 1
+Score            : 2895
+
+Seed : 6607101031941888648
+Cheesing it...
+Gold collected   : 3102
+Bonus multiplier : 1.27
+Score            : 3924
+
+Seed : 8269446561292192553
+Cheesing it...
+Gold collected   : 3112
+Bonus multiplier : 1.06
+Score            : 3284
+
+Seed : 8543867619836162790
+Cheesing it...
+Gold collected   : 13417
+Bonus multiplier : 1.2
+Score            : 16100
+
+Seed : -2682704060083009516
+Cheesing it...
+Gold collected   : 5400
+Bonus multiplier : 1.29
+Score            : 6966
+
+Seed : 6862716835385562530
+Cheesing it...
+Gold collected   : 4238
+Bonus multiplier : 1.21
+Score            : 5126
+
+Seed : -5618932704026224660
+Cheesing it...
+Gold collected   : 7147
+Bonus multiplier : 1.27
+Score            : 9097
+
+Seed : -8130606302187648375
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.23
+Score            : 0
+
+Seed : -637782075283378639
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.3
+Score            : 0
+
+Seed : 2956238880795001971
+Cheesing it...
+Gold collected   : 4430
+Bonus multiplier : 1
+Score            : 4430
+
+Seed : -4967148597653842768
+Cheesing it...
+Gold collected   : 2167
+Bonus multiplier : 1.11
+Score            : 2400
+
+Seed : 331256224562826608
+Cheesing it...
+Gold collected   : 2310
+Bonus multiplier : 1.3
+Score            : 3003
+
+Seed : 3458162499507742794
+Cheesing it...
+Gold collected   : 4225
+Bonus multiplier : 1.29
+Score            : 5445
+
+Seed : 5978960056901779318
+Cheesing it...
+Gold collected   : 1809
+Bonus multiplier : 1.2
+Score            : 2177
+
+Seed : 3186872220951805688
+Cheesing it...
+Gold collected   : 3564
+Bonus multiplier : 1.16
+Score            : 4134
+
+Seed : 5441834116770062469
+Cheesing it...
+Gold collected   : 1363
+Bonus multiplier : 1
+Score            : 1363
+
+Seed : 146790120773101757
+Cheesing it...
+Gold collected   : 2962
+Bonus multiplier : 1.27
+Score            : 3751
+
+Seed : 2826530277025606998
+Cheesing it...
+Gold collected   : 918
+Bonus multiplier : 1
+Score            : 918
+
+Seed : 384341173753963048
+Cheesing it...
+Gold collected   : 3023
+Bonus multiplier : 1.29
+Score            : 3905
+
+Seed : -6428707963280732350
+Cheesing it...
+Gold collected   : 5784
+Bonus multiplier : 1.21
+Score            : 7026
+
+Seed : 9134018389260999654
+Cheesing it...
+Gold collected   : 5267
+Bonus multiplier : 1.12
+Score            : 5902
+
+Seed : -696532850824332221
+Cheesing it...
+Gold collected   : 4721
+Bonus multiplier : 1
+Score            : 4721
+
+Seed : 1230122107374563713
+Cheesing it...
+Gold collected   : 2831
+Bonus multiplier : 1.25
+Score            : 3538
+
+Seed : -4932491868162860628
+Cheesing it...
+Gold collected   : 1153
+Bonus multiplier : 1.3
+Score            : 1498
+
+Seed : 8293782422790514267
+Cheesing it...
+Gold collected   : 10487
+Bonus multiplier : 1.06
+Score            : 11132
+
+Seed : -6666890231172120321
+Cheesing it...
+Gold collected   : 2731
+Bonus multiplier : 1.29
+Score            : 3524
+
+Seed : 2833079331897287436
+Cheesing it...
+Gold collected   : 4853
+Bonus multiplier : 1.27
+Score            : 6155
+
+Seed : 8027455638751214579
+Cheesing it...
+Gold collected   : 2368
+Bonus multiplier : 1.27
+Score            : 2997
+
+Seed : 2713433597135141408
+Cheesing it...
+Gold collected   : 1446
+Bonus multiplier : 1.15
+Score            : 1669
+
+Seed : -3952607016726100856
+Cheesing it...
+Gold collected   : 3433
+Bonus multiplier : 1.29
+Score            : 4428
+
+Seed : 8151550999418788593
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.24
+Score            : 0
+
+Seed : 6985737959336111013
+Cheesing it...
+Gold collected   : 5323
+Bonus multiplier : 1
+Score            : 5323
+
+Seed : -4611516753253768093
+Cheesing it...
+Gold collected   : 964
+Bonus multiplier : 1
+Score            : 964
+
+Seed : -1572372670175473309
+Cheesing it...
+Gold collected   : 2733
+Bonus multiplier : 1.17
+Score            : 3200
+
+Seed : 761472381342671049
+Cheesing it...
+Gold collected   : 2563
+Bonus multiplier : 1
+Score            : 2563
+
+Seed : -8561867925880849754
+Cheesing it...
+Gold collected   : 2777
+Bonus multiplier : 1.13
+Score            : 3149
+
+Seed : 5445781544901007882
+Cheesing it...
+Gold collected   : 1947
+Bonus multiplier : 1.29
+Score            : 2502
+
+Seed : -412892840139829899
+Cheesing it...
+Gold collected   : 873
+Bonus multiplier : 1.3
+Score            : 1131
+
+Seed : 3868273068381138933
+Cheesing it...
+Gold collected   : 4418
+Bonus multiplier : 1.22
+Score            : 5396
+
+Seed : 851791609513245486
+Cheesing it...
+Gold collected   : 3437
+Bonus multiplier : 1.26
+Score            : 4318
+
+Seed : 3001474056140870070
+Cheesing it...
+Gold collected   : 5419
+Bonus multiplier : 1.3
+Score            : 7044
+
+Seed : -8965242443503483072
+Cheesing it...
+Gold collected   : 4100
+Bonus multiplier : 1.27
+Score            : 5205
+
+Seed : -4319427771573208017
+Cheesing it...
+Gold collected   : 1353
+Bonus multiplier : 1.3
+Score            : 1758
+
+Seed : 3415082267480385620
+Cheesing it...
+Gold collected   : 1467
+Bonus multiplier : 1.24
+Score            : 1824
+
+Seed : 8596100190166194468
+Cheesing it...
+Gold collected   : 5340
+Bonus multiplier : 1
+Score            : 5340
+
+Seed : -6021321885318440467
+Cheesing it...
+Gold collected   : 1456
+Bonus multiplier : 1.21
+Score            : 1758
+
+Seed : -4974627130947312859
+Cheesing it...
+Gold collected   : 4796
+Bonus multiplier : 1.21
+Score            : 5817
+
+Seed : 2602882874209329915
+Cheesing it...
+Gold collected   : 3699
+Bonus multiplier : 1.21
+Score            : 4473
+
+Seed : -4090770736127445422
+Cheesing it...
+Gold collected   : 1912
+Bonus multiplier : 1
+Score            : 1912
+
+Seed : -5734957195516399846
+Cheesing it...
+Gold collected   : 1987
+Bonus multiplier : 1.2
+Score            : 2393
+
+Seed : 460335571588748230
+Cheesing it...
+Gold collected   : 3358
+Bonus multiplier : 1
+Score            : 3358
+
+Seed : -6687246650849325093
+Cheesing it...
+Gold collected   : 8254
+Bonus multiplier : 1.25
+Score            : 10341
+
+Seed : -7677364584760147353
+Cheesing it...
+Gold collected   : 6542
+Bonus multiplier : 1
+Score            : 6542
+
+Seed : 2830639507084136630
+Cheesing it...
+Gold collected   : 1796
+Bonus multiplier : 1.3
+Score            : 2334
+
+Seed : 2459620543289658730
+Cheesing it...
+Gold collected   : 1137
+Bonus multiplier : 1.25
+Score            : 1416
+
+Seed : -4748537516584262818
+Cheesing it...
+Gold collected   : 4084
+Bonus multiplier : 1.29
+Score            : 5250
+
+Seed : 7767567218532170423
+Cheesing it...
+Gold collected   : 4319
+Bonus multiplier : 1.18
+Score            : 5096
+
+Seed : -6826542377463646949
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.26
+Score            : 0
+
+Seed : -8779858613167593339
+Cheesing it...
+Gold collected   : 986
+Bonus multiplier : 1.22
+Score            : 1201
+
+Seed : -8197040349598186931
+Cheesing it...
+Gold collected   : 4300
+Bonus multiplier : 1.28
+Score            : 5510
+
+Seed : 7323206902472490243
+Cheesing it...
+Gold collected   : 3527
+Bonus multiplier : 1.27
+Score            : 4493
+
+Seed : 4791106780800092652
+Cheesing it...
+Gold collected   : 593
+Bonus multiplier : 1.12
+Score            : 665
+
+Seed : -5287820372469558455
+Cheesing it...
+Gold collected   : 4076
+Bonus multiplier : 1.27
+Score            : 5157
+
+Seed : -4270830735616154106
+Cheesing it...
+Gold collected   : 3854
+Bonus multiplier : 1.25
+Score            : 4824
+
+Seed : 2796481339906588725
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.3
+Score            : 0
+
+Seed : -1229148777378492849
+Cheesing it...
+Gold collected   : 1453
+Bonus multiplier : 1.29
+Score            : 1879
+
+Seed : -5837023644654723151
+Cheesing it...
+Gold collected   : 2917
+Bonus multiplier : 1.16
+Score            : 3388
+
+Seed : -1546576733571931874
+Cheesing it...
+Gold collected   : 6272
+Bonus multiplier : 1.08
+Score            : 6773
+
+Seed : 9157600161394378516
+Cheesing it...
+Gold collected   : 1316
+Bonus multiplier : 1.14
+Score            : 1500
+
+Seed : 3094512387038048905
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.18
+Score            : 0
+
+Seed : 346013409905112560
+Cheesing it...
+Gold collected   : 1069
+Bonus multiplier : 1.25
+Score            : 1338
+
+Seed : -3834670744661849931
+Cheesing it...
+Gold collected   : 4590
+Bonus multiplier : 1.06
+Score            : 4870
+
+Seed : 2685506674668156633
+Cheesing it...
+Gold collected   : 6282
+Bonus multiplier : 1.25
+Score            : 7862
+
+Seed : -185143047043240749
+Cheesing it...
+Gold collected   : 1586
+Bonus multiplier : 1.2
+Score            : 1909
+
+Seed : 6265528554381887002
+Cheesing it...
+Gold collected   : 2280
+Bonus multiplier : 1.09
+Score            : 2479
+
+Seed : 6109043407482914595
+Cheesing it...
+Gold collected   : 10109
+Bonus multiplier : 1.3
+Score            : 13141
+
+Seed : -2597047919858212047
+Cheesing it...
+Gold collected   : 978
+Bonus multiplier : 1.27
+Score            : 1238
+
+Seed : 1927317811786629735
+Cheesing it...
+Gold collected   : 3783
+Bonus multiplier : 1.28
+Score            : 4849
+
+Seed : 5479326210041020824
+Cheesing it...
+Gold collected   : 224
+Bonus multiplier : 1.22
+Score            : 272
+
+Seed : 5504845531176828694
+Cheesing it...
+Gold collected   : 5274
+Bonus multiplier : 1
+Score            : 5274
+
+Seed : -5786950969144640849
+Cheesing it...
+Gold collected   : 2737
+Bonus multiplier : 1.28
+Score            : 3515
+
+Seed : -7804275200634325060
+Cheesing it...
+Gold collected   : 4902
+Bonus multiplier : 1.16
+Score            : 5686
+
+Seed : 2441956987500689727
+Cheesing it...
+Gold collected   : 2944
+Bonus multiplier : 1.3
+Score            : 3827
+
+Seed : -3730805031185110579
+Cheesing it...
+Gold collected   : 3679
+Bonus multiplier : 1.29
+Score            : 4741
+
+Seed : 7564105983059810478
+Cheesing it...
+Gold collected   : 6800
+Bonus multiplier : 1
+Score            : 6800
+
+Seed : 2456064823208311086
+Cheesing it...
+Gold collected   : 1710
+Bonus multiplier : 1.3
+Score            : 2223
+
+Seed : -65348540812985803
+Cheesing it...
+Gold collected   : 223
+Bonus multiplier : 1.23
+Score            : 275
+
+Seed : 616762096410651454
+Cheesing it...
+Gold collected   : 1407
+Bonus multiplier : 1.23
+Score            : 1732
+
+Seed : 9116456091971285457
+Cheesing it...
+Gold collected   : 10898
+Bonus multiplier : 1.24
+Score            : 13489
+
+Seed : 3830936705371200678
+Cheesing it...
+Gold collected   : 2245
+Bonus multiplier : 1.21
+Score            : 2718
+
+Seed : 1294534319174681804
+Cheesing it...
+Gold collected   : 1119
+Bonus multiplier : 1.2
+Score            : 1347
+
+Seed : 1093561581549777478
+Cheesing it...
+Gold collected   : 1741
+Bonus multiplier : 1.3
+Score            : 2263
+
+Seed : 7273200874333765754
+Cheesing it...
+Gold collected   : 4296
+Bonus multiplier : 1.29
+Score            : 5543
+
+Seed : -5307754843787770427
+Cheesing it...
+Gold collected   : 1798
+Bonus multiplier : 1
+Score            : 1798
+
+Seed : 1804620023101485537
+Cheesing it...
+Gold collected   : 3738
+Bonus multiplier : 1
+Score            : 3738
+
+Seed : 3827202653112850260
+Cheesing it...
+Gold collected   : 1896
+Bonus multiplier : 1.17
+Score            : 2218
+
+Seed : 4138652329001463541
+Cheesing it...
+Gold collected   : 4274
+Bonus multiplier : 1.29
+Score            : 5495
+
+Seed : 8113908209138361678
+Cheesing it...
+Gold collected   : 3113
+Bonus multiplier : 1.28
+Score            : 3990
+
+Seed : 173791812586519981
+Cheesing it...
+Gold collected   : 7009
+Bonus multiplier : 1.29
+Score            : 9057
+
+Seed : 2303873514711969844
+Cheesing it...
+Gold collected   : 2013
+Bonus multiplier : 1.3
+Score            : 2616
+
+Seed : -1189221198397923255
+Cheesing it...
+Gold collected   : 4127
+Bonus multiplier : 1.25
+Score            : 5158
+
+Seed : -5432611219832682487
+Cheesing it...
+Gold collected   : 568
+Bonus multiplier : 1.24
+Score            : 703
+
+Seed : -2650842289352018695
+Cheesing it...
+Gold collected   : 2392
+Bonus multiplier : 1.2
+Score            : 2860
+
+Seed : 6811733081970175335
+Cheesing it...
+Gold collected   : 4365
+Bonus multiplier : 1.11
+Score            : 4834
+
+Seed : 8794947357531164729
+Cheesing it...
+Gold collected   : 11548
+Bonus multiplier : 1.23
+Score            : 14242
+
+Seed : -4413104508055033444
+Cheesing it...
+Gold collected   : 1676
+Bonus multiplier : 1.17
+Score            : 1967
+
+Seed : 7244032615986284545
+Cheesing it...
+Gold collected   : 6437
+Bonus multiplier : 1.25
+Score            : 8024
+
+Seed : -4138567179372213896
+Cheesing it...
+Gold collected   : 1209
+Bonus multiplier : 1.29
+Score            : 1563
+
+Seed : 2958723334285223184
+Cheesing it...
+Gold collected   : 8522
+Bonus multiplier : 1.23
+Score            : 10499
+
+Seed : -4663429014769536484
+Cheesing it...
+Gold collected   : 1217
+Bonus multiplier : 1.3
+Score            : 1582
+
+Seed : 1048860064593194017
+Cheesing it...
+Gold collected   : 1161
+Bonus multiplier : 1.04
+Score            : 1205
+
+Seed : 3439056961610116158
+Cheesing it...
+Gold collected   : 2448
+Bonus multiplier : 1.19
+Score            : 2921
+
+Seed : -6298690215358372311
+Cheesing it...
+Gold collected   : 312
+Bonus multiplier : 1.29
+Score            : 403
+
+Seed : -3387611142562718119
+Cheesing it...
+Gold collected   : 4526
+Bonus multiplier : 1.12
+Score            : 5079
+
+Seed : -7134875315567180732
+Cheesing it...
+Gold collected   : 1112
+Bonus multiplier : 1
+Score            : 1112
+
+Seed : -6561200626135164295
+Cheesing it...
+Gold collected   : 5299
+Bonus multiplier : 1.29
+Score            : 6844
+
+Seed : 4880652991826568096
+Cheesing it...
+Gold collected   : 2773
+Bonus multiplier : 1.29
+Score            : 3572
+
+Seed : 6187707944639428119
+Cheesing it...
+Gold collected   : 1042
+Bonus multiplier : 1.16
+Score            : 1212
+
+Seed : 3489451124142011273
+Cheesing it...
+Gold collected   : 5186
+Bonus multiplier : 1.21
+Score            : 6263
+
+Seed : -3956375267062350131
+Cheesing it...
+Gold collected   : 2222
+Bonus multiplier : 1.28
+Score            : 2853
+
+Seed : 6748537732106200956
+Cheesing it...
+Gold collected   : 826
+Bonus multiplier : 1.3
+Score            : 1073
+
+Seed : -4365555740493961928
+Cheesing it...
+Gold collected   : 2158
+Bonus multiplier : 1.12
+Score            : 2427
+
+Seed : 7480230547450745704
+Cheesing it...
+Gold collected   : 1466
+Bonus multiplier : 1
+Score            : 1466
+
+Seed : 8084008149901003207
+Cheesing it...
+Gold collected   : 874
+Bonus multiplier : 1.22
+Score            : 1068
+
+Seed : -5658506135952529617
+Cheesing it...
+Gold collected   : 5800
+Bonus multiplier : 1
+Score            : 5800
+
+Seed : -6208648937258702523
+Cheesing it...
+Gold collected   : 1035
+Bonus multiplier : 1.3
+Score            : 1345
+
+Seed : -7723524750192544263
+Cheesing it...
+Gold collected   : 1276
+Bonus multiplier : 1.24
+Score            : 1585
+
+Seed : -1011274734727968810
+Cheesing it...
+Gold collected   : 707
+Bonus multiplier : 1
+Score            : 707
+
+Seed : 8494014542598358353
+Cheesing it...
+Gold collected   : 9637
+Bonus multiplier : 1.28
+Score            : 12309
+
+Seed : 6894440943611888295
+Cheesing it...
+Gold collected   : 5938
+Bonus multiplier : 1.09
+Score            : 6496
+
+Seed : 139437051987117450
+Cheesing it...
+Gold collected   : 8333
+Bonus multiplier : 1.2
+Score            : 9999
+
+Seed : -9193988763249292668
+Cheesing it...
+Gold collected   : 126
+Bonus multiplier : 1.24
+Score            : 155
+
+Seed : 8062349645120680638
+Cheesing it...
+Gold collected   : 3953
+Bonus multiplier : 1
+Score            : 3953
+
+Seed : 6011199300255485149
+Cheesing it...
+Gold collected   : 2122
+Bonus multiplier : 1.3
+Score            : 2758
+
+Seed : -7524288242684232767
+Cheesing it...
+Gold collected   : 4005
+Bonus multiplier : 1.15
+Score            : 4623
+
+Seed : -4470449574685798719
+Cheesing it...
+Gold collected   : 2595
+Bonus multiplier : 1.28
+Score            : 3321
+
+Seed : -71148783515485274
+Cheesing it...
+Gold collected   : 5549
+Bonus multiplier : 1.29
+Score            : 7175
+
+Seed : 8554409591305749142
+Cheesing it...
+Gold collected   : 4193
+Bonus multiplier : 1.01
+Score            : 4215
+
+Seed : -5699400679059612216
+Cheesing it...
+Gold collected   : 4392
+Bonus multiplier : 1
+Score            : 4392
+
+Seed : -6893926758276913951
+Cheesing it...
+Gold collected   : 7938
+Bonus multiplier : 1.07
+Score            : 8487
+
+Seed : 8715929764597763027
+Cheesing it...
+Gold collected   : 3092
+Bonus multiplier : 1
+Score            : 3092
+
+Seed : 2135690239759707582
+Cheesing it...
+Gold collected   : 4084
+Bonus multiplier : 1.29
+Score            : 5282
+
+Seed : -4188400871885274152
+Cheesing it...
+Gold collected   : 1135
+Bonus multiplier : 1.29
+Score            : 1468
+
+Seed : -8708012275543926569
+Cheesing it...
+Gold collected   : 7823
+Bonus multiplier : 1.15
+Score            : 8996
+
+Seed : -2107196468441199937
+Cheesing it...
+Gold collected   : 1910
+Bonus multiplier : 1.3
+Score            : 2483
+
+Seed : 3763675154234884816
+Cheesing it...
+Gold collected   : 6513
+Bonus multiplier : 1
+Score            : 6513
+
+Seed : -7313917218809075073
+Cheesing it...
+Gold collected   : 826
+Bonus multiplier : 1.12
+Score            : 923
+
+Seed : 4064424457747479680
+Cheesing it...
+Gold collected   : 4173
+Bonus multiplier : 1.27
+Score            : 5293
+
+Seed : -7164479476056549649
+Cheesing it...
+Gold collected   : 1397
+Bonus multiplier : 1.14
+Score            : 1589
+
+Seed : 4871087645296216217
+Cheesing it...
+Gold collected   : 6574
+Bonus multiplier : 1.18
+Score            : 7786
+
+Seed : -695964949998705895
+Cheesing it...
+Gold collected   : 1551
+Bonus multiplier : 1.25
+Score            : 1934
+
+Seed : -8286963609228002573
+Cheesing it...
+Gold collected   : 6677
+Bonus multiplier : 1
+Score            : 6677
+
+Seed : -2024947286349622791
+Cheesing it...
+Gold collected   : 1958
+Bonus multiplier : 1.29
+Score            : 2529
+
+Seed : -9105046559553500687
+Cheesing it...
+Gold collected   : 2088
+Bonus multiplier : 1.29
+Score            : 2700
+
+Seed : 1387784221935555763
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.2
+Score            : 0
+
+Seed : 3460005721263946310
+Cheesing it...
+Gold collected   : 3721
+Bonus multiplier : 1.29
+Score            : 4814
+
+Seed : 6438410207702079598
+Cheesing it...
+Gold collected   : 7968
+Bonus multiplier : 1
+Score            : 7968
+
+Seed : 4661859372931243983
+Cheesing it...
+Gold collected   : 2205
+Bonus multiplier : 1.25
+Score            : 2752
+
+Seed : -3664165393445433578
+Cheesing it...
+Gold collected   : 8599
+Bonus multiplier : 1.21
+Score            : 10373
+
+Seed : -3238014150403327649
+Cheesing it...
+Gold collected   : 4181
+Bonus multiplier : 1
+Score            : 4181
+
+Seed : -2541948750678671554
+Cheesing it...
+Gold collected   : 1399
+Bonus multiplier : 1.23
+Score            : 1715
+
+Seed : -8328171072457251506
+Cheesing it...
+Gold collected   : 5481
+Bonus multiplier : 1.3
+Score            : 7125
+
+Seed : 8421652276745091767
+Cheesing it...
+Gold collected   : 2246
+Bonus multiplier : 1.25
+Score            : 2816
+
+Seed : -6197544645356321294
+Cheesing it...
+Gold collected   : 3984
+Bonus multiplier : 1
+Score            : 3984
+
+Seed : -4216598351640663148
+Cheesing it...
+Gold collected   : 3729
+Bonus multiplier : 1.21
+Score            : 4516
+
+Seed : 6377056060582598039
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.2
+Score            : 0
+
+Seed : -4083329061076571228
+Cheesing it...
+Gold collected   : 3209
+Bonus multiplier : 1.29
+Score            : 4136
+
+Seed : -1842539840192404370
+Cheesing it...
+Gold collected   : 1072
+Bonus multiplier : 1.29
+Score            : 1382
+
+Seed : -8542097970531819799
+Cheesing it...
+Gold collected   : 3291
+Bonus multiplier : 1.29
+Score            : 4257
+
+Seed : -6528899753448541118
+Cheesing it...
+Gold collected   : 4677
+Bonus multiplier : 1.27
+Score            : 5917
+
+Seed : -5250489000793160535
+Cheesing it...
+Gold collected   : 1995
+Bonus multiplier : 1.3
+Score            : 2593
+
+Seed : -6204812212430388787
+Cheesing it...
+Gold collected   : 8341
+Bonus multiplier : 1.14
+Score            : 9478
+
+Seed : -7430826984674941826
+Cheesing it...
+Gold collected   : 854
+Bonus multiplier : 1.28
+Score            : 1091
+
+Seed : -2974469639829686434
+Cheesing it...
+Gold collected   : 3807
+Bonus multiplier : 1.11
+Score            : 4213
+
+Seed : 841364305459166080
+Cheesing it...
+Gold collected   : 2808
+Bonus multiplier : 1.24
+Score            : 3485
+
+Seed : 6566979925986472424
+Cheesing it...
+Gold collected   : 6937
+Bonus multiplier : 1.3
+Score            : 9018
+
+Seed : -4751744701783145903
+Cheesing it...
+Gold collected   : 3974
+Bonus multiplier : 1
+Score            : 3974
+
+Seed : 2488579435196104356
+Cheesing it...
+Gold collected   : 1454
+Bonus multiplier : 1.09
+Score            : 1589
+
+Seed : -1806495011836212698
+Cheesing it...
+Gold collected   : 4353
+Bonus multiplier : 1.29
+Score            : 5632
+
+Seed : -8294750615764891541
+Cheesing it...
+Gold collected   : 1805
+Bonus multiplier : 1
+Score            : 1805
+
+Seed : -4917450013690076367
+Cheesing it...
+Gold collected   : 8451
+Bonus multiplier : 1.15
+Score            : 9718
+
+Seed : -2970875055509626118
+Cheesing it...
+Gold collected   : 4217
+Bonus multiplier : 1.24
+Score            : 5210
+
+Seed : -8154830727211658614
+Cheesing it...
+Gold collected   : 4223
+Bonus multiplier : 1.3
+Score            : 5489
+
+Seed : 1578236280519140140
+Cheesing it...
+Gold collected   : 3128
+Bonus multiplier : 1.16
+Score            : 3637
+
+Seed : 1740137714553796314
+Cheesing it...
+Gold collected   : 327
+Bonus multiplier : 1
+Score            : 327
+
+Seed : -4460994591139355800
+Cheesing it...
+Gold collected   : 732
+Bonus multiplier : 1.18
+Score            : 865
+
+Seed : 2722620905494787536
+Cheesing it...
+Gold collected   : 1157
+Bonus multiplier : 1.16
+Score            : 1338
+
+Seed : -2298007652526362940
+Cheesing it...
+Gold collected   : 1357
+Bonus multiplier : 1.06
+Score            : 1441
+
+Seed : -3830579989102360522
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.17
+Score            : 0
+
+Seed : 5704121284498125799
+Cheesing it...
+Gold collected   : 1423
+Bonus multiplier : 1.29
+Score            : 1834
+
+Seed : -8990055631890588125
+Cheesing it...
+Gold collected   : 3111
+Bonus multiplier : 1.29
+Score            : 4011
+
+Seed : 4726323111538211159
+Cheesing it...
+Gold collected   : 4866
+Bonus multiplier : 1.22
+Score            : 5926
+
+Seed : -6425479410178354908
+Cheesing it...
+Gold collected   : 1081
+Bonus multiplier : 1.06
+Score            : 1149
+
+Seed : 3330495842518010988
+Cheesing it...
+Gold collected   : 6252
+Bonus multiplier : 1.22
+Score            : 7638
+
+Seed : 2797936473545961091
+Cheesing it...
+Gold collected   : 2440
+Bonus multiplier : 1
+Score            : 2440
+
+Seed : 945720724763012533
+Cheesing it...
+Gold collected   : 1896
+Bonus multiplier : 1.3
+Score            : 2464
+
+Seed : 989741778741603452
+Cheesing it...
+Gold collected   : 2987
+Bonus multiplier : 1.29
+Score            : 3849
+
+Seed : 779574516629345291
+Cheesing it...
+Gold collected   : 4891
+Bonus multiplier : 1
+Score            : 4891
+
+Seed : -2178109704175945743
+Cheesing it...
+Gold collected   : 1086
+Bonus multiplier : 1.3
+Score            : 1411
+
+Seed : -5553655533270691165
+Cheesing it...
+Gold collected   : 12130
+Bonus multiplier : 1.24
+Score            : 15089
+
+Seed : 644506968269448588
+Cheesing it...
+Gold collected   : 1663
+Bonus multiplier : 1.29
+Score            : 2151
+
+Seed : -8565690200846928560
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.29
+Score            : 0
+
+Seed : 2888748920438439356
+Cheesing it...
+Gold collected   : 4208
+Bonus multiplier : 1.28
+Score            : 5400
+
+Seed : -4841180451327462707
+Cheesing it...
+Gold collected   : 2357
+Bonus multiplier : 1.29
+Score            : 3034
+
+Seed : -2668887486497138949
+Cheesing it...
+Gold collected   : 1985
+Bonus multiplier : 1.29
+Score            : 2554
+
+Seed : -8828365274460971780
+Cheesing it...
+Gold collected   : 3052
+Bonus multiplier : 1.24
+Score            : 3776
+
+Seed : -5268299842054010667
+Cheesing it...
+Gold collected   : 5346
+Bonus multiplier : 1.29
+Score            : 6870
+
+Seed : -7446966185243563400
+Cheesing it...
+Gold collected   : 3033
+Bonus multiplier : 1.24
+Score            : 3765
+
+Seed : -4662741724026526821
+Cheesing it...
+Gold collected   : 3929
+Bonus multiplier : 1.27
+Score            : 5005
+
+Seed : -184547070607959106
+Cheesing it...
+Gold collected   : 3293
+Bonus multiplier : 1.25
+Score            : 4110
+
+Seed : -1106552060770282357
+Cheesing it...
+Gold collected   : 3913
+Bonus multiplier : 1.13
+Score            : 4438
+
+Seed : 6729162798754267166
+Cheesing it...
+Gold collected   : 2168
+Bonus multiplier : 1.29
+Score            : 2791
+
+Seed : -1242222585928585410
+Cheesing it...
+Gold collected   : 3385
+Bonus multiplier : 1.3
+Score            : 4400
+
+Seed : 5890269015343243345
+Cheesing it...
+Gold collected   : 7062
+Bonus multiplier : 1
+Score            : 7062
+
+Seed : 4345253803895758104
+Cheesing it...
+Gold collected   : 4850
+Bonus multiplier : 1.28
+Score            : 6224
+
+Seed : -3205237540133174611
+Cheesing it...
+Gold collected   : 2748
+Bonus multiplier : 1.26
+Score            : 3469
+
+Seed : -6799023780823657766
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.3
+Score            : 0
+
+Seed : 6713682180117341632
+Cheesing it...
+Gold collected   : 3434
+Bonus multiplier : 1.14
+Score            : 3908
+
+Seed : 3703805729617625919
+Cheesing it...
+Gold collected   : 3557
+Bonus multiplier : 1.27
+Score            : 4531
+
+Seed : -727953351977166819
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.1
+Score            : 0
+
+Seed : -6939244983474579487
+Cheesing it...
+Gold collected   : 1452
+Bonus multiplier : 1.27
+Score            : 1841
+
+Seed : -3234843896905707484
+Cheesing it...
+Gold collected   : 7068
+Bonus multiplier : 1.04
+Score            : 7384
+
+Seed : 8010192066200129958
+Cheesing it...
+Gold collected   : 5831
+Bonus multiplier : 1
+Score            : 5831
+
+Seed : -3146022785272349543
+Cheesing it...
+Gold collected   : 2819
+Bonus multiplier : 1.07
+Score            : 3011
+
+Seed : -132559309796348690
+Cheesing it...
+Gold collected   : 2389
+Bonus multiplier : 1.3
+Score            : 3105
+
+Seed : 3231126955969893467
+Cheesing it...
+Gold collected   : 5470
+Bonus multiplier : 1.29
+Score            : 7062
+
+Seed : 2657861787303336980
+Cheesing it...
+Gold collected   : 3729
+Bonus multiplier : 1.29
+Score            : 4813
+
+Seed : -5028442758434834401
+Cheesing it...
+Gold collected   : 7414
+Bonus multiplier : 1.3
+Score            : 9638
+
+Seed : -3408126859918557804
+Cheesing it...
+Gold collected   : 2565
+Bonus multiplier : 1.27
+Score            : 3250
+
+Seed : 1922580487798432437
+Cheesing it...
+Gold collected   : 4513
+Bonus multiplier : 1.26
+Score            : 5669
+
+Seed : -2793131632214796830
+Cheesing it...
+Gold collected   : 3048
+Bonus multiplier : 1.24
+Score            : 3781
+
+Seed : -2671742129364532525
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.3
+Score            : 0
+
+Seed : -7461926754141782997
+Cheesing it...
+Gold collected   : 5111
+Bonus multiplier : 1.27
+Score            : 6473
+
+Seed : 114232158559997146
+Cheesing it...
+Gold collected   : 5968
+Bonus multiplier : 1.12
+Score            : 6708
+
+Seed : 8648692328516708493
+Cheesing it...
+Gold collected   : 6951
+Bonus multiplier : 1.12
+Score            : 7781
+
+Seed : 7343721605429253392
+Cheesing it...
+Gold collected   : 3929
+Bonus multiplier : 1.22
+Score            : 4776
+
+Seed : -8149711913701134125
+Cheesing it...
+Gold collected   : 4497
+Bonus multiplier : 1.22
+Score            : 5468
+
+Seed : -7552329541230726308
+Cheesing it...
+Gold collected   : 757
+Bonus multiplier : 1.27
+Score            : 959
+
+Seed : -1610212421521238826
+Cheesing it...
+Gold collected   : 8982
+Bonus multiplier : 1.29
+Score            : 11568
+
+Seed : -6013204954479852912
+Cheesing it...
+Gold collected   : 928
+Bonus multiplier : 1.27
+Score            : 1175
+
+Seed : -643749422452882740
+Cheesing it...
+Gold collected   : 8212
+Bonus multiplier : 1
+Score            : 8212
+
+Seed : 4854958124445230797
+Cheesing it...
+Gold collected   : 6474
+Bonus multiplier : 1.15
+Score            : 7433
+
+Seed : -8612120998619825800
+Cheesing it...
+Gold collected   : 5417
+Bonus multiplier : 1
+Score            : 5417
+
+Seed : 9162200395676479197
+Cheesing it...
+Gold collected   : 3250
+Bonus multiplier : 1
+Score            : 3250
+
+Seed : 6193479095614983771
+Cheesing it...
+Gold collected   : 4275
+Bonus multiplier : 1.24
+Score            : 5304
+
+Seed : -673416204066721975
+Cheesing it...
+Gold collected   : 3974
+Bonus multiplier : 1.29
+Score            : 5138
+
+Seed : 1694005285224860385
+Cheesing it...
+Gold collected   : 1013
+Bonus multiplier : 1.29
+Score            : 1309
+
+Seed : -6134236591168926053
+Cheesing it...
+Gold collected   : 2244
+Bonus multiplier : 1.25
+Score            : 2799
+
+Seed : 8177697140522817530
+Cheesing it...
+Gold collected   : 312
+Bonus multiplier : 1
+Score            : 312
+
+Seed : 7035464142924905881
+Cheesing it...
+Gold collected   : 486
+Bonus multiplier : 1.29
+Score            : 625
+
+Seed : -8605106243876663938
+Cheesing it...
+Gold collected   : 5182
+Bonus multiplier : 1.28
+Score            : 6617
+
+Seed : 1598969820173258281
+Cheesing it...
+Gold collected   : 3735
+Bonus multiplier : 1.11
+Score            : 4161
+
+Seed : -2459426580952130655
+Cheesing it...
+Gold collected   : 1932
+Bonus multiplier : 1
+Score            : 1932
+
+Seed : 6308111965906197686
+Cheesing it...
+Gold collected   : 5665
+Bonus multiplier : 1.3
+Score            : 7364
+
+Seed : 9105049252773918092
+Cheesing it...
+Gold collected   : 6034
+Bonus multiplier : 1.3
+Score            : 7844
+
+Seed : 2350656449960202541
+Cheesing it...
+Gold collected   : 1280
+Bonus multiplier : 1.25
+Score            : 1597
+
+Seed : 8248208247054842529
+Cheesing it...
+Gold collected   : 10298
+Bonus multiplier : 1.29
+Score            : 13295
+
+Seed : 4620421834070161391
+Cheesing it...
+Gold collected   : 615
+Bonus multiplier : 1.29
+Score            : 795
+
+Seed : 5077354597279045255
+Cheesing it...
+Gold collected   : 5073
+Bonus multiplier : 1.25
+Score            : 6333
+
+Seed : 6982457351709455230
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.13
+Score            : 0
+
+Seed : -61100764663610626
+Cheesing it...
+Gold collected   : 2610
+Bonus multiplier : 1.05
+Score            : 2748
+
+Seed : -2692429493148835397
+Cheesing it...
+Gold collected   : 3738
+Bonus multiplier : 1.18
+Score            : 4428
+
+Seed : -1902338365008972022
+Cheesing it...
+Gold collected   : 2509
+Bonus multiplier : 1.23
+Score            : 3084
+
+Seed : 7833861359680233199
+Cheesing it...
+Gold collected   : 2865
+Bonus multiplier : 1.24
+Score            : 3546
+
+Seed : 6733095074413382330
+Cheesing it...
+Gold collected   : 4689
+Bonus multiplier : 1.29
+Score            : 6046
+
+Seed : -1684975922272329399
+Cheesing it...
+Gold collected   : 6907
+Bonus multiplier : 1.02
+Score            : 7079
+
+Seed : 3321358051005630184
+Cheesing it...
+Gold collected   : 6169
+Bonus multiplier : 1.29
+Score            : 7963
+
+Seed : 3229822104816433884
+Cheesing it...
+Gold collected   : 6407
+Bonus multiplier : 1.17
+Score            : 7517
+
+Seed : 4497027380611796333
+Cheesing it...
+Gold collected   : 2763
+Bonus multiplier : 1.24
+Score            : 3420
+
+Seed : -7574739916818173304
+Cheesing it...
+Gold collected   : 6137
+Bonus multiplier : 1.15
+Score            : 7027
+
+Seed : 422732241449191560
+Cheesing it...
+Gold collected   : 846
+Bonus multiplier : 1.29
+Score            : 1093
+
+Seed : 1972426806363632020
+Cheesing it...
+Gold collected   : 55
+Bonus multiplier : 1.21
+Score            : 66
+
+Seed : 3211406322622898493
+Cheesing it...
+Gold collected   : 6098
+Bonus multiplier : 1.27
+Score            : 7724
+
+Seed : 8719245326027656180
+Cheesing it...
+Gold collected   : 5602
+Bonus multiplier : 1.26
+Score            : 7069
+
+Seed : -5248324259178546824
+Cheesing it...
+Gold collected   : 4523
+Bonus multiplier : 1.08
+Score            : 4881
+
+Seed : 8320877134844426216
+Cheesing it...
+Gold collected   : 10100
+Bonus multiplier : 1.24
+Score            : 12524
+
+Seed : 4925624433486634636
+Cheesing it...
+Gold collected   : 295
+Bonus multiplier : 1.19
+Score            : 350
+
+Seed : 6255812597596702186
+Cheesing it...
+Gold collected   : 4698
+Bonus multiplier : 1.3
+Score            : 6107
+
+Seed : -4504474395777424340
+Cheesing it...
+Gold collected   : 6111
+Bonus multiplier : 1.24
+Score            : 7566
+
+Seed : 8194466074376133046
+Cheesing it...
+Gold collected   : 3697
+Bonus multiplier : 1.3
+Score            : 4806
+
+Seed : -1462260035833573821
+Cheesing it...
+Gold collected   : 8225
+Bonus multiplier : 1.24
+Score            : 10222
+
+Seed : -3062865108672335172
+Cheesing it...
+Gold collected   : 9255
+Bonus multiplier : 1.29
+Score            : 11915
+
+Seed : 1951219260434711832
+Cheesing it...
+Gold collected   : 2393
+Bonus multiplier : 1.3
+Score            : 3110
+
+Seed : 6868377960063624841
+Cheesing it...
+Gold collected   : 5162
+Bonus multiplier : 1.28
+Score            : 6622
+
+Seed : -1159858437628269309
+Cheesing it...
+Gold collected   : 4865
+Bonus multiplier : 1.28
+Score            : 6245
+
+Seed : -1833534033296894707
+Cheesing it...
+Gold collected   : 6181
+Bonus multiplier : 1.27
+Score            : 7832
+
+Seed : 3341598204511809106
+Cheesing it...
+Gold collected   : 883
+Bonus multiplier : 1.3
+Score            : 1147
+
+Seed : -5613615087467004125
+Cheesing it...
+Gold collected   : 4654
+Bonus multiplier : 1.25
+Score            : 5805
+
+Seed : -2156873542408552009
+Cheesing it...
+Gold collected   : 1536
+Bonus multiplier : 1.21
+Score            : 1852
+
+Seed : 8441702903246991048
+Cheesing it...
+Gold collected   : 7701
+Bonus multiplier : 1.22
+Score            : 9412
+
+Seed : -1530998527935631700
+Cheesing it...
+Gold collected   : 8081
+Bonus multiplier : 1.25
+Score            : 10081
+
+Seed : 7870330527753321530
+Cheesing it...
+Gold collected   : 7022
+Bonus multiplier : 1.3
+Score            : 9128
+
+Seed : 6177125289697437769
+Cheesing it...
+Gold collected   : 1480
+Bonus multiplier : 1.26
+Score            : 1858
+
+Seed : -1350143037461956169
+Cheesing it...
+Gold collected   : 9753
+Bonus multiplier : 1.23
+Score            : 11982
+
+Seed : 8733665668808061994
+Cheesing it...
+Gold collected   : 1705
+Bonus multiplier : 1.26
+Score            : 2151
+
+Seed : 7145344815976808935
+Cheesing it...
+Gold collected   : 1907
+Bonus multiplier : 1.29
+Score            : 2456
+
+Seed : -2752916702291301944
+Cheesing it...
+Gold collected   : 2048
+Bonus multiplier : 1.21
+Score            : 2469
+
+Seed : 209089545415628784
+Cheesing it...
+Gold collected   : 2550
+Bonus multiplier : 1.21
+Score            : 3075
+
+Seed : -4719435881764817717
+Cheesing it...
+Gold collected   : 3931
+Bonus multiplier : 1.26
+Score            : 4946
+
+Seed : 2837302241197873078
+Cheesing it...
+Gold collected   : 3689
+Bonus multiplier : 1.26
+Score            : 4643
+
+Seed : 185704886407721557
+Cheesing it...
+Gold collected   : 3529
+Bonus multiplier : 1.29
+Score            : 4561
+
+Seed : 6872201420646716843
+Cheesing it...
+Gold collected   : 149
+Bonus multiplier : 1.3
+Score            : 193
+
+Seed : 7346891543859530926
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.2
+Score            : 0
+
+Seed : -5017731794343399058
+Cheesing it...
+Gold collected   : 2
+Bonus multiplier : 1.16
+Score            : 2
+
+Seed : 1992050024607715863
+Cheesing it...
+Gold collected   : 2533
+Bonus multiplier : 1.18
+Score            : 2981
+
+Seed : 355584195720501667
+Cheesing it...
+Gold collected   : 451
+Bonus multiplier : 1.13
+Score            : 510
+
+Seed : 4092179840000975747
+Cheesing it...
+Gold collected   : 6540
+Bonus multiplier : 1.27
+Score            : 8273
+
+Seed : 3951476395206074372
+Cheesing it...
+Gold collected   : 5458
+Bonus multiplier : 1.3
+Score            : 7095
+
+Seed : 8969509394838134038
+Cheesing it...
+Gold collected   : 2336
+Bonus multiplier : 1
+Score            : 2336
+
+Seed : 7971443322775453699
+Cheesing it...
+Gold collected   : 7239
+Bonus multiplier : 1.19
+Score            : 8601
+
+Seed : -8912249149600550152
+Cheesing it...
+Gold collected   : 2298
+Bonus multiplier : 1.29
+Score            : 2957
+
+Seed : 4012742501903251849
+Cheesing it...
+Gold collected   : 3816
+Bonus multiplier : 1.27
+Score            : 4833
+
+Seed : -4825873783775718044
+Cheesing it...
+Gold collected   : 2238
+Bonus multiplier : 1.29
+Score            : 2888
+
+Seed : -2866492779336390371
+Cheesing it...
+Gold collected   : 10848
+Bonus multiplier : 1
+Score            : 10848
+
+Seed : -162235439789881185
+Cheesing it...
+Gold collected   : 10649
+Bonus multiplier : 1
+Score            : 10649
+
+Seed : -4193542253641525012
+Cheesing it...
+Gold collected   : 1436
+Bonus multiplier : 1.29
+Score            : 1852
+
+Seed : -3403350403258415186
+Cheesing it...
+Gold collected   : 5455
+Bonus multiplier : 1.22
+Score            : 6645
+
+Seed : 6197634380095929055
+Cheesing it...
+Gold collected   : 3940
+Bonus multiplier : 1.3
+Score            : 5104
+
+Seed : 8737446361360564842
+Cheesing it...
+Gold collected   : 3088
+Bonus multiplier : 1.25
+Score            : 3849
+
+Seed : 3239770053595564687
+Cheesing it...
+Gold collected   : 2632
+Bonus multiplier : 1.25
+Score            : 3298
+
+Seed : 6735147999059063015
+Cheesing it...
+Gold collected   : 3625
+Bonus multiplier : 1
+Score            : 3625
+
+Seed : 5152295561235399898
+Cheesing it...
+Gold collected   : 2990
+Bonus multiplier : 1.3
+Score            : 3887
+
+Seed : 3259005159529558067
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.3
+Score            : 0
+
+Seed : -3276198703685935142
+Cheesing it...
+Gold collected   : 566
+Bonus multiplier : 1.21
+Score            : 682
+
+Seed : -1546577867116348088
+Cheesing it...
+Gold collected   : 10500
+Bonus multiplier : 1.25
+Score            : 13158
+
+Seed : -3456944281449234838
+Cheesing it...
+Gold collected   : 1620
+Bonus multiplier : 1.29
+Score            : 2088
+
+Seed : 1407387989684713290
+Cheesing it...
+Gold collected   : 326
+Bonus multiplier : 1.3
+Score            : 423
+
+Seed : 8729610595400570344
+Cheesing it...
+Gold collected   : 7128
+Bonus multiplier : 1
+Score            : 7128
+
+Seed : 99797383846687441
+Cheesing it...
+Gold collected   : 4873
+Bonus multiplier : 1.23
+Score            : 5969
+
+Seed : -6296776658703813664
+Cheesing it...
+Gold collected   : 521
+Bonus multiplier : 1.29
+Score            : 670
+
+Seed : -5834525077635021769
+Cheesing it...
+Gold collected   : 6629
+Bonus multiplier : 1.28
+Score            : 8480
+
+Seed : -3290341462508172977
+Cheesing it...
+Gold collected   : 1956
+Bonus multiplier : 1.3
+Score            : 2542
+
+Seed : -5966217634673074719
+Cheesing it...
+Gold collected   : 1785
+Bonus multiplier : 1.3
+Score            : 2320
+
+Seed : 7198807725979045654
+Cheesing it...
+Gold collected   : 583
+Bonus multiplier : 1
+Score            : 583
+
+Seed : 9081665828967804005
+Cheesing it...
+Gold collected   : 1734
+Bonus multiplier : 1.24
+Score            : 2148
+
+Seed : 9198443018162854572
+Cheesing it...
+Gold collected   : 258
+Bonus multiplier : 1.29
+Score            : 332
+
+Seed : -1927649526420557396
+Cheesing it...
+Gold collected   : 4911
+Bonus multiplier : 1.25
+Score            : 6153
+
+Seed : 1367389162509003562
+Cheesing it...
+Gold collected   : 3619
+Bonus multiplier : 1.17
+Score            : 4222
+
+Seed : -8940987301975931365
+Cheesing it...
+Gold collected   : 1896
+Bonus multiplier : 1.28
+Score            : 2426
+
+Seed : -1814541296803477693
+Cheesing it...
+Gold collected   : 1063
+Bonus multiplier : 1.12
+Score            : 1192
+
+Seed : -445788897558938664
+Cheesing it...
+Gold collected   : 712
+Bonus multiplier : 1.15
+Score            : 822
+
+Seed : 8038393985383896764
+Cheesing it...
+Gold collected   : 10287
+Bonus multiplier : 1.06
+Score            : 10874
+
+Seed : 1274664797438257087
+Cheesing it...
+Gold collected   : 2672
+Bonus multiplier : 1.27
+Score            : 3397
+
+Seed : -2131266096251753381
+Cheesing it...
+Gold collected   : 1122
+Bonus multiplier : 1.3
+Score            : 1458
+
+Seed : -6834771199336382711
+Cheesing it...
+Gold collected   : 4670
+Bonus multiplier : 1.29
+Score            : 6035
+
+Seed : -3433386914399784694
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.21
+Score            : 0
+
+Seed : 3193048644784411673
+Cheesing it...
+Gold collected   : 3754
+Bonus multiplier : 1.3
+Score            : 4880
+
+Seed : 12293788856894176
+Cheesing it...
+Gold collected   : 3482
+Bonus multiplier : 1.23
+Score            : 4287
+
+Seed : -553850851521190839
+Cheesing it...
+Gold collected   : 723
+Bonus multiplier : 1
+Score            : 723
+
+Seed : 5945339467160795336
+Cheesing it...
+Gold collected   : 6100
+Bonus multiplier : 1.2
+Score            : 7320
+
+Seed : -6514599837073293332
+Cheesing it...
+Gold collected   : 3074
+Bonus multiplier : 1.29
+Score            : 3973
+
+Seed : 4983079318238205466
+Cheesing it...
+Gold collected   : 5088
+Bonus multiplier : 1
+Score            : 5088
+
+Seed : 2801814635724791897
+Cheesing it...
+Gold collected   : 5537
+Bonus multiplier : 1.26
+Score            : 6963
+
+Seed : -2438153810460239332
+Cheesing it...
+Gold collected   : 4713
+Bonus multiplier : 1.17
+Score            : 5524
+
+Seed : -1367140823639133217
+Cheesing it...
+Gold collected   : 2709
+Bonus multiplier : 1.18
+Score            : 3192
+
+Seed : -7482509360825470752
+Cheesing it...
+Gold collected   : 5230
+Bonus multiplier : 1
+Score            : 5230
+
+Seed : -1907099896636812254
+Cheesing it...
+Gold collected   : 7022
+Bonus multiplier : 1
+Score            : 7022
+
+Seed : 8570631655947440016
+Cheesing it...
+Gold collected   : 1354
+Bonus multiplier : 1
+Score            : 1354
+
+Seed : -4893095993216091777
+Cheesing it...
+Gold collected   : 2772
+Bonus multiplier : 1
+Score            : 2772
+
+Seed : 9068047700982822793
+Cheesing it...
+Gold collected   : 4932
+Bonus multiplier : 1.3
+Score            : 6411
+
+Seed : -8020128143627458231
+Cheesing it...
+Gold collected   : 4958
+Bonus multiplier : 1.27
+Score            : 6316
+
+Seed : -4257765333952706311
+Cheesing it...
+Gold collected   : 2362
+Bonus multiplier : 1.26
+Score            : 2972
+
+Seed : -4658294626544085336
+Cheesing it...
+Gold collected   : 1666
+Bonus multiplier : 1
+Score            : 1666
+
+Seed : -6581820422603462644
+Cheesing it...
+Gold collected   : 677
+Bonus multiplier : 1.22
+Score            : 825
+
+Seed : -1152592464308538332
+Cheesing it...
+Gold collected   : 2283
+Bonus multiplier : 1
+Score            : 2283
+
+Seed : -1641963113138894204
+Cheesing it...
+Gold collected   : 5797
+Bonus multiplier : 1.28
+Score            : 7427
+
+Seed : -1871137034298579315
+Cheesing it...
+Gold collected   : 2963
+Bonus multiplier : 1.3
+Score            : 3851
+
+Seed : -6291139651558426173
+Cheesing it...
+Gold collected   : 1869
+Bonus multiplier : 1.16
+Score            : 2159
+
+Seed : 4127523342995728543
+Cheesing it...
+Gold collected   : 9460
+Bonus multiplier : 1
+Score            : 9460
+
+Seed : 2533999334789010448
+Cheesing it...
+Gold collected   : 5946
+Bonus multiplier : 1.29
+Score            : 7673
+
+Seed : 5011456712227181436
+Cheesing it...
+Gold collected   : 5881
+Bonus multiplier : 1.3
+Score            : 7645
+
+Seed : -3307382489246859043
+Cheesing it...
+Gold collected   : 1574
+Bonus multiplier : 1.29
+Score            : 2025
+
+Seed : -500934763780928710
+Cheesing it...
+Gold collected   : 537
+Bonus multiplier : 1.26
+Score            : 675
+
+Seed : -5918696056464151095
+Cheesing it...
+Gold collected   : 184
+Bonus multiplier : 1.29
+Score            : 237
+
+Seed : -7100426093872356261
+Cheesing it...
+Gold collected   : 1934
+Bonus multiplier : 1.16
+Score            : 2248
+
+Seed : 2650933637669998453
+Cheesing it...
+Gold collected   : 9479
+Bonus multiplier : 1.01
+Score            : 9545
+
+Seed : 2607966403095359620
+Cheesing it...
+Gold collected   : 602
+Bonus multiplier : 1.3
+Score            : 782
+
+Seed : 30139933633072956
+Cheesing it...
+Gold collected   : 3577
+Bonus multiplier : 1
+Score            : 3577
+
+Seed : 3043753787408257590
+Cheesing it...
+Gold collected   : 1465
+Bonus multiplier : 1.17
+Score            : 1718
+
+Seed : 6767957498684202829
+Cheesing it...
+Gold collected   : 982
+Bonus multiplier : 1.3
+Score            : 1276
+
+Seed : -8554213829876012067
+Cheesing it...
+Gold collected   : 1118
+Bonus multiplier : 1.21
+Score            : 1347
+
+Seed : 4441484637192872217
+Cheesing it...
+Gold collected   : 4535
+Bonus multiplier : 1.28
+Score            : 5785
+
+Seed : 8502121592276143117
+Cheesing it...
+Gold collected   : 1833
+Bonus multiplier : 1.13
+Score            : 2070
+
+Seed : -159420193426715637
+Cheesing it...
+Gold collected   : 3202
+Bonus multiplier : 1
+Score            : 3202
+
+Seed : 1739043295598229993
+Cheesing it...
+Gold collected   : 3656
+Bonus multiplier : 1.16
+Score            : 4230
+
+Seed : -6222187909552927526
+Cheesing it...
+Gold collected   : 5317
+Bonus multiplier : 1.1
+Score            : 5848
+
+Seed : -5308968514220745733
+Cheesing it...
+Gold collected   : 3224
+Bonus multiplier : 1.14
+Score            : 3661
+
+Seed : 1481970174834148202
+Cheesing it...
+Gold collected   : 9701
+Bonus multiplier : 1.27
+Score            : 12287
+
+Seed : -2314800429463694168
+Cheesing it...
+Gold collected   : 6608
+Bonus multiplier : 1.3
+Score            : 8590
+
+Seed : -7571202539225399752
+Cheesing it...
+Gold collected   : 7601
+Bonus multiplier : 1.3
+Score            : 9881
+
+Seed : -2821047791369435028
+Cheesing it...
+Gold collected   : 8476
+Bonus multiplier : 1.17
+Score            : 9904
+
+Seed : 2216389401383905377
+Cheesing it...
+Gold collected   : 4374
+Bonus multiplier : 1.28
+Score            : 5611
+
+Seed : 7303098765963852397
+Cheesing it...
+Gold collected   : 1271
+Bonus multiplier : 1.14
+Score            : 1444
+
+Seed : 3955938927065178386
+Cheesing it...
+Gold collected   : 6577
+Bonus multiplier : 1.27
+Score            : 8321
+
+Seed : 6498976012091005771
+Cheesing it...
+Gold collected   : 1700
+Bonus multiplier : 1
+Score            : 1700
+
+Seed : -7790337503306116182
+Cheesing it...
+Gold collected   : 2019
+Bonus multiplier : 1.17
+Score            : 2359
+
+Seed : -2164654944386669031
+Cheesing it...
+Gold collected   : 1333
+Bonus multiplier : 1.21
+Score            : 1609
+
+Seed : 7478247254407032720
+Cheesing it...
+Gold collected   : 9173
+Bonus multiplier : 1.11
+Score            : 10192
+
+Seed : -1567429903333233281
+Cheesing it...
+Gold collected   : 459
+Bonus multiplier : 1.29
+Score            : 593
+
+Seed : -7726688594394980604
+Cheesing it...
+Gold collected   : 1025
+Bonus multiplier : 1.18
+Score            : 1212
+
+Seed : -6471257983696546725
+Cheesing it...
+Gold collected   : 6599
+Bonus multiplier : 1.25
+Score            : 8258
+
+Seed : 5064356988943987262
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.29
+Score            : 0
+
+Seed : 7799059625874685452
+Cheesing it...
+Gold collected   : 4521
+Bonus multiplier : 1.03
+Score            : 4653
+
+Seed : -2238486445419488115
+Cheesing it...
+Gold collected   : 3784
+Bonus multiplier : 1.28
+Score            : 4847
+
+Seed : 633702009785673608
+Cheesing it...
+Gold collected   : 3998
+Bonus multiplier : 1.28
+Score            : 5124
+
+Seed : 3132496526469737206
+Cheesing it...
+Gold collected   : 986
+Bonus multiplier : 1.26
+Score            : 1244
+
+Seed : 958064234936587984
+Cheesing it...
+Gold collected   : 3217
+Bonus multiplier : 1.3
+Score            : 4182
+
+Seed : -4247275241691070384
+Cheesing it...
+Gold collected   : 4765
+Bonus multiplier : 1.3
+Score            : 6194
+
+Seed : 3715047353412564949
+Cheesing it...
+Gold collected   : 5565
+Bonus multiplier : 1.22
+Score            : 6806
+
+Seed : -184755706216727766
+Cheesing it...
+Gold collected   : 2710
+Bonus multiplier : 1.29
+Score            : 3494
+
+Seed : 7201590902547812208
+Cheesing it...
+Gold collected   : 3496
+Bonus multiplier : 1.12
+Score            : 3925
+
+Seed : -2091294269206868168
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.23
+Score            : 0
+
+Seed : 9179650700672898697
+Cheesing it...
+Gold collected   : 10042
+Bonus multiplier : 1.29
+Score            : 12969
+
+Seed : 2852771746404004623
+Cheesing it...
+Gold collected   : 1615
+Bonus multiplier : 1.29
+Score            : 2089
+
+Seed : 3052192978353453092
+Cheesing it...
+Gold collected   : 5632
+Bonus multiplier : 1.3
+Score            : 7321
+
+Seed : -2639557778554027327
+Cheesing it...
+Gold collected   : 2341
+Bonus multiplier : 1
+Score            : 2341
+
+Seed : 681996365623916077
+Cheesing it...
+Gold collected   : 442
+Bonus multiplier : 1.26
+Score            : 558
+
+Seed : 6486125970903905803
+Cheesing it...
+Gold collected   : 4051
+Bonus multiplier : 1
+Score            : 4051
+
+Seed : -741623477265473710
+Cheesing it...
+Gold collected   : 8584
+Bonus multiplier : 1.29
+Score            : 11051
+
+Seed : 9019290592351767742
+Cheesing it...
+Gold collected   : 2345
+Bonus multiplier : 1.2
+Score            : 2821
+
+Seed : 477899215936311151
+Cheesing it...
+Gold collected   : 1898
+Bonus multiplier : 1.3
+Score            : 2467
+
+Seed : -2315683356697351432
+Cheesing it...
+Gold collected   : 2325
+Bonus multiplier : 1.3
+Score            : 3022
+
+Seed : -1575814415235240421
+Cheesing it...
+Gold collected   : 1031
+Bonus multiplier : 1.3
+Score            : 1340
+
+Seed : 4086475654642377961
+Cheesing it...
+Gold collected   : 5091
+Bonus multiplier : 1.13
+Score            : 5752
+
+Seed : 2085797992850545909
+Cheesing it...
+Gold collected   : 1410
+Bonus multiplier : 1.28
+Score            : 1811
+
+Seed : 8475612550988041876
+Cheesing it...
+Gold collected   : 987
+Bonus multiplier : 1.26
+Score            : 1246
+
+Seed : 7419713804120482728
+Cheesing it...
+Gold collected   : 3914
+Bonus multiplier : 1.2
+Score            : 4696
+
+Seed : -6337992102136315842
+Cheesing it...
+Gold collected   : 2042
+Bonus multiplier : 1.29
+Score            : 2638
+
+Seed : 2582920677303506631
+Cheesing it...
+Gold collected   : 694
+Bonus multiplier : 1.3
+Score            : 902
+
+Seed : 7691454201110655497
+Cheesing it...
+Gold collected   : 6197
+Bonus multiplier : 1.25
+Score            : 7728
+
+Seed : 4841439562087118365
+Cheesing it...
+Gold collected   : 58
+Bonus multiplier : 1.3
+Score            : 75
+
+Seed : -1372988204604073674
+Cheesing it...
+Gold collected   : 3347
+Bonus multiplier : 1
+Score            : 3347
+
+Seed : -3572826880404910181
+Cheesing it...
+Gold collected   : 11983
+Bonus multiplier : 1.07
+Score            : 12875
+
+Seed : 7478766608458315685
+Cheesing it...
+Gold collected   : 1604
+Bonus multiplier : 1.15
+Score            : 1851
+
+Seed : 6257052929438871975
+Cheesing it...
+Gold collected   : 1395
+Bonus multiplier : 1.27
+Score            : 1768
+
+Seed : 2863843083352460848
+Cheesing it...
+Gold collected   : 4118
+Bonus multiplier : 1.24
+Score            : 5122
+
+Seed : 4180230124420038421
+Cheesing it...
+Gold collected   : 2816
+Bonus multiplier : 1.3
+Score            : 3660
+
+Seed : 2747747197238783004
+Cheesing it...
+Gold collected   : 1307
+Bonus multiplier : 1.29
+Score            : 1683
+
+Seed : -7624577146947766571
+Cheesing it...
+Gold collected   : 1962
+Bonus multiplier : 1.3
+Score            : 2550
+
+Seed : 93811160741298512
+Cheesing it...
+Gold collected   : 8703
+Bonus multiplier : 1.27
+Score            : 11035
+
+Seed : -9178116689533697893
+Cheesing it...
+Gold collected   : 4064
+Bonus multiplier : 1.2
+Score            : 4876
+
+Seed : -8359867575725944373
+Cheesing it...
+Gold collected   : 3121
+Bonus multiplier : 1.3
+Score            : 4057
+
+Seed : -8501662002863582928
+Cheesing it...
+Gold collected   : 1137
+Bonus multiplier : 1.26
+Score            : 1430
+
+Seed : 3604786884616974599
+Cheesing it...
+Gold collected   : 3072
+Bonus multiplier : 1.18
+Score            : 3635
+
+Seed : 7290765050921820029
+Cheesing it...
+Gold collected   : 5607
+Bonus multiplier : 1.27
+Score            : 7102
+
+Seed : 268287228814691611
+Cheesing it...
+Gold collected   : 4081
+Bonus multiplier : 1.28
+Score            : 5234
+
+Seed : 6057567857077006135
+Cheesing it...
+Gold collected   : 1526
+Bonus multiplier : 1.24
+Score            : 1886
+
+Seed : 1620560856665209845
+Cheesing it...
+Gold collected   : 5105
+Bonus multiplier : 1.26
+Score            : 6426
+
+Seed : 5959802975679493681
+Cheesing it...
+Gold collected   : 6620
+Bonus multiplier : 1.26
+Score            : 8341
+
+Seed : 2080603550421480262
+Cheesing it...
+Gold collected   : 6134
+Bonus multiplier : 1.21
+Score            : 7410
+
+Seed : 8241093746994258401
+Cheesing it...
+Gold collected   : 4845
+Bonus multiplier : 1.19
+Score            : 5751
+
+Seed : 2334980874304670420
+Cheesing it...
+Gold collected   : 7061
+Bonus multiplier : 1.15
+Score            : 8084
+
+Seed : 6176060829962856040
+Cheesing it...
+Gold collected   : 9085
+Bonus multiplier : 1.19
+Score            : 10845
+
+Seed : 1781388627612944891
+Cheesing it...
+Gold collected   : 6440
+Bonus multiplier : 1.3
+Score            : 8372
+
+Seed : -510549772372548962
+Cheesing it...
+Gold collected   : 712
+Bonus multiplier : 1.3
+Score            : 925
+
+Seed : -162757981054489590
+Cheesing it...
+Gold collected   : 10543
+Bonus multiplier : 1.29
+Score            : 13591
+
+Seed : 6482965686716930834
+Cheesing it...
+Gold collected   : 7341
+Bonus multiplier : 1.14
+Score            : 8380
+
+Seed : -8644740204435947922
+Cheesing it...
+Gold collected   : 6013
+Bonus multiplier : 1.27
+Score            : 7661
+
+Seed : -514240347944740044
+Cheesing it...
+Gold collected   : 2136
+Bonus multiplier : 1.29
+Score            : 2764
+
+Seed : 404559461375601048
+Cheesing it...
+Gold collected   : 5081
+Bonus multiplier : 1.23
+Score            : 6245
+
+Seed : -5699377558691954804
+Cheesing it...
+Gold collected   : 1626
+Bonus multiplier : 1.23
+Score            : 2001
+
+Seed : 8128910002537696465
+Cheesing it...
+Gold collected   : 8029
+Bonus multiplier : 1.24
+Score            : 9948
+
+Seed : 6472570661039140096
+Cheesing it...
+Gold collected   : 6124
+Bonus multiplier : 1.07
+Score            : 6558
+
+Seed : -5801728834313993659
+Cheesing it...
+Gold collected   : 1513
+Bonus multiplier : 1
+Score            : 1513
+
+Seed : -3636165556843377943
+Cheesing it...
+Gold collected   : 1222
+Bonus multiplier : 1.29
+Score            : 1580
+
+Seed : -716454554982658261
+Cheesing it...
+Gold collected   : 83
+Bonus multiplier : 1.29
+Score            : 106
+
+Seed : -8608613097037932915
+Cheesing it...
+Gold collected   : 4356
+Bonus multiplier : 1.12
+Score            : 4890
+
+Seed : -680113756964462615
+Cheesing it...
+Gold collected   : 4878
+Bonus multiplier : 1.09
+Score            : 5335
+
+Seed : -1963043343797010648
+Cheesing it...
+Gold collected   : 3043
+Bonus multiplier : 1.14
+Score            : 3480
+
+Seed : -927091513004184170
+Cheesing it...
+Gold collected   : 5885
+Bonus multiplier : 1.29
+Score            : 7581
+
+Seed : -2808950673978099819
+Cheesing it...
+Gold collected   : 5446
+Bonus multiplier : 1.3
+Score            : 7079
+
+Seed : 7041523398732657614
+Cheesing it...
+Gold collected   : 2757
+Bonus multiplier : 1
+Score            : 2757
+
+Seed : 900474982946582188
+Cheesing it...
+Gold collected   : 3424
+Bonus multiplier : 1.11
+Score            : 3796
+
+Seed : 583738212518231445
+Cheesing it...
+Gold collected   : 3575
+Bonus multiplier : 1.27
+Score            : 4534
+
+Seed : -3778403463980059250
+Cheesing it...
+Gold collected   : 1694
+Bonus multiplier : 1.29
+Score            : 2185
+
+Seed : 226932619184478124
+Cheesing it...
+Gold collected   : 440
+Bonus multiplier : 1.28
+Score            : 562
+
+Seed : -6199782800614304706
+Cheesing it...
+Gold collected   : 894
+Bonus multiplier : 1.23
+Score            : 1102
+
+Seed : -7529758497207923373
+Cheesing it...
+Gold collected   : 4372
+Bonus multiplier : 1
+Score            : 4372
+
+Seed : -8480571068461513257
+Cheesing it...
+Gold collected   : 4674
+Bonus multiplier : 1.3
+Score            : 6057
+
+Seed : -5659109845047666118
+Cheesing it...
+Gold collected   : 2207
+Bonus multiplier : 1.29
+Score            : 2847
+
+Seed : -1513499905479970970
+Cheesing it...
+Gold collected   : 0
+Bonus multiplier : 1.26
+Score            : 0
+
+Average score : 4413
+
+Process finished with exit code 0

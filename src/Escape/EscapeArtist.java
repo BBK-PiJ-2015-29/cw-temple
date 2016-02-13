@@ -33,9 +33,14 @@ public class EscapeArtist {
         //Input check message
         System.out.println("Cheesing it...");
 
-        findShortestPath(state.getExit(), true);
-        System.out.println(route.size());
-        takeRoute();
+        if(state.getTimeRemaining() - findShortestPath(state.getExit(), false) < 10) {
+            findShortestPath(state.getExit(), true);
+            takeRoute();
+        } else {
+            findShortestPath(state.getExit(), true);
+            takeRoute();
+
+        }
 
     }
 
