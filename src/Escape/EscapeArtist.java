@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
  */
 public class EscapeArtist {
     private EscapeState state;
-    private Set<EscapeNode> allNodes;
+
     private EscapeNode current;
     private EscapeNode start;
     private EscapeNode destination;
@@ -27,16 +27,19 @@ public class EscapeArtist {
     public EscapeArtist(EscapeState state) {
         this.state = state;
         route = new Stack<>();
-        allNodes = new HashSet<>();
     }
 
     public void cheeseIt() {
         //Input check message
         System.out.println("Cheesing it...");
 
-        findShortestPath(state.getExit());
+        findShortestPath(state.getExit(), true);
         System.out.println(route.size());
+        takeRoute();
 
+    }
+
+    private void takeRoute() {
         while(!route.isEmpty()) {
             state.moveTo(route.pop());
             Tile thisTile = state.getCurrentNode().getTile();
@@ -45,10 +48,12 @@ public class EscapeArtist {
             }
         }
     }
-    private void findShortestPath(Node destinationNode) {
+    private double findShortestPath(Node destinationNode, boolean plotRoute) {
         //Create a set of all nodes using wrapper class;
         //Set the distance from start to max, or 0 if current
         //Set visited to false, or true if current
+        Set<EscapeNode> allNodes = new HashSet<>();
+
         for (Node n : state.getVertices()) {
             EscapeNode escapeNode = new EscapeNode(n);
             if(n.equals(state.getCurrentNode())) {
@@ -109,14 +114,16 @@ public class EscapeArtist {
             }
 
         }
-
-        EscapeNode routeNode = destination;
-        route.push(routeNode.getNode());
-        while(routeNode.getPrevious() != start) {
-            route.push(routeNode.getPrevious().getNode());
-            routeNode = routeNode.getPrevious();
+        if (plotRoute) {
+            EscapeNode routeNode = destination;
+            route.push(routeNode.getNode());
+            while(routeNode.getPrevious() != start) {
+                route.push(routeNode.getPrevious().getNode());
+                routeNode = routeNode.getPrevious();
+            }
         }
 
+        return destination.getDistance();
     }
 }
 
