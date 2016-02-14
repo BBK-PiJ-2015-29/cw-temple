@@ -1,15 +1,13 @@
 package student;
 
 import Escape.EscapeArtist;
-import MapExplorer.RoutePlanner;
+import Escape.EscapeArtistImpl1;
+
+import Escape.EscapeArtistImpl2;
 import RecursiveExplorer.RecursiveExplorer;
 import game.EscapeState;
 import game.ExplorationState;
-import game.Node;
-import game.NodeStatus;
 
-import java.util.*;
-import java.util.stream.Stream;
 
 public class Explorer {
 
@@ -81,7 +79,7 @@ public class Explorer {
      */
     public void escape(EscapeState state) {
         //TODO: Escape from the cavern before time runs out
-        EscapeArtist escape = new EscapeArtist(state);
+        EscapeArtist escape = new EscapeArtistImpl1(state);
         escape.cheeseIt();
     }
 

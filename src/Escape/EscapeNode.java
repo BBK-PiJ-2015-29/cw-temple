@@ -27,14 +27,18 @@ public class EscapeNode implements Comparable<EscapeNode>{
         this.goldRank = goldRank;
     }
 
+    public void resetGoldRank() {
+        goldRank = getTile().getGold();
+        for(Node n : node.getNeighbours()) {
+            goldRank += n.getTile().getGold();
+        }
+    }
+
     private double goldRank;
 
     public EscapeNode(Node node) {
         this.node = node;
-        goldRank = getTile().getOriginalGold();
-        for(Node n : node.getNeighbours()) {
-            goldRank += n.getTile().getOriginalGold();
-        }
+        resetGoldRank();
     }
 
     public long getId() {
@@ -100,5 +104,11 @@ public class EscapeNode implements Comparable<EscapeNode>{
         if(this.getDistance() == o.getDistance()) {
             return 0;
         } else return (this.getDistance() > o.getDistance()) ? 1 : -1;
+    }
+
+    public int compareGoldRank(EscapeNode o) {
+        if(this.getGoldRank() == o.getGoldRank()) {
+            return 0;
+        } else return (this.getGoldRank() > o.getGoldRank()) ? 1 : -1;
     }
 }

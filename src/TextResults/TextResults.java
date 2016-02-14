@@ -7,6 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.Format;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.List;
@@ -29,6 +30,7 @@ public class TextResults {
         TextResults textResults = new TextResults();
 
         List<String> input;
+        int failures = 0;
         double totalBonus = 0;
         double totalScore = 0;
 
@@ -55,14 +57,17 @@ public class TextResults {
                         highestScore = value;
                     }
                     totalScore += value;
+                } else if (s.contains("ran out")) {
+                    failures++;
                 }
             }
         } catch(IOException ex) {
             ex.printStackTrace();
         }
 
-        String info = "Average Bonus: " + (totalBonus/count) + "\nHighest Bonus: " + highestBonus +
-                "\nAverage Score: " + (totalScore/count) + "\nHighestScore: " + (highestScore);
+        String info = "Average Bonus: " + (totalBonus/count) +
+                "\nAverage Score: " + (totalScore/count) + "\nHighestScore: " + (highestScore) +
+                "\nNo. Failures: " + failures + "\nPercentage failed: " + Math.round((failures/count) * 100);
 
         JOptionPane.showMessageDialog(null, info);
 
