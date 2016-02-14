@@ -101,14 +101,17 @@ public class EscapeNode implements Comparable<EscapeNode>{
 
     @Override
     public int compareTo(EscapeNode o) {
-        if(this.getDistance() == o.getDistance()) {
+        return Double.compare(getDistance(), o.getDistance());
+        /*if(this.getDistance() == o.getDistance()) {
             return 0;
-        } else return (this.getDistance() > o.getDistance()) ? 1 : -1;
+        } else return (this.getDistance() > o.getDistance()) ? 1 : -1;*/
     }
 
     public int compareGoldRank(EscapeNode o) {
         if(this.getGoldRank() == o.getGoldRank()) {
             return 0;
-        } else return (this.getGoldRank() > o.getGoldRank()) ? 1 : -1;
+        } else {
+            return (this.getGoldRank() > o.getGoldRank()) ? 1 : -1;
+        }
     }
 }

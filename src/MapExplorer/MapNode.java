@@ -7,7 +7,11 @@ import student.PriorityQueueImpl;
 import java.util.*;
 
 /**
- * A class to hold the information about a node
+ * A class to hold the information about a node, gathered by exploring the map.
+ * Each object represents a single node and holds information about its Id, distance
+ * from target, the known neighbours and also whether it has been visited or not.
+ *
+ * @author Ollie Coulson
  */
 public class MapNode implements Comparable<MapNode> {
     private final long id;
@@ -22,13 +26,29 @@ public class MapNode implements Comparable<MapNode> {
         neighbours = new HashSet<>();
     }
 
+    /**
+     * Method to set the boolean flag indicating if the node has been visited to true;
+     */
     public void setVisited() {
         visited = true;
     }
 
+    /**
+     * In the event that a new MapNode object is made for an unvisited node (i.e. a neighbour)
+     * this method is used to set that nodes only known neighbour to the current node
+     * @param neighbour the MapNode known to be a neighbour of this node.
+     */
     public void addNeighbour(MapNode neighbour) {
         neighbours.add(neighbour);
     }
+
+    /**
+     * A method to set the Set of neighbours of the current node, if the neighbour node has already been seen,
+     * it will use that node from the set, otherwise a new one is created.
+     *
+     * @param neighbourStatuses The NodeStatuses of the neighbours as a result of a state.getNeighbours() call
+     * @param seen, the set of all seen nodes
+     */
     public void setNeighbours(Collection<NodeStatus> neighbourStatuses, Set<MapNode> seen) {
         for (NodeStatus n : neighbourStatuses) {
             if (seen.stream().anyMatch(mapNode -> mapNode.getId() == n.getId())) {
@@ -42,12 +62,21 @@ public class MapNode implements Comparable<MapNode> {
         }
     }
 
+    /**
+     * Returns the neighbours of the current node as a Set of MapNodes, or null if no neighbours are known.
+     * @return the set of MapNodes of neighbours.
+     */
     public Set<MapNode> getNeighbours() {
         if (neighbours != null) {
         return neighbours;
         } else return null;
     }
 
+    /**
+     * sorts the current set of Neighbours by distance to target and returns them as a PriorityQueue of nodes.
+     * @return the priority queue of neighbours, the front of which is the neighbour with the shortest distance to
+     * target.
+     */
     public PriorityQueue<MapNode> getSortedNeighbours() {
         if (neighbours != null) {
             PriorityQueue<MapNode> nodes = new PriorityQueueImpl<>();
@@ -60,19 +89,37 @@ public class MapNode implements Comparable<MapNode> {
         }
     }
 
+    /**
+     * Getter for the Id field
+     * @return the id as a long
+     */
     public long getId() {
 
         return id;
     }
 
+    /**
+     * Getter for the distance from target field
+     * @return the distance from the target as an int
+     */
     public int getDistance() {
         return distance;
     }
 
+    /**
+     * Returns whether the node has been visited or not
+     * @return true if visited, false otherwise.
+     */
     public boolean isVisited() {
         return visited;
     }
 
+
+    /**
+     * Compares this MapNode to another, and returns true if the Id values match.
+     * @param other the other MapNode to compare with
+     * @return true if the Id values match (or if other is this) or false otherwise.
+     */
     @Override
     public boolean equals(Object other) {
         if (!(other instanceof MapNode)) {
@@ -85,6 +132,10 @@ public class MapNode implements Comparable<MapNode> {
         }
     }
 
+    /**
+     * returns the hash code of this object based on the Id value
+     * @return the hash code as an int
+     */
     @Override
     public int hashCode() {
         return Objects.hash(id);

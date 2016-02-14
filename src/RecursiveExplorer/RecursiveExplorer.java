@@ -11,6 +11,9 @@ import java.util.List;
 import java.util.Stack;
 
 /**
+ * A class for exploring the cavern in the explore() method of the Explorer class
+ * It uses a recursive implementation of the depth first algorithm, optimised to
+ * take distance to target into account when planning the next move.
  * Created by Oliver Coulson on 11/02/2016.
  */
 public class RecursiveExplorer {
@@ -25,6 +28,11 @@ public class RecursiveExplorer {
         visited = new ArrayList<>();
     }
 
+
+    /**
+     * The method which is called by the explore() method, executes the recursive method call
+     * after adding the current location to the list of visited and the stack representing the route taken
+     */
     public void findOrb() {
         startState = state.getCurrentLocation();
         //Stack to keep track of the parent node when visiting a child
