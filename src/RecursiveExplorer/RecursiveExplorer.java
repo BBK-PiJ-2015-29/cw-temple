@@ -20,7 +20,6 @@ public class RecursiveExplorer {
     private ExplorationState state;
     private Stack<Long> parentNode;
     private List<Long> visited;
-    private long startState;
 
     public RecursiveExplorer(ExplorationState state) {
         this.state = state;
@@ -28,13 +27,11 @@ public class RecursiveExplorer {
         visited = new ArrayList<>();
     }
 
-
     /**
      * The method which is called by the explore() method, executes the recursive method call
      * after adding the current location to the list of visited and the stack representing the route taken
      */
     public void findOrb() {
-        startState = state.getCurrentLocation();
         //Stack to keep track of the parent node when visiting a child
         //backtracking will involve popping from this stack
         parentNode.push(state.getCurrentLocation());
