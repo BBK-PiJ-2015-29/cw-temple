@@ -29,9 +29,9 @@ public class EscapeNode implements Comparable<EscapeNode>{
 
     public void resetGoldRank() {
         goldRank = getTile().getGold();
-        for(Node n : node.getNeighbours()) {
+        /*for(Node n : node.getNeighbours()) {
             goldRank += n.getTile().getGold();
-        }
+        }*/
     }
 
     private double goldRank;

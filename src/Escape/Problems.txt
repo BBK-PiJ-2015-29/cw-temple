@@ -13,7 +13,7 @@ Score            : 38930 - 2
 -5875449249957746045
 Takes ages with current solution 13.2.16
 
-
+-47
 
 
 
