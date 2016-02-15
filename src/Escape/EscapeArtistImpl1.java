@@ -65,10 +65,12 @@ public class EscapeArtistImpl1 implements EscapeArtist{
                 Tile thisTile = state.getCurrentNode().getTile();
                 if(thisTile.getOriginalGold() != 0 && thisTile.getGold() != 0) {
                     state.pickUpGold();
+                    map.remove(map.stream()
+                            .filter(escapeNode -> escapeNode.getId() == state.getCurrentNode().getId())
+                            .findFirst().get());
                 }
 
             }
-            map.remove(next);
         }
 
     }

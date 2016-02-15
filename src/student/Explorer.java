@@ -3,7 +3,7 @@ package student;
 import Escape.EscapeArtist;
 import Escape.EscapeArtistImpl1;
 
-import Escape.EscapeArtistImpl2;
+import MapExplorer.RoutePlanner;
 import RecursiveExplorer.RecursiveExplorer;
 import game.EscapeState;
 import game.ExplorationState;
@@ -45,11 +45,11 @@ public class Explorer {
     public void explore(ExplorationState state) {
         //TODO : Explore the cavern and find the orb
 
-//        RoutePlanner planner = new RoutePlanner(state);
-//        planner.findOrb();
+        RoutePlanner planner = new RoutePlanner(state);
+        planner.findOrb();
 
-        RecursiveExplorer explorer = new RecursiveExplorer(state);
-        explorer.findOrb();
+//        RecursiveExplorer explorer = new RecursiveExplorer(state);
+//        explorer.findOrb();
 
     }
 

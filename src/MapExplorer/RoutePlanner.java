@@ -18,7 +18,7 @@ public class RoutePlanner {
     private MapNode currentNode;
     private MapNode nextNode = null;
 
-    //private Set<MapNode> nearest = null;
+    private MapNode nearest = null;
 
 
 
@@ -43,14 +43,14 @@ public class RoutePlanner {
             }
 
 
-//            nearest = seen.stream().filter(mapNode -> !mapNode.isVisited()).sorted(MapNode::compareTo).collect(Collectors.toSet());
+            nearest = seen.stream()
+                    .filter(mapNode -> !mapNode.isVisited())
+                    .sorted(MapNode::compareTo)
+                    .findFirst()
+                    .get();
 
 
             nextNode = findNextUnvisited();
-
-//            if (nearest.stream().findAny().get().getDistance() - nextNode.getDistance() >= 5) {
-//                backtrackToNearest();
-//            }
 
             if (nextNode != null) {
                 state.moveTo(nextNode.getId());
@@ -61,20 +61,6 @@ public class RoutePlanner {
             }
         }
     }
-
-//    private void backtrackToNearest() {
-//        while(currentNode.getNeighbours().stream().noneMatch(
-//                mapNode -> mapNode.getDistance() == nearest.stream().findAny().get().getDistance())
-//                ) {
-//            route.pop();
-//            state.moveTo(route.peek().getId());
-//        }
-//        state.moveTo(currentNode.getNeighbours().stream().filter(
-//                mapNode -> (!mapNode.isVisited())
-//                        && mapNode.getDistance() == nearest.stream().findAny().get().getDistance()).findFirst().get().getId());
-//        setCurrentNode();
-//        route.push(currentNode);
-//    }
 
 
     /**
@@ -88,6 +74,7 @@ public class RoutePlanner {
             return neighbours.stream().filter(mapNode -> !mapNode.isVisited()).min(MapNode::compareTo).get();
 
         } else {
+
             return null;
         }
 
