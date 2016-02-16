@@ -3,10 +3,13 @@ package student;
 import Escape.EscapeArtist;
 import Escape.EscapeArtistImpl1;
 
+import Escape.EscapeArtistImpl2;
 import MapExplorer.RoutePlanner;
 import RecursiveExplorer.RecursiveExplorer;
 import game.EscapeState;
 import game.ExplorationState;
+
+import javax.swing.*;
 
 
 public class Explorer {
@@ -79,8 +82,18 @@ public class Explorer {
      */
     public void escape(EscapeState state) {
         //TODO: Escape from the cavern before time runs out
-        EscapeArtist escape = new EscapeArtistImpl1(state);
-        escape.cheeseIt();
+
+        String s = JOptionPane.showInputDialog("1 for original, 2 for altered");
+        int i = Integer.parseInt(s);
+        EscapeArtist escape;
+        switch (i) {
+            case 1:   escape = new EscapeArtistImpl1(state);
+                escape.cheeseIt();
+            case 2:   escape = new EscapeArtistImpl2(state);
+                escape.cheeseIt();
+
+        }
+
     }
 
 }
