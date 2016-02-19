@@ -11,14 +11,14 @@ import java.util.stream.Collectors;
 /**
  * Created by Oliver Coulson on 11/02/2016.
  */
-public class EscapeArtistImpl2 implements EscapeArtist{
+public class EscapeArtistImplOneThird implements EscapeArtist{
     private EscapeState state;
 
     private Stack<Node> route;
 
 
 
-    public EscapeArtistImpl2(EscapeState state) {
+    public EscapeArtistImplOneThird(EscapeState state) {
         this.state = state;
         route = new Stack<>();
     }
@@ -47,7 +47,7 @@ public class EscapeArtistImpl2 implements EscapeArtist{
             goldNodes = new TreeSet<>(EscapeNode::compareGoldRank);
             for(EscapeNode e : map) {
                 e.resetGoldRank();
-                //The below line has commented out code which makes the solution better, but also take far longer
+                //The below line has code which makes the solution better, but also take far longer
                 if(count % 3 == 0) {
                     e.setGoldRank(e.getGoldRank()/ (findShortestPath(e.getNode(), false)) * 2);
 

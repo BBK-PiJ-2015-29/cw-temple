@@ -1,0 +1,19 @@
+Seed : -5875449249957746045
+
+OneThird
+Gold collected   : 27096
+Bonus multiplier : 1.27
+Score            : 34411
+Time: 0.21
+
+Full
+Gold collected   : 42685
+Bonus multiplier : 1.27
+Score            : 54209
+Time: 1:22
+
+Parallel Stream
+Gold collected   : 42685
+Bonus multiplier : 1.27
+Score            : 54209
+time 0.53

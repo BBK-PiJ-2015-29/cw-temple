@@ -11,14 +11,14 @@ import java.util.stream.Collectors;
 /**
  * Created by Oliver Coulson on 11/02/2016.
  */
-public class EscapeArtistImpl1 implements EscapeArtist{
+public class EscapeArtistImplFull implements EscapeArtist{
     private EscapeState state;
 
     private Stack<Node> route;
 
 
 
-    public EscapeArtistImpl1(EscapeState state) {
+    public EscapeArtistImplFull(EscapeState state) {
         this.state = state;
         route = new Stack<>();
     }
