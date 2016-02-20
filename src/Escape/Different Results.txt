@@ -2,18 +2,27 @@ Seed : -5875449249957746045
 
 OneThird
 Gold collected   : 27096
-Bonus multiplier : 1.27
-Score            : 34411
-Time: 0.21
+Bonus multiplier : 1.25
+Score            : 33734
+Time: 0.08
+
+OneHalf
+Cheesing it...
+Gold collected   : 28646
+Bonus multiplier : 1.28
+Score            : 36523
+Time: 0.10
 
 Full
 Gold collected   : 42685
 Bonus multiplier : 1.27
 Score            : 54209
-Time: 1:22
+Time: 1:05
 
 Parallel Stream
 Gold collected   : 42685
-Bonus multiplier : 1.27
-Score            : 54209
-time 0.53
+Bonus multiplier : 1.28
+Score            : 54423
+time 0.40
+100 tests 3:35
+Average score : 19557

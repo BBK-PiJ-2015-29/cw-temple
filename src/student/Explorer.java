@@ -1,10 +1,7 @@
 package student;
 
-import Escape.EscapeArtist;
-import Escape.EscapeArtistImplFull;
+import Escape.*;
 
-import Escape.EscapeArtistImplOneThird;
-import Escape.EscapeArtistImplParallel;
 import MapExplorer.RoutePlanner;
 import game.EscapeState;
 import game.ExplorationState;

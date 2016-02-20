@@ -42,7 +42,6 @@ public class EscapeArtistImplParallel implements EscapeArtist{
         SortedSet<EscapeNode> goldNodes;
 
         EscapeNode next;
-        int count = 0;
         while (state.getCurrentNode() != state.getExit()) {
             goldNodes = new TreeSet<>(EscapeNode::compareGoldRank);
 
@@ -57,13 +56,6 @@ public class EscapeArtistImplParallel implements EscapeArtist{
                 goldNodes.add(e);
             }
 
-            /*for(EscapeNode e : map) {
-                e.resetGoldRank();
-                //The below line has commented out code which makes the solution better, but also take far longer
-                e.setGoldRank(e.getGoldRank()/ (findShortestPath(e.getNode(), false)) * 2);
-
-                goldNodes.add(e);
-            }*/
             next = goldNodes.last();
             findShortestPath(next.getNode(), true);
             while(state.getCurrentNode() != next.getNode()) {
@@ -84,7 +76,6 @@ public class EscapeArtistImplParallel implements EscapeArtist{
                 }
 
             }
-            count ++;
         }
 
     }
@@ -131,7 +122,7 @@ public class EscapeArtistImplParallel implements EscapeArtist{
 
         while (!destination.isVisited()) {
             //check distances to each neighbour and if bigger than current node distance plus distance to neighbour,
-            //set neighbour distance to that.
+            //set neighbour distance to that and set that neighbour's previous node to this one
 
             Set<EscapeNode> neighbours = current.getNeighbours(allNodes);
 
