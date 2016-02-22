@@ -91,7 +91,7 @@ public class Explorer {
 //
 //        }
 
-        EscapeArtist escape = new EscapeArtistImplParallel(state);
+        EscapeArtist escape = new EscapeArtistImplTiles(state);
         escape.cheeseIt();
 
     }

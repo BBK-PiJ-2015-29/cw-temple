@@ -1,28 +1,39 @@
+Escape Artist Comparisons
 Seed : -5875449249957746045
 
-OneThird
+OneThird - run the distance check algorithm every 3rd loop
 Gold collected   : 27096
 Bonus multiplier : 1.25
 Score            : 33734
 Time: 0.08
 
-OneHalf
+OneHalf - run the distance check every other loop
 Cheesing it...
 Gold collected   : 28646
 Bonus multiplier : 1.28
 Score            : 36523
 Time: 0.10
 
-Full
+Full - run the distance check every loop
 Gold collected   : 42685
 Bonus multiplier : 1.27
 Score            : 54209
 Time: 1:05
 
-Parallel Stream
+Parallel Stream - run the distance check every loop in parallel stream
 Gold collected   : 42685
 Bonus multiplier : 1.28
 Score            : 54423
 time 0.40
 100 tests 3:35
 Average score : 19557
+
+Tiles - use cartesian distance calculation rather than Djikstra's algorithm as heuristic
+Gold collected   : 38718
+Bonus multiplier : 1.25
+Score            : 48203
+tile 0.04
+100 tests less than 30 seconds
+Average score : 16855
+1000 tests around 4 minutes
+Average score : 17334
