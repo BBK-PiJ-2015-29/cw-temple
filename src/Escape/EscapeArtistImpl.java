@@ -11,14 +11,14 @@ import java.util.stream.Collectors;
 /**
  * Created by Oliver Coulson on 11/02/2016.
  */
-public class EscapeArtistImplOneThird implements EscapeArtist{
+public abstract class EscapeArtistImpl implements EscapeArtist{
     private EscapeState state;
 
     private Stack<Node> route;
 
 
 
-    public EscapeArtistImplOneThird(EscapeState state) {
+    public EscapeArtistImpl(EscapeState state) {
         this.state = state;
         route = new Stack<>();
     }
@@ -44,19 +44,8 @@ public class EscapeArtistImplOneThird implements EscapeArtist{
         EscapeNode next;
         int count = 0;
         while (state.getCurrentNode() != state.getExit()) {
-            goldNodes = new TreeSet<>(EscapeNode::compareGoldRank);
-            for(EscapeNode e : map) {
-                e.resetGoldRank();
-                //The below line has code which makes the solution better, but also take far longer
-                if(count % 3 == 0) {
-                    e.setGoldRank(e.getGoldRank()/ (findShortestPath(e.getNode(), false)) * 2);
+            goldNodes = rankNodes(map);
 
-                } else {
-
-                    e.setGoldRank(e.getGoldRank());
-                }
-                goldNodes.add(e);
-            }
             next = goldNodes.last();
             findShortestPath(next.getNode(), true);
             while(state.getCurrentNode() != next.getNode()) {
@@ -82,6 +71,8 @@ public class EscapeArtistImplOneThird implements EscapeArtist{
 
     }
 
+    abstract SortedSet<EscapeNode> rankNodes(Set<EscapeNode> map);
+
     private void takeRoute() {
         while(state.getCurrentNode() != state.getExit()) {
             state.moveTo(route.pop());
@@ -91,7 +82,7 @@ public class EscapeArtistImplOneThird implements EscapeArtist{
             }
         }
     }
-    private double findShortestPath(Node destinationNode, boolean plotRoute) {
+    protected double findShortestPath(Node destinationNode, boolean plotRoute) {
         EscapeNode current;
         EscapeNode start = null;
         EscapeNode destination = null;
