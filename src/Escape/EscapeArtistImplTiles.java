@@ -47,7 +47,7 @@ public class EscapeArtistImplTiles implements EscapeArtist{
             goldNodes = new TreeSet<>(EscapeNode::compareGoldRank);
             for(EscapeNode e : map) {
                 e.resetGoldRank();
-                //The below line has commented out code which makes the solution better, but also take far longer
+                //The below line uses a heuristic for ranking gold tiles by distance
                 e.setGoldRank(e.getGoldRank()/ (tileDistance(e.getNode())));
 
                 goldNodes.add(e);
@@ -86,6 +86,7 @@ public class EscapeArtistImplTiles implements EscapeArtist{
 
         return Math.sqrt((colDif * colDif) + (rowDif * rowDif));
     }
+
     private void takeRoute() {
         while(state.getCurrentNode() != state.getExit()) {
             state.moveTo(route.pop());
