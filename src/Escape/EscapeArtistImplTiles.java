@@ -18,14 +18,22 @@ public class EscapeArtistImplTiles extends EscapeArtistImpl{
         super(state);
         this.state = state;
     }
-
+    /**
+     * An implementation of the rankNodes method, using cartesian coordinates of row and column as the heuristic for
+     * ranking the nodes.
+     * This is significantly faster than the other two implementations but scores lower, basically because it is less
+     * efficient and doesn't take walls into account, which can lead to poor performance.
+     *
+     * @param map A set of all EscapeNodes with gold on them
+     * @return A sorted set of the nodes ranked amount of gold and actual distance from them
+     */
     @Override
     SortedSet<EscapeNode> rankNodes(Set<EscapeNode> map) {
         SortedSet<EscapeNode> goldNodes = new TreeSet<>(EscapeNode::compareGoldRank);
         for(EscapeNode e : map) {
             e.resetGoldRank();
             //The below line uses a heuristic for ranking gold tiles by distance
-            e.setGoldRank(e.getGoldRank()/ (tileDistance(e.getNode())));
+            e.setGoldRank(e.getGoldRank()/ (tileDistance(e.getNode()) *2));
 
             goldNodes.add(e);
         }

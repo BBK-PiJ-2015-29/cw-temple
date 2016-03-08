@@ -9,6 +9,8 @@ import java.util.stream.Collectors;
 
 
 /**
+ * An abstract class holding the shared components of the different EscapeArtists
+ *
  * Created by Oliver Coulson on 11/02/2016.
  */
 public abstract class EscapeArtistImpl implements EscapeArtist{
@@ -71,6 +73,11 @@ public abstract class EscapeArtistImpl implements EscapeArtist{
 
     }
 
+    /**
+     * The only method which differs between the classes, this is basically the heuristic used to plot the best path.
+     * @param map A set of all EscapeNodes with gold on them
+     * @return a sorted set of the EscapeNodes
+     */
     abstract SortedSet<EscapeNode> rankNodes(Set<EscapeNode> map);
 
     private void takeRoute() {
@@ -82,6 +89,16 @@ public abstract class EscapeArtistImpl implements EscapeArtist{
             }
         }
     }
+
+    /**
+     * An implementation of Djikstra's Algorithm for finding the shortest path. This is used several times to find
+     * the shortest path between two points, but primarily to check distance to the end and to plot the path
+     * if necessary.
+     *
+     * @param destinationNode The Node of the destination (NOT the escape node)
+     * @param plotRoute True only if the actual path is necessary, not just the distance
+     * @return the distance
+     */
     protected double findShortestPath(Node destinationNode, boolean plotRoute) {
         EscapeNode current;
         EscapeNode start = null;

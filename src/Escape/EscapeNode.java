@@ -18,6 +18,7 @@ public class EscapeNode implements Comparable<EscapeNode>{
     private double distance;
     private boolean visited;
     private EscapeNode previous;
+    private double goldRank;
 
     public double getGoldRank() {
         return goldRank;
@@ -34,7 +35,6 @@ public class EscapeNode implements Comparable<EscapeNode>{
         }*/
     }
 
-    private double goldRank;
 
     public EscapeNode(Node node) {
         this.node = node;
