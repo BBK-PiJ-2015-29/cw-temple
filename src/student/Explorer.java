@@ -78,20 +78,27 @@ public class Explorer {
      * @param state the information available at the current state
      */
     public void escape(EscapeState state) {
-        //TODO: Escape from the cavern before time runs out
 
-//        String s = JOptionPane.showInputDialog("1 for original, 2 for altered");
-//        int i = Integer.parseInt(s);
-//        EscapeArtist escape;
-//        switch (i) {
-//            case 1:   escape = new EscapeArtistImplFull(state);
-//                escape.cheeseIt();
-//            case 2:   escape = new EscapeArtistImplOneThird(state);
-//                escape.cheeseIt();
-//
-//        }
 
-        EscapeArtist escape = new EscapeArtistImplFull(state);
+        int nodes = state.getVertices().size();
+        System.out.println("Number of nodes: "+ nodes);
+
+
+        //Because the EscapeArtistImplParallel uses Djikstra's algorithm to find shortest paths to all nodes
+        //and Djikstra's algorithm takes time proportional to the number of nodes squared, large numbers of
+        //nodes will cause the better solution to take too long, even with concurrency from parallel streams.
+        //
+        //So for maps with large number of nodes run the code in the 'Tiles' version of EscapeArtist
+        //which uses row/column cartesian coordinates to find distances between two nodes, rather than
+        //shortest path graph traversal. Otherwise the Parallel stream version will be used.
+
+        EscapeArtist escape = null;
+        if(nodes > 350) {
+            escape = new EscapeArtistImplTiles(state);
+        } else  {
+            escape = new EscapeArtistImplParallel(state);
+        }
+
         escape.cheeseIt();
 
     }

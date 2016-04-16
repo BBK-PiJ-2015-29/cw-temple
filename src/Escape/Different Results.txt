@@ -1,5 +1,6 @@
 Escape Artist Comparisons
 Seed : -5875449249957746045
+Number of nodes: 518
 
 OneThird - run the distance check algorithm every 3rd loop
 Gold collected   : 27096
