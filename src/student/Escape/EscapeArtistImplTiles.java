@@ -1,11 +1,10 @@
-package Escape;
+package student.Escape;
 
 import game.EscapeState;
 import game.Node;
 import game.Tile;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 
 /**

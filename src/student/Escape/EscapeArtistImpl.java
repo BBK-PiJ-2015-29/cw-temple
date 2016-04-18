@@ -1,4 +1,4 @@
-package Escape;
+package student.Escape;
 
 import game.EscapeState;
 import game.Node;

@@ -1,9 +1,8 @@
-package MapExplorer;
+package student.MapExplorer;
 
 import game.ExplorationState;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * A class to run the Explore part of the task. Using an iterative implementation of the depth-first graph traversal

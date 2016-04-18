@@ -1,4 +1,4 @@
-package RecursiveExplorer;
+package student.RecursiveExplorer;
 
 import game.ExplorationState;
 import game.NodeStatus;

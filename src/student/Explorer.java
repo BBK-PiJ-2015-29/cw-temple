@@ -1,12 +1,10 @@
 package student;
 
-import Escape.*;
+import student.Escape.*;
 
-import MapExplorer.RoutePlanner;
+import student.MapExplorer.RoutePlanner;
 import game.EscapeState;
 import game.ExplorationState;
-
-import javax.swing.*;
 
 
 public class Explorer {
@@ -48,14 +46,14 @@ public class Explorer {
         RoutePlanner planner = new RoutePlanner(state);
         planner.findOrb();
 
-//        RecursiveExplorer explorer = new RecursiveExplorer(state);
+//        student.RecursiveExplorer explorer = new student.RecursiveExplorer(state);
 //        explorer.findOrb();
 
     }
 
 
     /**
-     * Escape from the cavern before the ceiling collapses, trying to collect as much
+     * student.Escape from the cavern before the ceiling collapses, trying to collect as much
      * gold as possible along the way. Your solution must ALWAYS escape before time runs
      * out, and this should be prioritized above collecting gold.
      * <p>

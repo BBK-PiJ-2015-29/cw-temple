@@ -2248,7 +2248,7 @@ java.util.NoSuchElementException
 	at java.util.TreeMap.key(TreeMap.java:1323)
 	at java.util.TreeMap.lastKey(TreeMap.java:297)
 	at java.util.TreeSet.last(TreeSet.java:401)
-	at Escape.EscapeArtistImplFull.cheeseIt(EscapeArtistImpl1.java:56)
+	at student.Escape.EscapeArtistImplFull.cheeseIt(EscapeArtistImpl1.java:56)
 	at student.Explorer.escape(Explorer.java:83)
 	at game.GameState.escape(GameState.java:164)
 	at game.GameState.run(GameState.java:121)

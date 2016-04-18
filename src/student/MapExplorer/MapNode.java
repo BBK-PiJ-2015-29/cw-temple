@@ -1,4 +1,4 @@
-package MapExplorer;
+package student.MapExplorer;
 
 import game.NodeStatus;
 import student.PriorityQueue;

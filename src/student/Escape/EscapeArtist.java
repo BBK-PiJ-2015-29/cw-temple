@@ -1,4 +1,4 @@
-package Escape;
+package student.Escape;
 
 /**
  * An interface for the EscapeArtist class
